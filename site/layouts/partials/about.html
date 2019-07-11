@@ -1,0 +1,8 @@
+{{ range first 24 ( after 1 (where .Data.Pages "Type" "about")) }}
+	<div style="background: skyblue;">
+		{{ .Render "li" }}
+	</div>
+{{ end }}
+<!--div class="tc">
+	<a href="/post" class="btn raise">Read more</a>
+</div-->

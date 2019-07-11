@@ -1,0 +1,61 @@
+{{ define "main" }}
+
+<hr />
+
+<div class="bg-off-white pv4" style="background: lime;">
+	<div class="ph3 mw7 center">
+
+		<h2 class="f2 b lh-title mb3">Price</h1>
+
+		<div class="w-100 flex-ns mhn1-ns flex-wrap mb3">
+			{{ range first 6 (where .Data.Pages "Type" "price") }}
+				<div class="ph1-ns w-50-ns flex">
+					{{ .Render "li" }}
+				</div>
+			{{ end }}
+		</div>
+
+	</div>
+</div>
+
+
+<hr>
+{{ partial "jumbotron" (dict "imageUrl" .Params.image "title" .Title) }}
+
+<div class="mw7 center ph3 pt4">
+
+  {{ range $index, $element := .Params.values }}
+    {{ if modBool $index 2 }}
+      {{ partial "media-block" $element }}
+    {{ else }}
+      {{ partial "media-block-reverse" $element }}
+    {{ end }}
+  {{ end }}
+
+</div>
+
+<hr>
+
+
+<div class="ph3 bg-off-white">
+	<div class="center mw6 pv3">
+
+		<img src="{{ .Params.logo }}" alt="" class="db w4 center pv4">
+
+		{{ .Content }}
+
+		<div class="flex-ns mb3">
+	        	{{ range .Params.contact_entries }}
+				<div>
+					<h4 class="f4 b lh-title mb2 primary">{{ .heading }}</h4>
+					<p>{{ .text }}</p>
+				</div>
+			{{ end }}
+		</div>
+
+		{{ partial "contact-form" . }}
+
+	</div>
+</div>
+
+{{ end }}

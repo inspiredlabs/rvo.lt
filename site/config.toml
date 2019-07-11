@@ -1,3 +1,44 @@
-baseurl = "/"
+baseurl = "/" #./
 languageCode = "en-us"
-title = "Homepage"
+title = "Fairtech Revolution | RVOL.LT" #Rvo.lt
+
+## As of v0.20, all content files include a default "categories" value that's the same as the section. This was a cheap future-proofing method and should/could be changed accordingly.
+[taxonomies]
+  region = "regions"
+  price = "prices"
+
+[Params.widgets]
+  #search = true # Enable "Search" widget
+  region = "regions"
+  price = "prices"
+
+[Params]
+  [[Params.social]]
+    icon = "Email"
+    site = "Email"
+    url = "mailto:francesca.tomassini@gmail.com"
+    user = "Francesca Tomassini"
+
+  [[Params.social]]
+    icon = "partial 'social-icon' (dict 'link' '#' 'svg' 'icons-facebook')"
+    site = "Facebook"
+    url = "https://facebook.com/agricolamarzo/"
+
+  [[Params.social]]
+    icon = "instagram"
+    site = "Instagram"
+    url = "https://instagram.com/agricolamarzo/"
+
+
+
+  [[Params.links]]
+    title = "Email"
+    url = "mailto:francesca.tomassini@gmail.com"
+
+  [[Params.links]]
+    title = "Facebook"
+    url = "https://facebook.com/agricolamarzo/"
+
+  [[Params.links]]
+    title = "Instagram"
+    url = "https://instagram.com/agricolamarzo/"
