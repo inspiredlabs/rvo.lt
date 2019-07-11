@@ -1,7 +1,7 @@
 ---
 title: 'TESTING, TESTING, 123. Testing the mic.'
 subtitle: 'Testing, testing the mic. '
-image: /img/home-jumbotron.jpg
+image: /img/472803_10150792452772746_2030068506_o-2x.jpg
 blurb:
   heading: Why Kaldi?
   text: >-
