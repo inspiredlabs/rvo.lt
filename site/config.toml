@@ -16,29 +16,27 @@ title = "Fairtech Revolution | RVOL.LT" #Rvo.lt
   [[Params.social]]
     icon = "Email"
     site = "Email"
-    url = "mailto:francesca.tomassini@gmail.com"
-    user = "Francesca Tomassini"
+    url = "mailto:fairtech@pm.me"
+    user = "fairtech@pm.me"
 
   [[Params.social]]
     icon = "partial 'social-icon' (dict 'link' '#' 'svg' 'icons-facebook')"
     site = "Facebook"
-    url = "https://facebook.com/agricolamarzo/"
+    url = "https://it-it.facebook.com/risparmiaenergia/"
 
   [[Params.social]]
-    icon = "instagram"
-    site = "Instagram"
-    url = "https://instagram.com/agricolamarzo/"
-
-
+    icon = "youtube"
+    site = "Youtube"
+    url = "https://www.youtube.com/user/risparmiaenergia/videos"
 
   [[Params.links]]
     title = "Email"
-    url = "mailto:francesca.tomassini@gmail.com"
+    url = "mailto:fairtech@pm.me"
 
   [[Params.links]]
     title = "Facebook"
-    url = "https://facebook.com/agricolamarzo/"
+    url = "https://it-it.facebook.com/risparmiaenergia/"
 
   [[Params.links]]
-    title = "Instagram"
-    url = "https://instagram.com/agricolamarzo/"
+    title = "Youtube"
+    url = "https://www.youtube.com/user/risparmiaenergia/videos"
