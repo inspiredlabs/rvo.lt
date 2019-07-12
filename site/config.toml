@@ -1,18 +1,25 @@
 baseurl = "/" #./
 languageCode = "en-us"
-title = "Fairtech Revolution | RVOL.LT" #Rvo.lt
+#languageCode = "en-gb" #Initial configuration reset
+title = "Rvo.lt" #Fairtech Revolution | Rvo.lt 
+
+
+[Params]
+  description = "Change Artisans: Rvo.lt" #Artisans for Change, join the RVO.LT
+  #description = "This isn't a paradigm shift: this is a RVO.LT" #Rvo.lt
+
 
 ## As of v0.20, all content files include a default "categories" value that's the same as the section. This was a cheap future-proofing method and should/could be changed accordingly.
 [taxonomies]
   region = "regions"
   price = "prices"
 
+
 [Params.widgets]
   #search = true # Enable "Search" widget
   region = "regions"
   price = "prices"
 
-[Params]
   [[Params.social]]
     icon = "Email"
     site = "Email"
@@ -36,7 +43,3 @@ title = "Fairtech Revolution | RVOL.LT" #Rvo.lt
   [[Params.links]]
     title = "Facebook"
     url = "https://it-it.facebook.com/risparmiaenergia/"
-
-  [[Params.links]]
-    title = "Youtube"
-    url = "https://www.youtube.com/user/risparmiaenergia/videos"

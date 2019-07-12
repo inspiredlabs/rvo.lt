@@ -1,33 +1,38 @@
-{{ define "main" }}
+{{ partial "header.html" . }}
+<body class="w-100 sans-serif black-70 highlight bg-near-white lh-copy" id="top">
+{{ partial "nav.html" . }}
+<!-- The big featured header on the homepage, with the site logo and description -->
+<!--<header id="site-head" {{ if .Site.Params.cover }}style="background-image: url({{ .Site.Params.cover }})"{{ end }}>
+    <div class="vertical">
+        <div id="site-head-content" class="inner">
 
-{{ partial "jumbotron" (dict "imageUrl" .Params.image "title" .Title "subtitle" .Params.subtitle) }}
+            {{ if .Site.Params.logo }} <a id="blog-logo" href="{{ .Site.BaseURL }}"><img src="{{ .Site.Params.logo }}" alt="Blog Logo" /></a>{{ end }}
+            <h1 class="f1">{{ .Site.Title}}</h1>
+            {{ if .Site.Params.description }}<h2 class="f2">{{ .Site.Params.description }}</h2> {{ else  }}
+            <h2 class="f2">It works!</h2>
+            {{ end }}
 
-<!--
-{{ partial "short-text" .Params.blurb }}
--->
+            <a class=''>Take a tour</a>
+            <a class=''>Cut to the chase</a><br>
+        </div>
+    </div>
+</header>-->
+<b class="w-10 fixed z-999 mt0 pa1 top-0 dark-red" id="debugInfo">0</b>
+	<div id="newList">
+		<ul class="list">
+		{{ range .Data.Pages.ByWeight }}
+			{{ if eq .Type  "post" }}
+				{{ .Render "post"}}
+			{{ end }}
+		{{ end }}
+		</ul>
+	</div>
 
-{{ partial "about-top" . }}
 
-<!--
-{{ partial "price" . }}
--->
+{{ partial "footer.html" .}}
 
-<!--
-{{ partial "subscribe" . }}
--->
+{{ partial "script.html" .}}
 
-{{ partial "about" . }}
-<!-- It works! -->
-
-<!--
-{{ partial "2-up" .Params }}
-{{ partial "text-and-image" (dict "heading" .Params.values.heading "text" .Params.values.text "buttonText" "Read more" "buttonLink" "/values") }}
--->
-
-{{ partial "news" . }}
-<!-- It works! -->
-
-<!-- simplify the nesting 
-{{ partial "email" . }}
--->
-{{ end }}
+{{ partial "sticky" . }}
+</body>
+</html>
