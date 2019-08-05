@@ -4,7 +4,7 @@
 		  <div class="ph2-ns">
 		    <div class="fl w-100 w-70-ns pr4"><!-- w-two-thirds -->
 		      <div class="pv4 fr w-100 w-90-m w-80-l"><!-- outline bg-black-05 truncate no-wrap -->
-		      	<ul class="w-100 list tr mb4 pa0 fw1 f4 f3-ns f4-m f2-l pr0">
+		      	<ul class="w-100 list tr mb4 pa0  f4 f3-ns f4-m f2-l pr0">
 		      		<li class="pt3 moon-gray">{{ .Site.Params.description }}</li>
 		      		<li class="pt3">
 		      			{{ if .Site.Params.email }}
@@ -63,3 +63,8 @@
 	  </div><!-- /mw9 center ph3-ns -->
 	</section><!-- /cf w-100 pv3 f4 ph3 ph4-ns -->
 </footer><!-- /contact -->
+
+{{/* partial "sticky" . */}}
+{{ partial "script.html" . }}
+</body>
+</html>

@@ -1,12 +1,19 @@
-baseurl = "/" #./
+baseurl = "https://rvo.lt" #{{ .Site.BaseURL }} "/" && netlify "./" local only
+#relativeURLs = "true" https://github.com/gohugoio/hugo/issues/985
 languageCode = "en-us"
 #languageCode = "en-gb" #Initial configuration reset
-title = "Rvo.lt" #Fairtech Revolution | Rvo.lt 
+title = "Rvo.lt" #Fairtech Revolution | Rvo.lt
 
 
 [Params]
   description = "Change Artisans: Rvo.lt" #Artisans for Change, join the RVO.LT
   #description = "This isn't a paradigm shift: this is a RVO.LT" #Rvo.lt
+
+  [[Params.assignment]]
+    assignment = ""
+
+  [[Params.location]]
+    location = ""
 
 
 ## As of v0.20, all content files include a default "categories" value that's the same as the section. This was a cheap future-proofing method and should/could be changed accordingly.

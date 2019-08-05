@@ -1,17 +1,115 @@
-<style>
-	nav ul li a { color: rgba(170, 170, 170, 1); }
-</style>
-<!--Called on: single.html and index.html-->
-<nav class="w-100 fixed z-999 mt0 pa1 top-0 white"><!--bg-black-->
-	<!-- Understand scope: https://www.youtube.com/watch?v=juSnHsCX9RU -->
+<nav class="w-25 w-30-l fixed z-999 mt0 pa1 top-0 white right-0 overflow-y overflow-x-hidden h-100 vh-100"><!--bg-black-->
+<!-- `{{ if eq (relURL .URL) ("/" | safeHTML) }}<hr/>{{ end }}`: discourse.gohugo.io/t/how-to-check-for-home-page/149/17 -->
+
+<ul class="list"><!-- fw1 fl w-100 mb4 pa0 data-gumshoe ttu tracked -->
 	{{ $thisTitle := .Title }}
 	{{ range .Site.Pages.ByWeight }}
-		{{ if eq .Type  "post" }}
-		<ul class="list">
-			<li>
-				<a href="{{ .URL }}" style="{{ if eq .Title $thisTitle }} color: rgba(0, 0, 0, 0.7); {{ end }}">{{ .Title }}</a>
-			</li>
-		</ul>
-		{{ end }}	
-	{{ end }}			
+		<li class=""><!-- fl 100 -->
+			<a href="{{ .URL }}"
+				class="no-underline bg-animate flex items-center pa3 border-box f3 f2-ns f3-m f2-l tracked-tight
+				{{ if eq .Title $thisTitle }}
+					fw7
+				{{ end }}">{{ .Title }}</a><!-- pa3 -->
+		</li>
+	{{ end }}
+</ul>
 </nav>
+
+
+
+
+
+
+
+
+
+
+
+<script>/*
+	{{ $home := .Site.Home }}
+	<div class="css-treeview box">
+		<ul>
+			<li><input type="checkbox" id="item-0" checked="checked" /><label for="item-0">Home</label>
+			<ul>
+			{{ template "section-tree-nav" $home }}
+			</ul>
+		</ul>
+	</div>
+	{{ define "section-tree-nav" }}
+	{{ range .Sections.Reverse}}
+	<li>
+		<li><input type="checkbox" id="item-0-0" checked="checked"/><label for="item-0-0">{{ .Title }}</label>
+		<ul>
+			{{ range .Pages }}
+			<li><a href="{{ .RelPermalink}}">{{ .Title }}</a></li>
+			{{ end }}
+			<ul>
+			{{ template "section-tree-nav" . }}
+			</ul>
+		</ul>
+	</li>
+	</li>
+	{{ end }}
+	{{ end }}
+*/</script>
+
+
+
+<script>/*
+<nav class="w-25 w-30-l fixed z-999 mt0 pa1 top-0 white right-0 overflow-y overflow-x-hidden h-100 vh-100"><!--bg-black-->
+<!-- `{{ if eq (relURL .URL) ("/" | safeHTML) }}<hr/>{{ end }}`: discourse.gohugo.io/t/how-to-check-for-home-page/149/17 -->
+{{ if .IsHome }}
+<ul class="list"><!-- fw1 fl w-100 mb4 pa0 data-gumshoe ttu tracked -->
+	<li class="fl w-100 ttn"><!-- h3 -->
+		<form class="ml3 bb bw1 b--light-gray w-70 relative">
+			<button value="clear" class="absolute right-0 bn z-1 bg-transparent pointer " onclick="searchEntryZero();resetArticleSearch();" value=""><span class="input-reset pr0 bn bg-transparent bg-animate flex items-center pa3 border-box f3 f2-ns f3-m f2-l o-30">&#215;</span><!-- Unicode times symbol: rapidtables.com/web/html/html-codes.html -->
+			</button>
+			<!--
+			<svg viewBox="112 -112 32 32" class="bg-transparent dim pointer w-50" >
+			  <use xlink:href="#clear"></use>
+			</svg>
+			-->
+		  <input id="searchEntry" class="input-reset o-40 pl0 bn bg-transparent bg-animate flex items-center pa3 border-box f3 f2-ns f3-m f2-l" type="text" aria-describedby="search" placeholder="Search" oninput="inputUpdate(value);" />
+		</form>
+	</li>
+	
+	<!--li class="fl w-100">
+	  <a class="no-underline bg-animate flex items-center pa3 border-box f3 f2-ns f3-m f2-l" href="#contact">Contact</a>
+	</li-->
+	
+	<li class="fl w-100">
+	  <button class="pointer bn bg-transparent bg-animate w-100 tl pa3 border-box f3 f2-ns f3-m f2-l"
+	  onclick="articleSearch.search(searchString = 'about');">About</button> 
+	</li>
+	<li class="fl w-100">
+	  <button class="pointer bn bg-transparent bg-animate w-100 tl pa3 border-box f3 f2-ns f3-m f2-l"
+	  onclick="articleSearch.search(searchString = 'contact');">Contact</button> 
+	</li>
+</ul>
+{{ end }}
+
+<!-- Understand scope: youtube.com/watch?v=juSnHsCX9RU -->
+<!-- https://discourse.gohugo.io/t/how-to-check-if-not-homepage/9086 -->
+<!-- https://gohugo.io/templates/menu-templates/#section-menu-for-lazy-bloggers -->
+<!-- https://discourse.gohugo.io/t/list-pages-of-sub-sub-folders/9436/8 -->
+{{if not .IsHome}}
+<ul class="list ttn"><!-- fw1 -->
+	<li class=""><!-- fl 100 -->
+		<a href="{{ .Site.BaseURL }}" class="no-underline bg-animate flex items-center pa3 pb0 border-box f3 f2-ns f3-m f2-l tracked-tight ttu">Home</a>
+	</li>
+	{{ $thisTitle := .Title }}
+	{{ range .Site.Pages.ByWeight }}
+		<li class=""><!-- fl 100 -->
+			<a href="{{ .URL }}"
+				class="no-underline bg-animate flex items-center pa3 border-box f3 f2-ns f3-m f2-l tracked-tight
+				{{ if eq .Title $thisTitle }}
+					fw7
+				{{ end }}">{{ .Title }}</a><!-- pa3 -->
+		</li>
+	{{ end }}
+</ul>
+{{ end }}
+</nav>
+*/</script>
+
+
