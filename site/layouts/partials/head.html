@@ -60,7 +60,111 @@
 </style>
 
 <style>
-	.no-select{pointer-events:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-o-user-select:none;user-select:none;-webkit-tap-highlight-color:rgba(0,0,0,0);-webkit-tap-highlight-color:transparent;-webkit-touch-callout:none;-webkit-text-size-adjust:none;-webkit-tap-highlight-color:rgba(0,0,0,0);-ms-touch-action:none}*:focus{outline:none}*::selection,::selection{color:inherit;background:transparent}*::-moz-selection,::-moz-selection{color:inherit;background:transparent}.highlight *::selection,.highlight::selection{color:white;background:#666}.highlight *::-moz-selection,.highlight::-moz-selection{color:white;background:#666}details{}.no-highlight,summary{-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-o-user-select:none;user-select:none;-webkit-tap-highlight-color:transparent;-webkit-touch-callout:none;-webkit-text-size-adjust:none}summary{width:100%;cursor:pointer}summary::after{content:'Read more…\2003';display:inline-block;min-width:8rem;margin:1.6rem 0 2rem;padding:1rem 0;background:var(--dim-cta);color:white;-webkit-letter-spacing:0.2rem;-moz-letter-spacing:0.2rem;-ms-letter-spacing:0.2rem;letter-spacing:0.2rem;border:2px solid var(--dim-cta);border-radius:0;font-size:0.7rem;text-align:right;-webkit-text-decoration:none;text-decoration:none;font-weight:500;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-transition:all 0.4s ease 0s;transition:all 0.4s ease 0s;text-transform:uppercase}summary:hover:after{background:none;border-color:var(--lit-cta);background:var(--lit-cta)}details[open] > summary:after{content:'Read less…\2003';background:none;color:var(--dim-cta)}details[open] > summary:hover:after{border-color:var(--lit-cta);background:var(--lit-cta);color:white}summary::-webkit-details-marker{display:none}details[open] summary ~ *{animation:fade 0.666s ease-in-out 0s}@keyframes fade{0%{opacity:0}100%{opacity:1}}
+	.no-select{
+	    pointer-events:none;
+	    -webkit-user-select:none;
+	    -khtml-user-select:none;
+	    -moz-user-select:none;
+	    -o-user-select:none;
+	    user-select:none;
+	    -webkit-tap-highlight-color:rgba(0,0,0,0);
+	    -webkit-tap-highlight-color:transparent;
+	    -webkit-touch-callout:none;
+	    -webkit-text-size-adjust:none;
+	    -webkit-tap-highlight-color:rgba(0,0,0,0);
+	    -ms-touch-action:none
+	}
+	*:focus{
+	    outline:none
+	}
+	*::selection,::selection{
+	    color:inherit;
+	    background:transparent
+	}
+	*::-moz-selection,::-moz-selection{
+	    color:inherit;
+	    background:transparent
+	}
+	.highlight *::selection,.highlight::selection{
+	    color:white;
+	    background:#666
+	}
+	.highlight *::-moz-selection,.highlight::-moz-selection{
+	    color:white;
+	    background:#666
+	}
+	details{
+	}
+	.no-highlight,summary{
+	    -webkit-user-select:none;
+	    -khtml-user-select:none;
+	    -moz-user-select:none;
+	    -o-user-select:none;
+	    user-select:none;
+	    -webkit-tap-highlight-color:transparent;
+	    -webkit-touch-callout:none;
+	    -webkit-text-size-adjust:none
+	}
+	summary{
+	    width:100%;
+	    cursor:pointer
+	}
+	summary::after{
+	    content:'Read more…\2003';
+	    display:inline-block;
+	    min-width:8rem;
+	    margin:1.6rem 0 2rem;
+	    padding:1rem;/* 1rem 0 */
+	    background:var(--dim-cta);
+	    color:white;
+	    -webkit-letter-spacing:0.2rem;
+	    -moz-letter-spacing:0.2rem;
+	    -ms-letter-spacing:0.2rem;
+	    letter-spacing:0.2rem;
+	    border:2px solid var(--dim-cta);
+	    border-radius:0;
+	    font-size:0.7rem;
+	    text-align:right;
+	    -webkit-text-decoration:none;
+	    text-decoration:none;
+	    font-weight:500;
+	    -webkit-flex-direction:column;
+	    -ms-flex-direction:column;
+	    flex-direction:column;
+	    -webkit-transition:all 0.4s ease 0s;
+	    transition:all 0.4s ease 0s;
+	    text-transform:uppercase
+	}
+	summary:hover:after{
+	    background:none;
+	    border-color:var(--lit-cta);
+	    background:var(--lit-cta)
+	}
+	details[open] > summary:after{
+	    content:'Read less…\2003';
+	    background:none;
+	    color:var(--dim-cta)
+	}
+	details[open] > summary:hover:after{
+	    border-color:var(--lit-cta);
+	    background:var(--lit-cta);
+	    color:white
+	}
+	summary::-webkit-details-marker{
+	    display:none
+	}
+	details[open] summary ~ *{
+	    animation:fade 0.666s ease-in-out 0s
+	}
+	@keyframes fade{
+	    0%{
+	        opacity:0
+	    }
+	    100%{
+	        opacity:1
+	    }
+	}
+	
 
 </style>
 <!--style>
@@ -743,8 +847,25 @@
 .hover-bg-mid-gray:focus { background-color: #ddd; }
 
 </style>
+
+<style>
+/* See this in action: https://codepen.io/inspiredlabs/pen/dBxGmM 
+
+.saturate {
+	opacity: 0.90;
+}
+
+.saturate:hover {
+	opacity: 1;	
+}
+*/
+
+.inherit { color: inherit; }
+.bg-inherit { background-color: inherit; }
+</style>
+
 </head>
-<body class="no-clutter w-100 js-focus-visible helvetica-neue black-70 highlight bg-near-white lh-copy" id="top"><!-- sans-serif -->
+<body class="no-clutter w-100 js-focus-visible helvetica-neue highlight lh-copy bg-black" id="top"><!-- sans-serif -->
 <b class="w-10 fixed z-999 mt0 pa1 top-0 moon-gray" id="debugInfo">0</b>
 {{ partial "svg.html" . }}
 {{ partial "righthand" . }}
