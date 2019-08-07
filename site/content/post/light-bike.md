@@ -11,7 +11,7 @@ To improve autonomy on long trips, the bike carries its own collapsible solar-ar
 
 The bike is an unmodified, enduro SUR-RON and in the rear pannier, a self-contained photovoltaic system that is focused on efficiency. This lightweight combination means we transport everything – except battery charging worries!
 
-This combination of a low energy vehicle and light components makes new remote destinations and longer expeditions a possibility.
+This combination of a low-power vehicle and light components makes new remote destinations and longer expeditions a possibility.
 
 This prototype stems from a larger idea challenging "sustainable development" principles. We call this the FAIRtech revolution – and look forward to telling you more!
 Find us at the 2019 Maker Faire, Rome.
