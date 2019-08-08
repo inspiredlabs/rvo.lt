@@ -21,7 +21,6 @@
 <div id="content">
 	<ul class="list bg-near-white black-70 antialias">
 
-	
 		{{ range (where .Data.Pages.ByWeight  "Type" "post") }}
 
 			<li class="post-holder"><!-- Begin: li.html -->
@@ -82,10 +81,14 @@
 			</article>
 			</li><!-- /li.html -->
 		{{ end }}
+		
+		<li class="post-holder">
+			{{ partial "connect" . }}
+		</li>
+		
 		{{ partial "contact" . }}
 	</ul>
 </div>
-{{ partial "connect" . }}
 {{ partial "footer" . }}
 
 
