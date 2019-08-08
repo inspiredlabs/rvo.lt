@@ -203,6 +203,7 @@ tr,
 ul {
  box-sizing:border-box;
  margin-top:0;
+ margin-bottom:0;
 }
 .aspect-ratio {
  height:0;

@@ -5,8 +5,7 @@ description: >-
   A lightweight, personal electric vehicle with combined solar charger
 ---
 
-{{<flickity src="img/maker-faire-2019-image-author-894.jpg" title="An unmodified, enduro SUR-RON" color="blue" selectCell="flkty.selectCell( value, isWrapped, isInstant )" >}}
-
+{{<flickity src="img/maker-faire-2019-image-author-894.jpg" title="An unmodified, enduro SUR-RON" selectCell="flkty.selectCell( value, isWrapped, isInstant )" >}}
 
 To improve autonomy on long trips, the bike carries its own collapsible solar-array. The aim is to achieve power sufficiency, off-grid.
 
@@ -19,4 +18,4 @@ Find us at the 2019 Maker Faire, Rome.
 
 > This lightweight combination means we transport everything – except battery charging worries!
 
-{{<flickity src="img/maker-faire-2019-image-exhibit-894.jpg" title="A self-contained photovoltaic system" color="blue" selectCell="flkty.selectCell( value, isWrapped, isInstant )" >}}
+{{<flickity src="img/maker-faire-2019-image-exhibit-894.jpg" title="A self-contained photovoltaic system" selectCell="flkty.selectCell( value, isWrapped, isInstant )" >}}
