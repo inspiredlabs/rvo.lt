@@ -1,5 +1,5 @@
 ---
-title: "Beyond Sustainability"
+title: Beyond Sustainability
 date: 2017-01-04T15:04:10.000Z
 description: >-
   Three Principles of Sufficiency

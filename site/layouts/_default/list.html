@@ -12,6 +12,7 @@
 </div>
 */}}</script>
 
+
 <div id="content" class="">
 	<ul class="list bg-near-white black-70 antialias">
 		{{ range .Data.Pages.ByWeight }}
@@ -63,9 +64,9 @@
 						      			</p>
 					      		</header>	
 			      				</summary>
-								    {{ .Content }}
-
-				      		</details>
+								    <script>{{/* .Content | replaceRE "<blockquote>" "<blockquote class='red underline bg-gold'>" | replaceRE  "<p>" "<p class='green'>" | safeHTML */}}</script>
+								    {{ .Content }}				      		
+								    </details>
 				       </div><!-- /fr outline -->
 			      </div><!-- /w-two-thirds -->
 			    </div><!-- /ph2-ns -->

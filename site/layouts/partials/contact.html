@@ -17,26 +17,33 @@
 		  <div class="ph2-ns">
 		    <div class="fl w-100 w-70-ns pr4"><!-- w-two-thirds -->
 		      <div class="pv4 fr w-100 w-90-m w-80-l"><!-- outline bg-black-05 truncate no-wrap -->
-		      	<a href="/contact" class="no-underline dim db f6 ttu tracked gray"><!-- fw1 -->
-		      		<svg style="-webkit-transform: translate3d(0,0,0);" viewbox="0 0 482 482" class="no-select pr3 h07 gray">
+		      	
+		      	
+		      	<a href="{{if .IsHome}}/contact{{ end }}{{if not .IsHome}}../../{{ end }}" class="no-underline dim db f6 ttu tracked fw1 inherit"><!-- /contact -->
+		      		<svg style="-webkit-transform: translate3d(0,0,0);" viewbox="0 0 482 482" class="no-select pr3 h07 inherit">
 		      			<use xlink:href="#url"></use>
 		      		</svg>     	
-		      		<span class="pr3">Contact</span>
-			      	<!--time class="black b">{{- dateFormat " 2006-01-01" .Date -}}</time-->
+		      		<span class="b">Contact</span>
+		      		<!--time class="black b">{{- dateFormat " 2006-01-01" .Date -}}</time-->
 		      	</a>
-	    			<hr class="ba bw1 mb0 b--black-10"/>
-	    			
+
+
+		      	<script>/*<a href="../../" class="no-underline dim db f6 ttu tracked fw1 inherit"><!-- /contact -->
+		      		<svg style="-webkit-transform: translate3d(0,0,0);" viewbox="0 0 482 482" class="no-select pr3 h07 inherit">
+		      			<use xlink:href="#url"></use>
+		      		</svg>     	
+		      		<span class="b">Contact</span>
+			      	<!--time class="black b">{{- dateFormat " 2006-01-01" .Date -}}</time-->
+		      	</a>*/</script>
+	    			<hr class="ba bw1 mb0 o-10"/>
 	    			<header class="fl w-100 pr4-ns">
 	    				<h1 class="f2 lh-title fw9 mb3 pt0">
 	    					<span class="fw9">Contact</span>
 	    				</h1>
-	    				<h2 class="f3 mid-gray lh-title">
+	    				<h2 class="f3 lh-title o-70">
 	    				  <span class="fw7">{{ .Description }}</span>
 	    				</h2>
 	    			</header>
-	    			
-
-
 	    			<!--
 	    			https://formspree.io/&#97;&#108;&#97;&#110;&#46;&#115;&#99;&#111;&#116;&#116;&#46;&#112;&#104;&#105;&#108;&#108;&#105;&#112;&#115;&#64;&#112;&#109;&#46;&#109;&#101;
 	    			-->

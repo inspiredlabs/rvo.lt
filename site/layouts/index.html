@@ -1,5 +1,4 @@
 {{ partial "head" . }}
-
 <script>{{/*
 <div id="newList">
 	<ul class="list">
@@ -14,14 +13,14 @@
 
 <ul class="list bg-dark-gray white-90 antialias">
 {{ range first 1 (where .Data.Pages "Type" "principle") }}
-	{{ .Render "li" }}
+	{{ .Render "li" | replaceRE  "PeR" "<b class='ttn'>P<sup class='large v-sup'>e̲</sup>R</b>" | safeHTML }}
 {{ end }}
 </ul>
 
 <div id="content">
 	<ul class="list bg-near-white black-70 antialias">
 
-		{{ range (where .Data.Pages.ByWeight  "Type" "post") }}
+		{{ range (where .Data.Pages.ByWeight "Type" "post") }}
 
 			<li class="post-holder"><!-- Begin: li.html -->
 				<data class="meta dn">
