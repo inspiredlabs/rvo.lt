@@ -16,7 +16,29 @@ description: >-
 
 #### Conscious resource allocation
 
-IMAGE
+<div class="fl w-100 f8 f6-m f5-l tc mt3" id=conscious-resource-allocation>
+<div class="w-third pr2 fl">
+<svg viewBox="0 0 128 128" class="bg-gray br-100 mr-auto ml-auto no-select" alt="">
+	<use xlink:href="#croxx"></use>
+</svg>
+<p>ECONOMY</p>
+</div>
+
+<div class="w-third f8 f6-m f5-l tc pr1 pl1 fl">
+<svg viewBox="0 0 128 128" class="bg-dark-green br-100 mr-auto ml-auto no-select" alt="">
+<use xlink:href="#down-arrow"></use>
+</svg>
+<p>NATURAL RESOURCES</p>
+</div>		    		
+
+<div class="w-third f8 f6-m f5-l tc pl2 fl">
+<svg viewBox="0 0 128 128" class="bg-dark-green br-100 mr-auto ml-auto no-select" alt="">
+<use xlink:href="#up-arrow"></use>
+</svg>
+<p>ECOLOGY</p>
+</div>
+</div>	
+
 
 Conscious resource allocation makes economies of scale deficient. Thoughtful application of scarce raw materials increases resiliency.
 

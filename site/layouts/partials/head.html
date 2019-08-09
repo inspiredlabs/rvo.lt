@@ -396,6 +396,61 @@
 	
 </style>
 <style>
+
+	
+	/*------------------- Dijon mustard ---------------------*/
+	.mustard { color: #8A3700; }
+	.bg-mustard { background-color: #8A3700; }
+	.b--mustard { border-color: #8A3700; }
+	
+	.hover-mustard:hover,
+	.hover-mustard:focus { color: #8A3700; }
+	
+	.hover-bg-mustard:hover,
+	.hover-bg-mustard:focus { background-color: #8A3700; }
+	
+	
+	
+	/*---------------------- Luxury spa ----------------------*/
+	.spa { color: #006f45; }
+	.bg-spa { background-color: #006f45; }
+	.b--spa { border-color: #006f45; }
+	
+	.hover-spa:hover,
+	.hover-spa:focus { color: #006f45; }
+	
+	.hover-bg-spa:hover,
+	.hover-bg-spa:focus { background-color: #006f45; }
+	
+	
+	
+	/*-------------------- Horned Violet ---------------------*/
+	.viola { color: #741472; }
+	.bg-viola { background-color: #741472; }
+	.b--viola { border-color: #741472; }
+	
+	.hover-viola:hover,
+	.hover-viola:focus { color: #741472; }
+	
+	.hover-bg-viola:hover,
+	.hover-bg-viola:focus { background-color: #741472; }
+	
+	
+	
+	/*--------------------- Oxford blue ----------------------*/
+	/* https://encycolorpedia.com/002147 */
+	
+	.oxford { color: #002147; }
+	.bg-oxford { background-color: #002147; }
+	.b--oxford { border-color: #002147; }
+	
+	.hover-oxford:hover,
+	.hover-oxford:focus { color: #002147; }
+	
+	.hover-bg-oxford:hover,
+	.hover-bg-oxford:focus { background-color: #002147; }
+</style>
+<style>
 	
 	.large {
 		font-size: 100%;
@@ -405,8 +460,11 @@
 		vertical-align: -0.3em;
 	}
 	
-	details a figure, details p a {transition: all .2s ease-in-out; }
-  details p a {color: black; cursor: pointer; }
+	details p {
+		margin-top: 1em;
+	}
+	details a figure, details p a { transition: all .2s ease-in-out; }
+  details p a { color: black; cursor: pointer; }
   details p a:hover { color: white; background-color: rgba(0,0,0,.8); cursor: pointer; }
 /*  details hr { border-color: rgba(0,0,0,.05); border-width: .125rem; border-bottom-style: solid; }*/
   /* https://discourse.gohugo.io/t/whats-best-way-to-style-markdown-on-single-pages/16622 */
@@ -426,10 +484,7 @@
 		width: 100%;		
 	}
   
-  blockquote p {
-  	padding-left: 25%;
-
-  }
+  /* blockquote p { padding-left: 25%; } */
   
   blockquote a { opacity: .8; }
   .helvetica-neue {
@@ -881,6 +936,7 @@
 .inherit { color: inherit; }
 .bg-inherit { background-color: inherit; }
 
+/* https://caniuse.com/#search=initial */
 /* https://css-tricks.com/getting-acquainted-with-initial/ */
 .fs-initial {
   font-style:initial;
