@@ -413,15 +413,24 @@
   /* https://discourse.gohugo.io/t/markdown-not-being-rendered-within-html-block/2532/3 */
   
   /* Shortcode: gohugo.io/templates/shortcode-templates/ */
-  blockquote {
-	  font-family: "Georgia","serif";
-	  font-size: 1.65rem;
-	  font-style: italic;
-	  opacity 1;
-	  margin: 0;
-	  padding-top: 2rem;
-	  padding-bottom: 2rem;
+  
+	blockquote {
+		font-family: "baskerville","serif";/* "Georgia" */
+		font-size: 1.88rem;
+		font-style: italic;
+		text-align: right;
+		padding: 2em 0 2em 0;
+		margin: 0;
+		opacity 1;
+		display: block;
+		width: 100%;		
+	}
+  
+  blockquote p {
+  	padding-left: 25%;
+
   }
+  
   blockquote a { opacity: .8; }
   .helvetica-neue {
     font-family: "Helvetica Neue", HelveticaNeue, "TeX Gyre Heros", TeXGyreHeros, FreeSans, "Nimbus Sans L", "Liberation Sans", Arimo, Helvetica, Arial, sans-serif;
