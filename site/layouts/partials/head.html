@@ -871,6 +871,29 @@
 
 .inherit { color: inherit; }
 .bg-inherit { background-color: inherit; }
+
+/* https://css-tricks.com/getting-acquainted-with-initial/ */
+.fs-initial {
+  font-style:initial;
+}
+
+@media screen and (min-width: 30em) {
+  .fs-initial-ns {
+    font-style:initial;
+  }
+}
+
+@media screen and (min-width: 30em) and (max-width: 60em) {
+  .fs-initial-m {
+    font-style:initial;
+  }
+}
+
+@media screen and (min-width: 60em) {
+  .fs-initial-l {
+    font-style:initial;
+  }
+}
 </style>
 
 </head>

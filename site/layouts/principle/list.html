@@ -50,20 +50,20 @@
 				      					    {{ end }}
 				      					</a-->
 				      					<h1 class="f2 lh-title fw9 mb3 pt0">
-				      						<span class="fw7 o-100">{{ .Title | replaceRE "PeR" "<b class='ttn'>P<sup class='large v-sup'>e̲</sup>R</b>" | safeHTML }}</span>
+				      						<span class="fw7 o-100">{{ .Title | replaceRE "PeR" "<b class='ttn fs-initial'>P<sup class='large v-sup'>e̲</sup>R</b>" | safeHTML }}</span>
 				      					</h1>
 				      					<h2 class="f3 lh-title o-70">
-				      					  <span class="fw7">{{ .Description | replaceRE "PeR" "<b class='ttn'>P<sup class='large v-sup'>e̲</sup>R</b>" | safeHTML }}</span>
+				      					  <span class="fw7">{{ .Description | replaceRE "PeR" "<b class='ttn fs-initial'>P<sup class='large v-sup'>e̲</sup>R</b>" | safeHTML }}</span>
 				      					</h2>
 				      					<p class="f4-ns mt0-ns o-70">
 				      						<span class="fw9">{{ .Params.assignment }}</span>
 				      						{{ if .Params.location }}
-				      						<span class="fw7">&hairsp;—&nbsp;{{ .Params.location | replaceRE "PeR" "<b class='ttn'>P<sup class='large v-sup'>e̲</sup>R</b>" | safeHTML }}</span><!-- | safeHTML-->
+				      						<span class="fw7">&hairsp;—&nbsp;{{ .Params.location | replaceRE "PeR" "<b class='ttn fs-initial'>P<sup class='large v-sup'>e̲</sup>R</b>" | safeHTML }}</span><!-- | safeHTML-->
 				      						{{ end }}
 				      					</p>
 				      			</header>	
 			      				</summary>
-								    {{ .Content | replaceRE "PeR" "<b class='ttn'>P<sup class='large v-sup'>e̲</sup>R</b>" | safeHTML }}
+								    {{ .Content | replaceRE "PeR" "<b class='ttn fs-initial'>P<sup class='large v-sup'>e̲</sup>R</b>" | safeHTML }}
 				      		</details>
 				       </div><!-- /fr outline -->
 			      </div><!-- /w-two-thirds -->
