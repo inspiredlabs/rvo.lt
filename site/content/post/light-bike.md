@@ -35,6 +35,8 @@ Fairtec
 
 FaiR TeCH
 
+fairtehc
+
 FTR = FAIRtech revolution
 
 Find us at the [2019 Maker Faire](https://2019.makerfairerome.eu/en/exhibitors/?ids=894), Rome.
