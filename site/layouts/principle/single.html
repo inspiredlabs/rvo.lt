@@ -30,20 +30,20 @@
 				      					    {{ end }}
 				      					</a-->
 				      					<h1 class="f2 lh-title fw9 mb3 pt0">
-				      						<span class="fw7 o-100">{{ .Title| replaceRE "PeR" "<span class='ttn fs-initial'>P<sup class='large v-sup'>e̲</sup>R</span>" | replaceRE "(?i)[ftk1][ai1e][ai1r][?rfhn.][?ftkh.][?eac3.][?ckhve][?ckhvt]|(FTR)[^fair techn.]" "<strong class=''>FAIRtech</strong>" | safeHTML }}</span>
+				      						<span class="fw7 o-100">{{ .Title| replaceRE "PeR" "<span class='ttn fs-initial'>P<sup class='large v-sup'>e̲</sup>R</span>" | replaceRE "(?i)(fa?i?r ?t?e?c?h?)|[ftk1][ai1e][ai1r][rfhn.][ftkh.][eac3.][ckhve][ckhvt]|(FTR)[^fair techn.]" "<strong class=''>FAIRtech</strong>" | safeHTML }}</span>
 				      					</h1>
 				      					<h2 class="f3 lh-title o-70">
-				      					  <span class="fw7">{{ .Description| replaceRE "PeR" "<span class='ttn fs-initial'>P<sup class='large v-sup'>e̲</sup>R</span>" | replaceRE "(?i)[ftk1][ai1e][ai1r][?rfhn.][?ftkh.][?eac3.][?ckhve][?ckhvt]|(FTR)[^fair techn.]" "<strong class=''>FAIRtech</strong>" | safeHTML }}</span>
+				      					  <span class="fw7">{{ .Description| replaceRE "PeR" "<span class='ttn fs-initial'>P<sup class='large v-sup'>e̲</sup>R</span>" | replaceRE "(?i)(fa?i?r ?t?e?c?h?)|[ftk1][ai1e][ai1r][rfhn.][ftkh.][eac3.][ckhve][ckhvt]|(FTR)[^fair techn.]" "<strong class=''>FAIRtech</strong>" | safeHTML }}</span>
 				      					</h2>
 				      					<p class="f4-ns mt0-ns o-70">
 				      						<span class="fw9">{{ .Params.assignment }}</span>
 				      						{{ if .Params.location }}
-				      						<span class="fw7">&hairsp;—&nbsp;{{ .Params.location| replaceRE "PeR" "<span class='ttn fs-initial'>P<sup class='large v-sup'>e̲</sup>R</span>" | replaceRE "(?i)[ftk1][ai1e][ai1r][?rfhn.][?ftkh.][?eac3.][?ckhve][?ckhvt]|(FTR)[^fair techn.]" "<strong class=''>FAIRtech</strong>" | safeHTML }}</span><!-- | safeHTML-->
+				      						<span class="fw7">&hairsp;—&nbsp;{{ .Params.location| replaceRE "PeR" "<span class='ttn fs-initial'>P<sup class='large v-sup'>e̲</sup>R</span>" | replaceRE "(?i)(fa?i?r ?t?e?c?h?)|[ftk1][ai1e][ai1r][rfhn.][ftkh.][eac3.][ckhve][ckhvt]|(FTR)[^fair techn.]" "<strong class=''>FAIRtech</strong>" | safeHTML }}</span><!-- | safeHTML-->
 				      						{{ end }}
 				      					</p>
 					      			</header>	
 			      				</span><!-- /summary -->
-								    {{ .Content| replaceRE "PeR" "<span class='ttn fs-initial'>P<sup class='large v-sup'>e̲</sup>R</span>" | replaceRE "(?i)[ftk1][ai1e][ai1r][?rfhn.][?ftkh.][?eac3.][?ckhve][?ckhvt]|(FTR)[^fair techn.]" "<strong class=''>FAIRtech</strong>" | safeHTML }}
+								    {{ .Content| replaceRE "PeR" "<span class='ttn fs-initial'>P<sup class='large v-sup'>e̲</sup>R</span>" | replaceRE "(?i)(fa?i?r ?t?e?c?h?)|[ftk1][ai1e][ai1r][rfhn.][ftkh.][eac3.][ckhve][ckhvt]|(FTR)[^fair techn.]" "<strong class=''>FAIRtech</strong>" | safeHTML }}
 
 				      		<!--</details>-->
 				       </div><!-- /fr outline -->
