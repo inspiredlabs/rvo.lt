@@ -40,8 +40,8 @@
 						      	<time class="b">{{- dateFormat " 2006-01-01" .Date -}}</time>
 					      	</a>
 				    			<hr class="ba bw1 mb0 bg-inherit o-10"/>
-					      	<details class="details">
-					      		<summary class="list">
+					      	<details class="details highlight">
+					      		<summary class="no-clutter list">
 					      			<header class="fl w-100 pr4-ns">
 					      				<!--a id="blog-logo" href="{{ .Site.BaseURL}}">
 					      				    {{ if .Site.Params.logo }}
@@ -65,10 +65,8 @@
 					      		</header>	
 			      				</summary>
 								    <script>{{/* .Content | replaceRE "<blockquote>" "<blockquote class='red underline bg-gold'>" | replaceRE  "<p>" "<p class='green'>" | safeHTML */}}</script>
-								    {{ .Content| replaceRE "PeR" "<span class='ttn fs-initial'>P<sup class='large v-sup'>e̲</sup>R</span>" | replaceRE "(?i)(fair tech\b)|(FTR)|[ft][ai][air][nrt][eact/s]?[eactkh/s]?[ckh]?[ckh]" "<strong class=''>FAIRtech</strong>" | safeHTML }}
-
-				
-								    </details>
+										{{ .Content | replaceRE "PeR" "<span class='ttn fs-initial'>P<sup class='large v-sup'>e̲</sup>R</span>" | replaceRE "(?i)(fair tech\b)|(FTR)|[ft][ai][air][nrt][eact/s]?[eactkh/s]?[ckh]?[ckh]" "<strong class=''>FAIRtech</strong>" | safeHTML }}
+									</details>
 				       </div><!-- /fr outline -->
 			      </div><!-- /w-two-thirds -->
 			    </div><!-- /ph2-ns -->

@@ -60,20 +60,7 @@
 </style>
 
 <style>
-	.no-select{
-	    pointer-events:none;
-	    -webkit-user-select:none;
-	    -khtml-user-select:none;
-	    -moz-user-select:none;
-	    -o-user-select:none;
-	    user-select:none;
-	    -webkit-tap-highlight-color:rgba(0,0,0,0);
-	    -webkit-tap-highlight-color:transparent;
-	    -webkit-touch-callout:none;
-	    -webkit-text-size-adjust:none;
-	    -webkit-tap-highlight-color:rgba(0,0,0,0);
-	    -ms-touch-action:none
-	}
+	
 	*:focus{
 	    outline:none
 	}
@@ -85,17 +72,12 @@
 	    color:inherit;
 	    background:transparent
 	}
-	.highlight *::selection,.highlight::selection{
-	    color:white;
-	    background:#666
-	}
-	.highlight *::-moz-selection,.highlight::-moz-selection{
-	    color:white;
-	    background:#666
-	}
-	details{
-	}
-	.no-highlight,summary{
+	.highlight *::-moz-selection, .highlight::-moz-selection { color:white; background:rgba(0, 0, 0, 0.4); }
+	.highlight *::selection, .highlight::selection { color:white; background:rgba(0, 0, 0, 0.4); }
+	/* reintroduce user-select 
+	p {-webkit-user-select:initial;-khtml-user-select:initial;-moz-user-select:initial;-o-user-select:initial;user-select:initial;-webkit-tap-highlight-color:initial;-webkit-tap-highlight-color:initial;-webkit-touch-callout:initial;-webkit-text-size-adjust:none}
+	
+	.no-highlight,summary {
 	    -webkit-user-select:none;
 	    -khtml-user-select:none;
 	    -moz-user-select:none;
@@ -104,8 +86,8 @@
 	    -webkit-tap-highlight-color:transparent;
 	    -webkit-touch-callout:none;
 	    -webkit-text-size-adjust:none
-	}
-	summary{
+	}*/
+	summary {
 	    width:100%;
 	    cursor:pointer
 	}
@@ -164,188 +146,6 @@
 	        opacity:1
 	    }
 	}
-	
-
-</style>
-<!--style>
-	.overlay-footer{
-	    bottom:0;
-	    width:100%;
-	    height:48px;
-	    line-height:48px;
-	    padding:0;
-	    position:fixed;
-	    z-index:10
-	}
-	div#overlay-icon{
-	    position:fixed;
-	    z-index:9;
-	    width:100%;
-	    -moz-transform:translate3d(0,0,0);
-	    -webkit-transform:translate3d(0,0,0);
-	    transform:translate3d(0,0,0);
-	    -moz-transition:-moz-transform 0.28s;
-	    -webkit-transition:-webkit-transform 0.28s;
-	    transition:transform 0.28s
-	}
-	input[type='checkbox']#togglebox{
-	    position:fixed;
-	    left:0;
-	    top:0;
-	    visibility:hidden
-	}
-	label#navtoggler{
-	    position:fixed;
-	    z-index:999999;
-	    right:0;
-	    bottom:0;
-	    width:56px;
-	    height:56px;
-	    background:black;
-	    cursor:pointer
-	}
-	.home-menu{
-	    width:60px;
-	    height:64px;
-	    background:url("images/home-menu.svg") no-repeat 8px 8px transparent;
-	    background-size:74%;
-	    display:inline-block;
-	    -webkit-transform-origin:50% 50%;
-	    -moz-transform-origin:50% 50%;
-	    -o-transform-origin:50% 50%;
-	    transform-origin:50% 50%;
-	    -webkit-transition-duration:0.25s;
-	    transition-duration:0.25s;
-	    -webkit-transition-property:-webkit-transform;
-	    transition-property:-webkit-transform;
-	    transition-property:transform;
-	    transition-property:transform, -webkit-transform;
-	    -webkit-transition-delay:0.10s;
-	    -moz-transition-delay:0.10s;
-	    transition-delay:0.10s;
-	    -webkit-transform:rotate(-90deg);
-	    transform:rotate(-90deg)
-	}
-	#home-menu-hitarea{
-	    display:block;
-	    width:60px;
-	    height:62px;
-	    position:fixed;
-	    z-index:999;
-	    bottom:34px;
-	    right:0;
-	    cursor:pointer
-	}
-	#togglebox:checked + label > .home-menu{
-	    -webkit-transform:rotate(-0deg);
-	    transform:rotate(-0deg)
-	}
-	nav#offcanvas-menu{
-	    -moz-transform:translate3d(13em,0,0);
-	    -webkit-transform:translate3d(13em,0,0);
-	    transform:translate3d(13em,0,0);
-	    height:100%;
-	    top:0;
-	    right:0;
-	    z-index:8;
-	    display:block;
-	    position:fixed;
-	    overflow-x:hidden;
-	    overflow-y:scroll;
-	    backface-visibility:hidden;
-	    -ms-overflow-style:none;
-	    -webkit-overflow-scrolling:touch;
-	    -moz-transition:-moz-transform 0.38s cubic-bezier(0.28, 0, 0.8, 0.99), visibility 0s 0.28s;
-	    -webkit-transition:-webkit-transform 0.38s cubic-bezier(0.28, 0, 0.8, 0.99), visibility 0s 0.28s;
-	    transition:transform 0.38s cubic-bezier(0.28, 0, 0.8, 0.99), visibility 0s 0.28s
-	}
-	div.overlay{
-	    position:fixed;
-	    width:100%;
-	    height:100%;
-	    left:0;
-	    top:0;
-	    z-index:1;
-	    visibility:hidden
-	}
-	div.overlay label{
-	    width:100%;
-	    height:100%;
-	    position:fixed;
-	    -webkit-tap-highlight-color:rgba(0,0,0,0);
-	    -webkit-tap-highlight-color:transparent;
-	    -webkit-touch-callout:none;
-	    -webkit-text-size-adjust:none;
-	    -webkit-tap-highlight-color:rgba(0,0,0,0);
-	    -webkit-user-select:none;
-	    -ms-touch-action:none
-	}
-	input[type='checkbox']#togglebox:checked ~ div#overlay-icon{
-	}
-	input[type='checkbox']#togglebox:checked ~ nav#offcanvas-menu{
-	    -moz-transform:all 0.4s;
-	    -webkit-transform:all 0.4s;
-	    transform:all 0.4s;
-	    -moz-transform:translate3d(0,0,0);
-	    -webkit-transform:translate3d(0,0,0);
-	    transform:translate3d(0,0,0);
-	    visibility:visible;
-	    -moz-transition-delay:0s;
-	    -webkit-transition-delay:0s;
-	    transition-delay:0s
-	}
-	input[type='checkbox']#togglebox:checked ~ nav#offcanvas-menu ul{
-	    opacity:1
-	}
-	input[type='checkbox']#togglebox:checked ~ div.overlay{
-	    visibility:visible
-	}
-	.overflow{
-	    height:12rem
-	}
-	@media (max-width:480px){
-	    nav#offcanvas-menu.debug{
-	        background-color:red
-	    }
-	    nav#offcanvas-menu{
-	        width:66vw;
-	        -moz-transform:translate3d(66vw,0,0);
-	        -webkit-transform:translate3d(66vw,0,0);
-	        transform:translate3d(66vw,0,0);
-	        background-color:white
-	    }
-	    input[type='checkbox']#togglebox:checked ~ nav#offcanvas-menu{
-	        width:66vw
-	    }
-	    div.overlay{
-	        display:block
-	    }
-	}
-	@media (min-width:481px){
-	    nav#offcanvas-menu.debug{
-	        background-color:skyblue
-	    }
-	    nav#offcanvas-menu{
-	        width:33vw;
-	        -moz-transform:translate3d(33vw,0,0);
-	        -webkit-transform:translate3d(33vw,0,0);
-	        transform:translate3d(33vw,0,0)
-	    }
-	    input[type='checkbox']#togglebox:checked ~ nav#offcanvas-menu{
-	        width:33vw
-	    }
-	    div.overlay{
-	        display:none
-	    }
-	}
-	@media (min-width:960px){
-	    nav#offcanvas-menu.debug{
-	        background-color:cyan
-	    }
-	}
-	
-	</style-->
-	<style>
 
 	/* Saturate */
 
@@ -460,9 +260,6 @@
 		vertical-align: -0.3em;
 	}
 	
-	details p {
-		margin-top: 1em;
-	}
 	details a figure, details p a { transition: all .2s ease-in-out; }
   details p a { color: black; cursor: pointer; }
   details p a:hover { color: white; background-color: rgba(0,0,0,.8); cursor: pointer; }
@@ -568,11 +365,6 @@
 	
 	/* Atomic utility class */
 	.no-clutter { -webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-o-user-select:none;user-select:none;-webkit-tap-highlight-color:rgba(0,0,0,0);-webkit-tap-highlight-color:transparent;-webkit-touch-callout:none;-webkit-text-size-adjust:none; /*-webkit-user-select:none;-ms-touch-action:none;*/ }
-	
-	/* reintroduce user-select */
-	p {
-		
-	}
 	
 	.antialias {
 		-webkit-font-smoothing: antialiased;
@@ -962,7 +754,7 @@
 </style>
 
 </head>
-<body class="no-clutter w-100 js-focus-visible helvetica-neue highlight lh-copy bg-black" id="top"><!-- sans-serif -->
+<body class="w-100 js-focus-visible helvetica-neue lh-copy bg-black" id="top"><!-- sans-serif -->
 <b class="w-10 fixed z-999 mt0 pa1 top-0 moon-gray o-5" id="debugInfo">0</b>
 {{ partial "svg.html" . }}
 {{ partial "righthand" . }}
