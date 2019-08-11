@@ -15,6 +15,8 @@ Using portable charging components makes remote destinations a possibility for t
 
 This prototype stems from our ideas challenging "sustainable development" principles. We call this the FAIRTECH revolution –  dedicated to improving everybody's quality of life!
 
+**PeR** is a reference point for fair technologies that can have a positive net impact.
+
 faintech
 
 FIaRTECH
