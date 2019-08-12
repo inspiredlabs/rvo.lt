@@ -1,7 +1,8 @@
 ---
-title: 'TESTING, TESTING, 123. Testing the mic.'
-subtitle: 'Testing, testing the mic. '
-image: /img/472803_10150792452772746_2030068506_o-2x.jpg
+author: "Alessandro Ronca's"
+title: FAIRtech Revolution
+subtitle: Beyond Sustainability
+image: /img/alessandro-ronca-05-x1b.jpg
 blurb:
   heading: Why Kaldi?
   text: >-
@@ -38,4 +39,3 @@ values:
     want to turn this around and return the coffee trade to the drink’s
     exhilarating, empowering and unifying nature.
 ---
-

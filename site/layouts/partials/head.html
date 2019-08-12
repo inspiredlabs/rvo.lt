@@ -19,6 +19,13 @@
     
 <!--TODO: TEMPLATE CSS -->
 <style>
+	.seal {
+		/* .jumbotron */
+	}
+</style>
+
+
+<style>
 /*.carousel {
   background: #FAFAFA;
 }
@@ -58,6 +65,8 @@
 }
 
 </style>
+
+
 
 <style>
 	
@@ -679,23 +688,31 @@
 	}
 </style>
 <style>
+
+	
 .lh-extended { /* type-scale.com */
   line-height:1.953;
+	color:red;
 }
 
-@media screen and (min-width: 30em) {
+@media screen and (min-width: 30em)
+							and (min-height: 240px) and (max-height: 260px) {
   .lh-extended-ns {
     line-height:1.953;
+		color:green;
   }
 }
 
-@media screen and (min-width: 30em) and (max-width: 60em) {
+@media screen and (min-width: 30em) and (max-width: 60em)
+							and (min-height: 260px) and (max-height: 280px) {
   .lh-extended-m {
     line-height:1.953;
+		color:skyblue;
   }
 }
 
-@media screen and (min-width: 60em) {
+@media screen and (min-width: 60em) 
+							and (max-height: 300px) {
   .lh-extended-l {
     line-height:1.953;
   }
@@ -757,4 +774,4 @@
 <body class="w-100 js-focus-visible helvetica-neue lh-copy bg-black" id="top"><!-- sans-serif -->
 <b class="w-10 fixed z-999 mt0 pa1 top-0 moon-gray o-5" id="debugInfo">0</b>
 {{ partial "svg.html" . }}
-{{ partial "righthand" . }}
+<script>{{/* partial "righthand" . */}}</script>

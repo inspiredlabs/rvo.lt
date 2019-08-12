@@ -3,6 +3,7 @@ baseurl = "https://rvo.lt" #{{ .Site.BaseURL }} "/" && netlify "./" local only
 languageCode = "en-us"
 #languageCode = "en-gb" #Initial configuration reset
 title = "Rvo.lt" #Fairtech Revolution | Rvo.lt
+author = "Alessandro Ronca" #'s
 
 
 [Params]

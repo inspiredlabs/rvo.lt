@@ -1,6 +1,29 @@
 {{ partial "head" . }}
 
 <script>{{/*
+{{ partial "jumbotron" (dict "imageUrl" .Params.image "title" .Title "subtitle" .Params.subtitle) }}
+<!-- {{ define "main" }} -->
+
+{{ partial "short-text" .Params.blurb }}
+{{ partial "price" . }}
+<!--{{ partial "subscribe" . }}-->
+{{ partial "about" . }}
+<!-- It works! -->
+<!--
+{{ partial "2-up" .Params }}
+{{ partial "text-and-image" (dict "heading" .Params.values.heading "text" .Params.values.text "buttonText" "Read more" "buttonLink" "/values") }}
+-->
+<!--
+{{ partial "news" . }}
+-->
+<!-- It works! -->
+<!-- simplify the nesting -->
+<!-- {{ partial "email" . }} -->
+<!-- {{ end }} -->
+*/}}</script>
+
+
+<script>{{/*
 <div id="newList">
 	<ul class="list">
 	{{ range .Data.Pages.ByWeight }}
@@ -19,7 +42,7 @@
 </ul>
 
 <div id="content">
-	<ul class="mt0 list bg-near-white black-70 antialias">
+	<ul class="ma0 list bg-near-white black-70 antialias">
 
 		{{ range (where .Data.Pages.ByWeight "Type" "post") }}
 
@@ -97,39 +120,3 @@
 	</ul>
 </div>
 {{ partial "footer" . }}
-
-
-<!--{{ define "main" }}-->
-
-<!--{{ partial "jumbotron" (dict "imageUrl" .Params.image "title" .Title "subtitle" .Params.subtitle) }}-->
-
-<!--
-{{ partial "short-text" .Params.blurb }}
--->
-
-
-
-<!--{{ partial "price" . }}-->
-
-<!--{{ partial "subscribe" . }}-->
-
-<!--{{ partial "about" . }}-->
-<!-- It works! -->
-
-<!--
-{{ partial "2-up" .Params }}
-{{ partial "text-and-image" (dict "heading" .Params.values.heading "text" .Params.values.text "buttonText" "Read more" "buttonLink" "/values") }}
--->
-
-<!--
-{{ partial "news" . }}
--->
-<!-- It works! -->
-
-<!-- simplify the nesting -->
-<!--{{ partial "email" . }}
--->
-
-<!--
-{{ end }}
--->
