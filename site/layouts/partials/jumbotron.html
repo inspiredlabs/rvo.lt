@@ -1,44 +1,41 @@
-<div class="watermark">
-	<article class="vh-100 overflow-hidden cover z-0 bg-center b-lazy b-loaded" style="background-image: url('{{.imageUrl}}')">
-		<!-- (vh-50, top center) (vh-100, center right) --><!-- fix media queries: vh-100 overflow-hidden -->
-		<!-- small = 480x270 -->
-		<!-- large = 2880x1620 -->
-		
-		<section class="vh-100 cf w-100 f4 ph3 ph4-ns z-1 absolute top-0"><!-- overflow-hidden  -->
+<div class="watermark ">
+	<!-- <article class="vh-100 cover z-0 bg-center b-lazy" style="background-image: url('{{ .imageUrl }}')"> -->
+
+	<article class="vh-100 bg-near-white">
+		<section class="vh-100 cf w-100 f4 ph3 ph4-ns z-1 absolute top-0 "><!-- overflow-hidden  -->
 			<div class="center ph3-ns">
 			  <div class="ph2-ns">
 			    <div class="fl w-100 w-70-ns pr4">
 			    	<div class="fr w-100 w-90-m w-80-l">
-	      			<header class="fl w-100 pr4-ns white">
-	      				<h1 class="f2 f-headline-l measure lh-extended fw9">
-									<span class="db f6 f6-m f4-l ttu tracked b mb0 o-80">Alessandro Ronca's</span>
-									<script>
-									{{/* if .author }}
-									<span class="db f6 f6-m f4-l ttu tracked b mb0 o-80">{{ .author }}</span>
-									{{ end */}}
-									</script>
+							
+							<header class="flex vh-100 fl w-100 pr4-ns red ts1-dark-gray">
+								<div class="flex flex-column flex-grow-1">
+									<h2 class="flex-auto f6 f6-m f4-l fw9 fs-8vmin fs-5vmax lh-8vh">
+										{{ if .author }}
+											{{ .author }}
+										{{ end }}
+										<span>Alessandro Ronca's</span>
+									</h2>
+									<h1 class="flex-auto ma0 o-100 f2 f-subheadline-m f-headline-l fs-14vmin fs-12vmax ts2-dark-gray" >
+										{{ if .title }}
+											{{.title}}
+										{{ end }}
+									</h1>
+									<h3 class="flex-auto f5 f2-l fw3 o-80 fs-8vmin fs-5vmax lh-8vh">
+										{{ if .subtitle }}
+											{{.subtitle}}
+										{{ end }}
+										<!-- Beyond Sustainability -->
+										<!-- The scarcity crisis -->
+										<!-- Scarcely Sustainable -->
+									</h3>
+								</div>
+							</header><!-- fl w-100 -->	
 
-									<span>{{ .title }}</span>
-				    			<!--<hr class="ba bw1 b--white-70">-->
-	      				  <!--
-									<span class="bb bw2 bw2-m bw3-l">FAIR</span><br>
-	      				  <span class="bb bw2 bw2-m bw3-l">Tech</span><br>      
-									<span class="bb bw2 bw2-m bw3-l">Revolution</span>
-									-->
-	      				</h1>
-	      				<h2>{{ if .subtitle }}
-	      					<!--<span class="db f7 f4-l fw3 o-90">How we're going</span>-->
-									<span class="db f5 f2-l fw3 o-90">{{.subtitle}}</span>
-									{{ end }}
-								</h2>
-
-	      				<!--<h3 class="f7 fw3 black">Life after sustainability</h3> -->
-	      			</header><!-- fl w-100 -->
 	    			</div><!-- pv4 fr -->
 	  			</div><!-- fl w-100 w-70-ns pr4 -->
 				</div><!-- ph2-ns -->
 			</div><!-- mw9 center ph3-ns -->
 		</section><!-- cf w-100 -->
 	</article><!-- pt5 -->
-</div>
-
+</article>

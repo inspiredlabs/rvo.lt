@@ -1,12 +1,12 @@
-/*! TACHYONS PATCHED | http://ftp.inspiredlabs.co.uk/j/css/tachyons.min.patched.css */
+/*! TACHYONS PATCHED | http://inspiredlabs.co.uk/j/css/tachyons.min.patched.css */
+/*! Tachyons is the correct abstraction layer to expresses layout control across the web */
 
-/* 16.04.19	.dim 		transform:translateZ(0)	bug fix 	*/
+/* 16.04.19	.dim 				transform:translateZ(0)	bug fix 	*/
+/* 17.04.19	.grow 			background-clip					bug fix 	*/
+/* 01.05.19	.ts 				shadow									addition 	*/
+/* 30.05.19	.f8 				0.6rem									addition 	*/
+/* 14.08.19	.debug *		display colours					media query addition 	*/
 
-/* 17.04.19	.grow 	background-clip					bug fix 	*/
-
-/* 01.05.19	.ts 		shadow									addition 	*/
-
-/* 30.05.19	.f8 		0.6rem									addition 	*/
 
 /* .box-sizing,etc...{border-box;margin-top:0;margin-bottom:0;}. */
 /* .dim and .grow: https://github.com/tachyons-css/tachyons/issues/337 */
@@ -3713,8 +3713,27 @@ code {
 	transition: color 0.15s ease-in;
 }
 
+/* Useful for display width */
 .debug * {
 	outline: 1px solid gold;
+}
+
+@media screen and (min-width: 30em) {
+	.debug * {
+		outline: 1px solid yellow;
+	}
+}
+
+@media screen and (min-width: 30em) and (max-width: 60em) {
+	.debug * {
+		outline: 1px solid lime;
+	}
+}
+
+@media screen and (min-width: 60em) {
+	.debug * {
+		outline: 1px solid cyan;
+	}
 }
 
 .debug-white * {

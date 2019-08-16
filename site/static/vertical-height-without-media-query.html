@@ -1,0 +1,166 @@
+<!doctype html>
+<link rel="stylesheet" type="text/css" href="css/tachyons.min.patched.css"/>
+<head>
+<style>
+.helvetica-neue {
+	font-family: "Helvetica Neue", HelveticaNeue, "TeX Gyre Heros", TeXGyreHeros, FreeSans, "Nimbus Sans L", "Liberation Sans", Arimo, Helvetica, Arial, sans-serif;
+}
+/* Why height is important: */
+.mv-perc-vh (max-height: 12em) {
+	
+	/* margin-top:4vh;
+	margin-bottom:4vh; */
+}
+
+@media (min-height: 12em) and (max-height: 24em) {
+  .mv-perc-vh {
+    color:lime;
+		/* margin-top:8vh;
+    margin-bottom:8vh; */
+  }
+}
+
+@media (min-height: 24em) and (max-height: 48em) {
+  .mv-perc-vh {
+    color:magenta;
+    /* margin-top:16vh;
+    margin-bottom:16vh; */
+  }
+}
+
+@media (min-height: 48em) and (max-height: 96em) {
+  .mv-perc-vh {
+    color:cyan;
+    /* margin-top:16vh;
+    margin-bottom:16vh; */
+  }
+}
+
+/* 
+.mv-4-vh {
+	color:blue;
+	margin-top:4vh;
+	margin-bottom:4vh;
+}
+
+.mv-8-vh {
+	color:blue;
+	margin-top:8vh;
+	margin-bottom:8vh;
+}
+
+.mv-16-vh {
+	color:blue;
+	margin-top:16vh;
+	margin-bottom:16vh;
+}
+.mv0 {
+	color:darkorange;
+	margin-top:0;
+	margin-bottom:0;
+}
+
+.mv1 {
+	color:lime;
+	margin-top:.25rem;
+	margin-bottom:.25rem;
+}
+.mv2 {
+	color:lime;
+	margin-top:.5rem;
+	margin-bottom:.5rem;
+} */
+
+.mv-auto {
+	margin-top:6vh;
+	margin-bottom:6vh;
+}
+
+.pv-auto {
+	padding-top:6vh;
+	padding-bottom:6vh;
+}
+
+/* http://tachyons.io/docs/layout/heights */
+/* https://tachyons-tldr.now.sh/#/tools naming convention: .min-h-100 .min-vh-100 */
+.min-h2 {
+  min-height:2rem
+}
+
+@media screen and (min-width: 30em) {
+  .min-h2-ns {
+    min-height:2rem
+  }
+}
+
+@media screen and (min-width: 30em) and (max-width: 60em) {
+  .min-h2-m {
+    min-height:2rem
+  }
+}
+
+@media screen and (min-width: 60em) {
+  .min-h2-l {
+    min-height:2rem
+  }
+}
+
+.f-headline { 
+	font-size: 7.594rem; /* ~120px Perfect Fifth: https://type-scale.com /&font=Noto%20Sans */
+}
+</style>
+</head>
+
+<!-- background-image: url('{{.imageUrl}}') -->
+<!-- fix media queries: bg-top ma0 overflow-hidden -->
+<!-- (vh-50, top center) (vh-100, center right) -->
+<!-- small = 480x270 -->
+<!-- large = 2880x1620 -->
+<body class="bg-black helvetica-neue">
+
+<div class="watermark ">
+	<article class="vh-100 dt w-100 cover z-0 bg-top pa0" style="background-image: url(/img/alessandro-ronca-05-x1b.jpg)">
+		<section class=" cf w-100 f4 ph3 ph4-ns z-1 absolute top-0 bottom-0 debug"><!-- overflow-hidden  -->
+			<div class="vh-100 center ph3-ns">
+				<div class=" ph2-ns">
+					<div class=" fl w-100 w-70-ns pr4">
+						<div class=" fr w-100 w-90-m w-80-l">
+							<header class="vh-100 fl w-100 pr4-ns">
+
+								
+								<div class="dtc v-mid f2 fw9 white gold debug">
+									
+									<h1 class="f-headline lh-solid  ma0 pa0 "><!-- f6 f2-m f-subheadline-l fw6 tc -->
+										<!-- <span class="db tl">Vertically centering</span> 
+										<span class="db tl">things in css is easy!</span> -->
+										<span class="pv-auto db f1 lh-title">Alessandro Ronca's<!-- {{.author}} --></span><!-- f6 f6-m f4-l ttu tracked-mega b -->
+										<span class="pv-auto db o-100">FAIRtech Revolution</span><!-- {{.title}} -->
+										<span class="pv-auto db pa0 f-subheadline lh-title">Beyond Sustainability</span><!-- {{.subtitle}} lh-solid f5 f2-l fw3 -->
+									</h1>
+									
+								</div>
+
+
+								<!--<h3 class="f7 fw3 black">Life after sustainability</h3> -->
+							</header><!-- fl w-100 -->
+						</div><!-- pv4 fr -->
+					</div><!-- fl w-100 w-70-ns pr4 -->
+				</div><!-- ph2-ns -->
+			</div><!-- mw9 center ph3-ns -->
+		</section><!-- cf w-100 -->
+	</article><!-- pt5 -->	
+</div><!-- watermark -->	
+
+<script src="/livereload.js?port=1313&amp;mindelay=10"></script>
+</body>
+
+
+
+<!-- Working example: -->
+<script>/*
+<article class="vh-100 dt w-100 gold"><!-- bg-dark-pink -->
+  <div class="dtc v-mid tc white ph3 ph4-l db w-100">
+    <h1 class="f6 f2-m f-subheadline-l fw6 tl">Vertically centering things in css is easy!</h1>
+	</div>
+</article>
+*/</script>
