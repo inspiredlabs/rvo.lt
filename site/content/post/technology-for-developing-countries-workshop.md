@@ -63,7 +63,8 @@ Workshop covers the following:
 
 **Irrigate with the sun**, 1 day:
 
-- construct a gravity tank and electro-mechanical solar pump  - learn the advantages of using a photovoltaic irrigation system with underground storage.
+- construct a gravity tank and electro-mechanical solar pump
+- learn the advantages of using a photovoltaic irrigation system with underground storage.
 
 **Solar Oven**, 1 day:
 
