@@ -1,18 +1,10 @@
 ---
-title: 'Technology for Developing Countries, Workshop'
+title: Technology for Developing Countries
 date: 2019-08-21T17:51:50.757Z
-description: 'FAIRtech Workshop: Learn how to do more with less!'
+description: 'FAIRtech Workshop, 1: Learn how to do more with less!'
 ---
-# What is FAIRtech?
-
-## For the first time in human history we can do more with less! 
-
-### Due to technological progress, we can manage energy & resources to improve everyone's well-being.
-
-<hr>
-
-### Technology for Developing Countries
-#### A course for training facilitators
+### A training facilitators workshop
+#### Technology for Developing Countries
 
 Restricted to 15 participants, or less.
 
