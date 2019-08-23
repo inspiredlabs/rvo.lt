@@ -3,17 +3,17 @@ title: What is FAIRtech?
 date: 2019-08-22T09:27:45.588Z
 description: For the first time in human history we can do more with less!
 ---
-# The world is a better place than it used to be
+# The world is better than ever
 
-## Due to progress managing resources we are improving everyone's well-being without unwanted side-effects.
+## Due to technological progress we're managing energy and resources better than ever. This is improving everyone's well-being without unwanted side-effects.
 
 Today, Nations, Governments and Corporations are asking, how do we approach decarbonisation? 
 
 At **PeR** we have made decarbonisation a reality for our community for over 10 years. During, we have become conscious of loose measures to help us track our progress.
 
-# What is FAIRtech?
+### What is FAIRtech?
 
-## FAIRtech is a fast way to asses projects. 
+#### FAIRtech is a fast way to asses projects. 
 
 Use these loose measures to track your own capacity to:
 
