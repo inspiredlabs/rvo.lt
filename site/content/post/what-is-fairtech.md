@@ -9,7 +9,7 @@ description: For the first time in human history we can do more with less!
 
 Today, Nations, Governments and Corporations are asking, how do we approach decarbonisation? 
 
-At **PeR** we have made decarbonisation a reality for our community. For over 10 years, we have become conscious of loose measures to help measure progress.
+At **PeR** we have made decarbonisation a reality for our community. For over 10 years, we have become conscious of loose measures to help track our progress.
 
 ### What is FAIRtech?
 
@@ -24,3 +24,8 @@ Do more with less. Measure your capacity to:
 * define your priorities. Aim to improve your core idea. Make things as simple as possible, but not simpler. Make it: **Irreducible**.
 
 * Can you gain from disorder? Improvements come from feedback loops whilst you test and iterate. Prove your project is: **Reliable**.
+
+### What is the goal of FAIRtech?
+
+At **PeR** we have humanist values that put people first. This way we can ensure everyone in the community has enough. Our goal is to formalise this model to help share abundance with everyone.
+
