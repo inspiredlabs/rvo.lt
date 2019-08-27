@@ -1,8 +1,7 @@
 ---
 title: Beyond Sustainability
 date: 2017-01-04T15:04:10.000Z
-description: >-
-  Three Principles of Sufficiency
+description: Three Principles of Sufficiency
 ---
 
 <!--
@@ -26,7 +25,7 @@ description: >-
 </div>
 <div class="w-third f8 f6-m f5-l tc pr1 pl1 fl">
 <svg viewBox="0 0 128 128" class="bg-dark-green br-100 mr-auto ml-auto no-select" alt="">
-<use xlink:href="#down-arrow"></use>
+<use xlink:href="#up-arrow"></use>
 </svg>
 <p>NATURAL RESOURCES</p>
 </div>
