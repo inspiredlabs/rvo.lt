@@ -1,8 +1,8 @@
 ---
-title: The Light Bike
+title: Maker Faire, Rome 2019
 date: 2017-01-04T15:04:10.000Z
 description: >-
-  A lightweight, personal electric vehicle with combined solar charger
+  Introducing: The Lightbike, a personal electric vehicle with combined solar charger
 ---
 
 {{<flickity src="img/maker-faire-2019-image-author-894.jpg" title="An unmodified enduro SUR-RON, which is very light." color="blue" selectCell="flkty.selectCell( value, isWrapped, isInstant )" >}}

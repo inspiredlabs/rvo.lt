@@ -8,10 +8,11 @@ description: 'FAIRtech Workshop, 1: Learn how to do more with less!'
 
 Restricted to 15 participants, or less.
 
-#### Location: Italy.
+#### Location: **Parco dell' Energia Rinnovabile**, Italy
 
 - € 2,400 for the 5 day course
 - € 2,000 for the 4 day course
+
 
 #### [Contact us](https://rvo.lt/contact/) about:
 
@@ -63,4 +64,15 @@ Workshop covers the following:
 - construct two solar ovens.
 - learn to cook, sterilise and purify with the sun.
 
-Prototype materials available on request. For an inclusive price to meet the needs of your group, please [contact us](https://rvo.lt/contact/).
+# Booking
+
+## Activities
+
+Umbria is ideal for extra-curricular activities, such as hiking rich natual forests or visiting prominent architecture.
+
+Additional activities available on request.
+
+## Package deals
+
+Prototype materials available on request. For an inclusive programme to meet the needs of your group, please [contact us](https://rvo.lt/contact/).
+
