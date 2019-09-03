@@ -23,7 +23,7 @@ The Light Bike is intended for the democratic rider. If you're an eco-concious e
 - No combustion engine! Overall footprint has no excess  weight, so power efficiency transports the rider&nbsp;only.
 - Secure, rugged on-board recharging system.
 - Reliable self contained electronics.
-- Safe, typical stock roadbike.
+- Safe stock roadbike.
 
 ### Unmodified street-legal frame
 
@@ -46,7 +46,7 @@ The Light Bike is intended for the democratic rider. If you're an eco-concious e
 - Rugged, high-efficiency, scratch resistant, flexible technology.
 - On-board Recharging system (the charge controller) connects to the PEV's Panasonic Li-Ion&nbsp;cells.
 
-### PEV Power
+### PEV Battery
 
 - Panasonic Hi-power, _18650_ lithium ion cells. 
 - 60V, 32Ah rating.
@@ -68,9 +68,13 @@ The Light Bike is intended for the democratic rider. If you're an eco-concious e
 
 ## Reduce waste to go further
 
+### Why solar?
+
 We began by builing homes with the aim of self-sufficiency made possible by reducing waste. Inefficiency is everywhere, but at **PeR**, we're going further with solar to prove it's possible to do more with less.
 
 The transport industry is wasteful. For years innovation has stagnated and that inefficiency has heavy costs. Global carbon reduction measures mean _business as&nbsp;usual_ has reached the end of the&nbsp;road. 
+
+### Ecomodding
 
 Previously, **PeR** has explored ecomodding as part of our personal transport experiments – but the Light Bike takes us somewhere&nbsp;new. 
 
@@ -78,9 +82,21 @@ This standard vehicle is lighter than the rider. Which is key, because that mean
 
 As well as the folding solar assembly you can carry camping equipment, survival gear – or just the groceries.
 
-We aim to show people the most economical way to improve their autonomy. PEV (personal electric vehicles) are just one part of self-sufficiency. It's vitally important for people to have a sense of freedom, be able to commute and participate in the economy.
+### Educating people in self-sufficiency
 
-By acting clever together combining solar and mobility, we can decarbonise emmissions, improve access to services and reduce&nbsp;costs.
+We aim to show people the most economical way to improve their autonomy. PEV (personal electric vehicles) are just one part of self-sufficiency. It's vitally important for people to have a sense of freedom, be able to commute and participate in the economy. **PeR** is teaching people how to combine solar and mobility for themselves.
+
+
+### Positive benefits to society
+
+Acting clever together we can improve access to services, decarbonise emmissions and diminish running&nbsp;costs<!-- to virtually&nbsp;zero-->. 
+
+#### External links
+
+- [Sur-ron Italia](https://www.sur-ron-italia.it)
+- [Battery information](https://surron.co.uk/pages/battery-surron-lbx-dual-sport-e-dirt-bike)
+- [General information](https://lunacycle.com/sur-ron-x-bike-limited-black-edition/)
+
 
 <!--{{<flickity src="img/maker-faire-2019-image-author-894.jpg" title="An unmodified enduro SUR-RON, which is very light." color="blue" selectCell="flkty.selectCell( value, isWrapped, isInstant )" >}}-->
 
@@ -95,6 +111,9 @@ By acting clever together combining solar and mobility, we can decarbonise emmis
 
 <!--{{<flickity src="img/maker-faire-2019-image-exhibit-894.jpg" title="The portable charging components on a development rig" color="blue" selectCell="flkty.selectCell( value, isWrapped, isInstant )" >}}
 -->
+
+
+
 
 # Become self-sufficient with **PeR**
 

@@ -2,10 +2,10 @@
 title: Maker Faire, Rome 2019
 date: 2017-01-04T15:04:10.000Z
 description: >-
-  Introducing: The Lightbike, a personal electric vehicle with combined solar charger
+  Introducing: The Light Bike, a personal electric vehicle with combined solar charger
 ---
 
-{{<flickity src="img/maker-faire-2019-image-author-894.jpg" title="An unmodified enduro SUR-RON, which is very light." color="blue" selectCell="flkty.selectCell( value, isWrapped, isInstant )" >}}
+{{<flickity src="/img/maker-faire-2019-image-author-894.jpg" title="An unmodified enduro SUR-RON, which is very light." color="blue" selectCell="flkty.selectCell( value, isWrapped, isInstant )" >}}
 
 To improve autonomy on long trips, the bike has a portable solar charging system. The aim is to achieve power sufficiency, off-grid.
 
@@ -54,4 +54,4 @@ Find us at the [2019 Maker Faire](https://2019.makerfairerome.eu/en/exhibitors/?
 >{{% class measure-narrow %}}This lightweight combination means we transport everything – except battery charging worries!{{% /class %}}
 -->
 
-{{<flickity src="img/maker-faire-2019-image-exhibit-894.jpg" title="The portable charging components on a development rig" color="blue" selectCell="flkty.selectCell( value, isWrapped, isInstant )" >}}
+{{<flickity src="/img/maker-faire-2019-image-exhibit-894.jpg" title="The portable charging components on a development rig" color="blue" selectCell="flkty.selectCell( value, isWrapped, isInstant )" >}}

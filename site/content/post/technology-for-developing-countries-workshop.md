@@ -19,9 +19,11 @@ Restricted to 15 participants, or less.
 - Other European countries
 - Any non-European countries
 
-Aimed at training facilitators, we deliver the program in Italian or English, on-site. 
+Aimed at training facilitators improving thier practical knowledge, we deliver the program in Italian or English, on-site.
 
-Workshop covers the following:
+###FAIRtech Workshop, 1: Learn how to do more with less!
+
+Workshop composition to cover the following:
 
 **Transformational Food Storage**, 1 day:
 
