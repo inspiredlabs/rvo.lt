@@ -2,6 +2,10 @@
 title: Beyond Sustainability
 date: 2017-01-04T15:04:10.000Z
 description: Three Principles of Sufficiency
+menu:
+  principle
+
+
 ---
 
 <!--
@@ -57,13 +61,13 @@ This differs from sustainability where any economic incentive seeks exploitation
 <p>ECONOMY</p>
 </div>
 <div class="w-third f8 f6-m f5-l tc pr1 pl1 fl">
-<svg viewBox="0 0 128 128" class="bg-dark-red br-100 mr-auto ml-auto no-select" alt="">
+<svg viewBox="0 0 128 128" class="bg-red br-100 mr-auto ml-auto no-select" alt="">
 <use xlink:href="#down-arrow"></use>
 </svg>
 <p>NATURAL RESOURCES</p>
 </div>
 <div class="w-third f8 f6-m f5-l tc pl2 fl">
-<svg viewBox="0 0 128 128" class="bg-dark-red br-100 mr-auto ml-auto no-select" alt="">
+<svg viewBox="0 0 128 128" class="bg-red br-100 mr-auto ml-auto no-select" alt="">
 <use xlink:href="#down-arrow"></use>
 </svg>
 <p>ECOLOGY</p>

@@ -3,6 +3,8 @@ title: "The Light Bike"
 date: 2019-09-02T00:00:00+02:00
 description: >-
   Boundless adventure fueled by the&nbsp;sun
+menu:
+  development
 ---
 
 <!-- SIDE -->
@@ -66,34 +68,12 @@ The Light Bike is intended for the democratic rider. If you're an eco-concious e
 - The most efficient ways to increase your wealth is to find opportunities and synergies to increase income and reduce spending at the same time.
 -->
 
-## Reduce waste to go further
-
-### Why solar?
-
-We began by builing homes with the aim of self-sufficiency made possible by reducing waste. Inefficiency is everywhere, but at **PeR**, we're going further with solar to prove it's possible to do more with less.
-
-The transport industry is wasteful. For years innovation has stagnated and that inefficiency has heavy costs. Global carbon reduction measures mean _business as&nbsp;usual_ has reached the end of the&nbsp;road. 
-
-### Ecomodding
-
-Previously, **PeR** has explored ecomodding as part of our personal transport experiments – but the Light Bike takes us somewhere&nbsp;new. 
-
-This standard vehicle is lighter than the rider. Which is key, because that means you can sufficiently power the device using only the sun.
-
-As well as the folding solar assembly you can carry camping equipment, survival gear – or just the groceries.
-
-### Educating people in self-sufficiency
-
-We aim to show people the most economical way to improve their autonomy. PEV (personal electric vehicles) are just one part of self-sufficiency. It's vitally important for people to have a sense of freedom, be able to commute and participate in the economy. **PeR** is teaching people how to combine solar and mobility for themselves.
-
-
-### Positive benefits to society
-
-Acting clever together we can improve access to services, decarbonise emmissions and diminish running&nbsp;costs<!-- to virtually&nbsp;zero-->. 
 
 #### External links
 
-- [Sur-ron Italia](https://www.sur-ron-italia.it)
+<!--- [Sur-ron, UK](https://www.sur-ron.co.uk)
+- [Sur-ron, Bruce Chen](https://www.behance.net/gallery/57204127/SUR-RON-Bee-DesignerBruce-Chen)-->
+<!--- [Sur-ron Italia](https://www.sur-ron-italia.it)-->
 - [Battery information](https://surron.co.uk/pages/battery-surron-lbx-dual-sport-e-dirt-bike)
 - [General information](https://lunacycle.com/sur-ron-x-bike-limited-black-edition/)
 
@@ -112,18 +92,26 @@ Acting clever together we can improve access to services, decarbonise emmissions
 <!--{{<flickity src="img/maker-faire-2019-image-exhibit-894.jpg" title="The portable charging components on a development rig" color="blue" selectCell="flkty.selectCell( value, isWrapped, isInstant )" >}}
 -->
 
+<!--# Become more self-sufficient
+
+Your journey to self-sufficiency starts at **PeR**<br/>
+Learn how to do more with less & [www.rvo.lt](https://www.rvo.lt)-->
 
 
+# Become more self-sufficient
+**PeR**, inspiring the FAIRtech revolution. <br/>
+Learn how to do more with less & [www.rvo.lt](https://www.rvo.lt)
 
-# Become self-sufficient with **PeR**
 
-**PeR** is a reference point for fair technologies that can have a positive net impact. We consistently aim to do more with less. 
+<!--# Become more self-sufficient
+
+**PeR** is a reference point for fair technologies that can have a positive net impact. We consistently aim to do more with less. -->
 
 ## We help people like you
 
 Reduce wasteful spending, improve well-being and understand life changing technology. To visit **PeR**, call: [+39 0744 988 050](+39 0744 988 050)
 
-**Parco dell' Energia Rinnovabile**<br/>Via del Pantano, 72<br/>Frazione Frattuccia,<br/>05025, Guardea TR, Italia
+**Parco dell' Energia Rinnovabile**<br/>Localitá Inano snc.<br/>Frazione Frattuccia,<br/>05025, Guardea TR, Italia
 
 <!-- FRONT -->
 ![An unmodified enduro SUR-RON, front.](/img/lightbike-front-2x.png)

@@ -2,6 +2,10 @@
 title: Technology for Developing Countries
 date: 2019-08-21T17:51:50.757Z
 description: 'FAIRtech Workshop, 1: Learn how to do more with less!'
+
+menu:
+  course
+
 ---
 ### A training facilitators workshop
 #### Technology for Developing Countries
@@ -21,7 +25,7 @@ Restricted to 15 participants, or less.
 
 Aimed at training facilitators improving thier practical knowledge, we deliver the program in Italian or English, on-site.
 
-###FAIRtech Workshop, 1: Learn how to do more with less!
+### FAIRtech Workshop, 1: Learn how to do more with less!
 
 Workshop composition to cover the following:
 

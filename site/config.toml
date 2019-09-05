@@ -4,10 +4,9 @@ baseurl = "./" # local only
 languageCode = "en-us"
 #languageCode = "en-gb" #Initial configuration reset
 title = "Rvo.lt" #Fairtech Revolution | Rvo.lt
-author = "Alessandro Ronca" #'s
-
 
 [Params]
+  #author = "Alessandro Ronca" #https://duckduckgo.com/?q=%22config.toml%22+%22.author%22&t=osx
   description = "Change Artisans: Rvo.lt" #Artisans for Change, join the RVO.LT
   #description = "This isn't a paradigm shift: this is a RVO.LT" #Rvo.lt
 
@@ -20,8 +19,8 @@ author = "Alessandro Ronca" #'s
 
 ## As of v0.20, all content files include a default "categories" value that's the same as the section. This was a cheap future-proofing method and should/could be changed accordingly.
 [taxonomies]
-  region = "regions"
-  price = "prices"
+  #region = "regions"
+  #price = "prices"
 
 
 [Params.widgets]

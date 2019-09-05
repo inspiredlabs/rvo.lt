@@ -13,21 +13,115 @@
   	<!-- Start right UI -->
     <nav class="fixed z-2 top-0
     			right-0 fr h-100 touch-scrolling
-    			w-two-thirds w-third-ns
-    			w-25-m w-25-l ttu bg-near-black"
-    			role="menu"><!-- avenir ttu bg-deep-petrol bg-near-black antialias bg-light-gray -->
-      <ul class="list"><!-- fw1 fl w-100 mb4 pa0 data-gumshoe ttu tracked -->
-      	{{ $thisTitle := .Title }}
+					w-two-thirds w-20-ns
+					w-25-m w-20-l
+    			ttu bg-near-black"
+    			role="menu"><!-- w-third-ns w-25-m w-25-l --><!-- avenir ttu bg-deep-petrol bg-near-black antialias bg-light-gray -->
+			<ul class="list pa0 "><!-- fw1 fl w-100 mb4 pa0 data-gumshoe ttu tracked -->
+				<script>/*
+				{{ $thisTitle := .Title }}
       	{{ range .Site.Pages.ByWeight }}
       		<li class=""><!-- fl 100 -->
       			<!-- bg-animate -->
       			<a href="{{ .URL }}"
-      				class="no-underline white flex items-center pa3 border-box f3 f2-ns f3-m f2-l tracked-tight
+      				class="no-underline white flex items-center pa3 border-box f3 f5-ns f5-m f3-l tracked-tight
       				{{ if eq .Title $thisTitle }}
       					fw7
       				{{ end }}">{{ .Title }}</a><!-- pa3 -->
       		</li>
-      	{{ end }}
+				{{ end }}
+				*/</script>
+
+				
+				{{ $currentPage := . }}
+				{{ range .Site.Menus.principle }}
+				<li class="bg-near-black">
+					<a class="no-underline pa3 border-box f3 f5-ns f5-m f3-l tracked-tight white flex items-center 
+						{{if or ($currentPage.IsMenuCurrent "principle" .) ($currentPage.HasMenuCurrent "principle" .) }}
+							fw7 bg-black-30
+						{{end}}"
+					href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a>
+				</li>
+				{{ end }}
+
+				{{ $currentPage := . }}
+				{{ range .Site.Menus.venue }}
+				<li class="bg-violet">
+					<a class="no-underline pa3 border-box f3 f5-ns f5-m f3-l tracked-tight white flex items-center 
+						{{if or ($currentPage.IsMenuCurrent "venue" .) ($currentPage.HasMenuCurrent "venue" .) }}
+							fw7 bg-black-30
+						{{end}}"
+					href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a>
+				</li>
+				{{ end }}
+
+				{{ $currentPage := . }}
+				{{ range .Site.Menus.development }}
+				<li class="bg-mustard">
+					<a class=" white no-underline flex items-center pa3 border-box f3 f5-ns f5-m f3-l tracked-tight
+						{{if or ($currentPage.IsMenuCurrent "development" .) ($currentPage.HasMenuCurrent "development" .) }}
+							fw7 bg-black-30
+						{{end}}"
+					href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a>
+				</li>
+				{{ end }}
+
+				{{ $currentPage := . }}
+				{{ range .Site.Menus.post }}
+				<li class="bg-gold"><!-- -->
+					<a class="no-underline pa3 border-box f3 f5-ns f5-m f3-l tracked-tight black flex items-center 
+						{{if or ($currentPage.IsMenuCurrent "post" .) ($currentPage.HasMenuCurrent "post" .) }}
+							fw7 bg-white-20
+						{{end}}"
+					href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a>
+				</li>
+				{{ end }}
+				
+				{{ $currentPage := . }}
+				{{ range .Site.Menus.course }}
+				<li class="bg-spa">
+					<a class="no-underline pa3 border-box f3 f5-ns f5-m f3-l tracked-tight white flex items-center 
+						{{if or ($currentPage.IsMenuCurrent "course" .) ($currentPage.HasMenuCurrent "course" .) }}
+							fw7 bg-black-30
+						{{end}}"
+					href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a>
+				</li>
+				{{ end }}
+
+				{{ $currentPage := . }}
+				{{ range .Site.Menus.knowledgeshare }}
+				<li class="bg-oxford"><!-- black bg-gold -->
+					<a class="no-underline pa3 border-box f3 f5-ns f5-m f3-l tracked-tight white flex items-center 
+						{{if or ($currentPage.IsMenuCurrent "knowledgeshare" .) ($currentPage.HasMenuCurrent "knowledgeshare" .) }}
+							fw7 bg-black-30
+						{{end}}"
+					href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a>
+				</li>
+				{{ end }}
+
+				
+				
+
+				
+
+				<script>/*
+				/************* Everything ****************** /
+				{{ $thisTitle := .Title }}
+      	{{ range .Site.Pages.ByWeight }}
+      		<li class=""><!-- fl 100 -->
+      			<!-- bg-animate -->
+      			<a href="{{ .URL }}"
+      				class="no-underline white flex items-center pa3 border-box f3 f5-ns f5-m f3-l tracked-tight
+      				{{ if eq .Title $thisTitle }}
+      					fw7
+      				{{ end }}">{{ .Title }}</a><!-- pa3 -->
+      		</li>
+				{{ end }}
+				*/</script>
+
+				
+				
+
       </ul>
     <script>/*
       <div class="tabbed bg-deep-petrol">

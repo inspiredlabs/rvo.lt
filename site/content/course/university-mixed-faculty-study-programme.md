@@ -2,6 +2,10 @@
 title: University Student Practical Course
 date: 2019-08-21T17:51:50.757Z
 description: 'Interdepartmental Programme, 1: Beyond&nbsp;Sustainability'
+
+menu:
+  course
+
 ---
 <!--**PeR** Sustainability Research Center-->
 
@@ -55,7 +59,7 @@ Course composition to cover the following:
 - design a machine for living using first-principles.
 - Learn how an active house should:
 <!--	- minimise waste and excess costs.-->
-	- reduce costly heating, air-conditioning and smells with optimal air circulation.
+	- reduce unwanted smells, minimise cost, heating and air-conditioning with optimally designed circulation.
 	- recharge your personal transport, assist food production and collect rain water.
 	- assist in processing waste, filtering grey water and composting.
 	- leverage zero marginal cost.
@@ -112,16 +116,15 @@ Students, had enough of theory? Put your studies into practice! **PeR** provides
 This course isn't restricted to students in one faculty. In fact, we work with architechture, design, environmental sciences, and agricultural departments all the&nbsp;time.
 
 #### Background
-In 2002, **PeR** built a zero-impact home with the aim of understanding decarbonisation. Living this way forms the basis of our Sustainability Research Center, Italy. 
+In 2002 we built a zero-impact home with the aim of understanding decarbonisation. Living this way forms the basis of our Sustainability Research Center, called **PeR**. **Parco dell' Energia Rinnovabile** is based in Umbria, Italy. 
 
 #### Course In-Residence
 Help develop **PeR**'s community-scale decarbonisation efforts. We show you how to wisely approach resource management, natural resources, materials, shelter building, transport and rethinking waste. 
 
-#### Beyond sustainabile development
-As technology has become more available people are shifting their focus from sustainabile development to dematerialisation. **PeR** makes the case for old and new technologies in harmony – dramatically deminishing our resource needs and improving quality of life. This combination also delivers economic benefits.
+#### Beyond sustainable development
+As technology has become more available people are shifting their focus from sustainable development to dematerialisation. **PeR** makes the case for old and new technologies in harmony – dramatically deminishing our resource needs and improving quality of life. This combination also delivers economic benefits.
 
 #### Research at **PeR**
 Here we engage in intersectional research and aim to be the centre of revolutionising well-being. By intentionally designing an _Active&nbsp;Shelter_ we move from buildings that are something we simply maintain – to homes that serve our needs, manage resources and process waste for us.  
 
 Our research aims to be holistic sharing how we thrive with other communities.
-

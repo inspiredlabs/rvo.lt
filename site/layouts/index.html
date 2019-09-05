@@ -35,7 +35,7 @@
 */}}</script>
 
 <ul class="list bg-dark-gray white-90 antialias ma0">
-{{ range first 1 (where .Data.Pages "Type" "principle") }}
+{{ range last 1 (where .Data.Pages "Type" "principle") }}
 	{{ .Render "li" }}
 {{ end }}
 </ul>
@@ -43,7 +43,7 @@
 <div id="content">
 	<ul class="ma0 list bg-near-white black-70 antialias">
 
-		{{ range (where .Data.Pages.ByWeight "Type" "post") }}
+		{{ range (where .Data.Pages.ByWeight "Type" "venue") }}
 
 			<li class="post-holder"><!-- Begin: li.html -->
 				<data class="meta dn">
@@ -110,12 +110,267 @@
 			</article>
 			</li><!-- /li.html -->
 		{{ end }}
+
+
+
+
+
+
+
+	{{ range (where .Data.Pages.ByWeight "Type" "development") }}
+
+			<li class="post-holder"><!-- Begin: li.html -->
+				<data class="meta dn">
+					{{ .Title }}
+					{{ .Description }}
+					{{ .Params.assignment }}
+					{{ .Params.location }}
+					{{ .PlainWords }}
+				</data>
+
+			<article class="pt5"><!-- id="" -->
+				<section class="cf w-100 pv3 f4 ph3 ph4-ns">
+					<div class="mw9 center ph3-ns">
+					  <div class="ph2-ns">
+					    <div class="fl w-100 w-70-ns pr4"><!-- w-two-thirds -->
+					      <div class="pv4 fr w-100 w-90-m w-80-l"><!-- outline bg-black-05 truncate no-wrap -->
+					      	<a href="{{ .Permalink }}" class="no-underline dim db f6 ttu tracked fw1 inherit">
+					      		<svg viewbox="0 0 482 482" class="no-select pr2 h07 ">
+					      			<use xlink:href="#url"></use>
+					      		</svg>
+					      		<!--span class="pr3">{{ .Permalink }}</span-->
+						      	<time class="b">{{- dateFormat " 2006-01-01" .Date -}}</time>
+					      	</a>
+				    			<hr class="ba bw1 mb0 bg-inherit o-10"/>
+					      	<details class="details highlight">
+					      		<summary class="no-clutter list">
+					      			<header class="fl w-100 pr4-ns">
+					      				<!--a id="blog-logo" href="{{ .Site.BaseURL}}">
+					      				    {{ if .Site.Params.logo }}
+					      				        <a id="blog-logo" href="{{ .Site.BaseURL}}"><img src="{{ .Site.Params.logo }}" alt="Blog Logo" /></a>
+					      				    {{else}}
+					      				        {{ .Site.Title }}
+					      				    {{ end }}
+					      				</a-->
+					      				<h1 class="f2 lh-title fw9 mb3 pt0">
+					      					<span class="fw7 o-100">{{ .Title| replaceRE "PeR" "<span class='ttn fs-initial'>P<sup class='large v-sup'>e̲</sup>R</span>" | replaceRE "(?i)(fair tech\b)|(FTR)|[ft][ai][air][nrt][eact/s]?[eactkh/s]?[ckh]?[ckh]" "<strong class=''>FAIRtech</strong>" | safeHTML }}
+
+</span>
+					      				</h1>
+					      				<h2 class="f3 lh-title o-70">
+					      				  <span class="fw7">{{ .Description| replaceRE "PeR" "<span class='ttn fs-initial'>P<sup class='large v-sup'>e̲</sup>R</span>" | replaceRE "(?i)(fair tech\b)|(FTR)|[ft][ai][air][nrt][eact/s]?[eactkh/s]?[ckh]?[ckh]" "<strong class=''>FAIRtech</strong>" | safeHTML }}
+
+</span>
+					      				</h2>
+						      			<p class="f4-ns mt0-ns o-70">
+						      				<span class="fw9">{{ .Params.assignment }}</span>
+						      				{{ if .Params.location }}
+						      				<span class="fw7">&hairsp;—&nbsp;{{ .Params.location| replaceRE "PeR" "<span class='ttn fs-initial'>P<sup class='large v-sup'>e̲</sup>R</span>" | replaceRE "(?i)(fair tech\b)|(FTR)|[ft][ai][air][nrt][eact/s]?[eactkh/s]?[ckh]?[ckh]" "<strong class=''>FAIRtech</strong>" | safeHTML }}
+
+</span><!-- | safeHTML-->
+						      				{{ end }}
+						      			</p>
+					      		</header>	
+			      				</summary>
+								    {{ .Content| replaceRE "PeR" "<span class='ttn fs-initial'>P<sup class='large v-sup'>e̲</sup>R</span>" | replaceRE "(?i)(fair tech\b)|(FTR)|[ft][ai][air][nrt][eact/s]?[eactkh/s]?[ckh]?[ckh]" "<strong class=''>FAIRtech</strong>" | safeHTML }}
+
+
+				      		</details>
+				       </div><!-- /fr outline -->
+			      </div><!-- /w-two-thirds -->
+			    </div><!-- /ph2-ns -->
+			  </div><!-- /mw9 center ph3-ns -->
+				</section><!-- /cf w-100 pv3 f4 ph3 ph4-ns -->
+			</article>
+			</li><!-- /li.html -->
+		{{ end }}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		{{ range (where .Data.Pages.ByWeight "Type" "course") }}
+
+			<li class="post-holder"><!-- Begin: li.html -->
+				<data class="meta dn">
+					{{ .Title }}
+					{{ .Description }}
+					{{ .Params.assignment }}
+					{{ .Params.location }}
+					{{ .PlainWords }}
+				</data>
+
+			<article class="pt5"><!-- id="" -->
+				<section class="cf w-100 pv3 f4 ph3 ph4-ns">
+					<div class="mw9 center ph3-ns">
+					  <div class="ph2-ns">
+					    <div class="fl w-100 w-70-ns pr4"><!-- w-two-thirds -->
+					      <div class="pv4 fr w-100 w-90-m w-80-l"><!-- outline bg-black-05 truncate no-wrap -->
+					      	<a href="{{ .Permalink }}" class="no-underline dim db f6 ttu tracked fw1 inherit">
+					      		<svg viewbox="0 0 482 482" class="no-select pr2 h07 ">
+					      			<use xlink:href="#url"></use>
+					      		</svg>
+					      		<!--span class="pr3">{{ .Permalink }}</span-->
+						      	<time class="b">{{- dateFormat " 2006-01-01" .Date -}}</time>
+					      	</a>
+				    			<hr class="ba bw1 mb0 bg-inherit o-10"/>
+					      	<details class="details highlight">
+					      		<summary class="no-clutter list">
+					      			<header class="fl w-100 pr4-ns">
+					      				<!--a id="blog-logo" href="{{ .Site.BaseURL}}">
+					      				    {{ if .Site.Params.logo }}
+					      				        <a id="blog-logo" href="{{ .Site.BaseURL}}"><img src="{{ .Site.Params.logo }}" alt="Blog Logo" /></a>
+					      				    {{else}}
+					      				        {{ .Site.Title }}
+					      				    {{ end }}
+					      				</a-->
+					      				<h1 class="f2 lh-title fw9 mb3 pt0">
+					      					<span class="fw7 o-100">{{ .Title| replaceRE "PeR" "<span class='ttn fs-initial'>P<sup class='large v-sup'>e̲</sup>R</span>" | replaceRE "(?i)(fair tech\b)|(FTR)|[ft][ai][air][nrt][eact/s]?[eactkh/s]?[ckh]?[ckh]" "<strong class=''>FAIRtech</strong>" | safeHTML }}
+
+</span>
+					      				</h1>
+					      				<h2 class="f3 lh-title o-70">
+					      				  <span class="fw7">{{ .Description| replaceRE "PeR" "<span class='ttn fs-initial'>P<sup class='large v-sup'>e̲</sup>R</span>" | replaceRE "(?i)(fair tech\b)|(FTR)|[ft][ai][air][nrt][eact/s]?[eactkh/s]?[ckh]?[ckh]" "<strong class=''>FAIRtech</strong>" | safeHTML }}
+
+</span>
+					      				</h2>
+						      			<p class="f4-ns mt0-ns o-70">
+						      				<span class="fw9">{{ .Params.assignment }}</span>
+						      				{{ if .Params.location }}
+						      				<span class="fw7">&hairsp;—&nbsp;{{ .Params.location| replaceRE "PeR" "<span class='ttn fs-initial'>P<sup class='large v-sup'>e̲</sup>R</span>" | replaceRE "(?i)(fair tech\b)|(FTR)|[ft][ai][air][nrt][eact/s]?[eactkh/s]?[ckh]?[ckh]" "<strong class=''>FAIRtech</strong>" | safeHTML }}
+
+</span><!-- | safeHTML-->
+						      				{{ end }}
+						      			</p>
+					      		</header>	
+			      				</summary>
+								    {{ .Content| replaceRE "PeR" "<span class='ttn fs-initial'>P<sup class='large v-sup'>e̲</sup>R</span>" | replaceRE "(?i)(fair tech\b)|(FTR)|[ft][ai][air][nrt][eact/s]?[eactkh/s]?[ckh]?[ckh]" "<strong class=''>FAIRtech</strong>" | safeHTML }}
+
+
+				      		</details>
+				       </div><!-- /fr outline -->
+			      </div><!-- /w-two-thirds -->
+			    </div><!-- /ph2-ns -->
+			  </div><!-- /mw9 center ph3-ns -->
+				</section><!-- /cf w-100 pv3 f4 ph3 ph4-ns -->
+			</article>
+			</li><!-- /li.html -->
+		{{ end }}
+
+
+
+
+
+
+
+
+
+
+
+
+		{{ range (where .Data.Pages.ByWeight "Type" "knowledgeshare") }}
+
+			<li class="post-holder"><!-- Begin: li.html -->
+				<data class="meta dn">
+					{{ .Title }}
+					{{ .Description }}
+					{{ .Params.assignment }}
+					{{ .Params.location }}
+					{{ .PlainWords }}
+				</data>
+
+			<article class="pt5"><!-- id="" -->
+				<section class="cf w-100 pv3 f4 ph3 ph4-ns">
+					<div class="mw9 center ph3-ns">
+					  <div class="ph2-ns">
+					    <div class="fl w-100 w-70-ns pr4"><!-- w-two-thirds -->
+					      <div class="pv4 fr w-100 w-90-m w-80-l"><!-- outline bg-black-05 truncate no-wrap -->
+					      	<a href="{{ .Permalink }}" class="no-underline dim db f6 ttu tracked fw1 inherit">
+					      		<svg viewbox="0 0 482 482" class="no-select pr2 h07 ">
+					      			<use xlink:href="#url"></use>
+					      		</svg>
+					      		<!--span class="pr3">{{ .Permalink }}</span-->
+						      	<time class="b">{{- dateFormat " 2006-01-01" .Date -}}</time>
+					      	</a>
+				    			<hr class="ba bw1 mb0 bg-inherit o-10"/>
+					      	<details class="details highlight">
+					      		<summary class="no-clutter list">
+					      			<header class="fl w-100 pr4-ns">
+					      				<!--a id="blog-logo" href="{{ .Site.BaseURL}}">
+					      				    {{ if .Site.Params.logo }}
+					      				        <a id="blog-logo" href="{{ .Site.BaseURL}}"><img src="{{ .Site.Params.logo }}" alt="Blog Logo" /></a>
+					      				    {{else}}
+					      				        {{ .Site.Title }}
+					      				    {{ end }}
+					      				</a-->
+					      				<h1 class="f2 lh-title fw9 mb3 pt0">
+					      					<span class="fw7 o-100">{{ .Title| replaceRE "PeR" "<span class='ttn fs-initial'>P<sup class='large v-sup'>e̲</sup>R</span>" | replaceRE "(?i)(fair tech\b)|(FTR)|[ft][ai][air][nrt][eact/s]?[eactkh/s]?[ckh]?[ckh]" "<strong class=''>FAIRtech</strong>" | safeHTML }}
+
+</span>
+					      				</h1>
+					      				<h2 class="f3 lh-title o-70">
+					      				  <span class="fw7">{{ .Description| replaceRE "PeR" "<span class='ttn fs-initial'>P<sup class='large v-sup'>e̲</sup>R</span>" | replaceRE "(?i)(fair tech\b)|(FTR)|[ft][ai][air][nrt][eact/s]?[eactkh/s]?[ckh]?[ckh]" "<strong class=''>FAIRtech</strong>" | safeHTML }}
+
+</span>
+					      				</h2>
+						      			<p class="f4-ns mt0-ns o-70">
+						      				<span class="fw9">{{ .Params.assignment }}</span>
+						      				{{ if .Params.location }}
+						      				<span class="fw7">&hairsp;—&nbsp;{{ .Params.location| replaceRE "PeR" "<span class='ttn fs-initial'>P<sup class='large v-sup'>e̲</sup>R</span>" | replaceRE "(?i)(fair tech\b)|(FTR)|[ft][ai][air][nrt][eact/s]?[eactkh/s]?[ckh]?[ckh]" "<strong class=''>FAIRtech</strong>" | safeHTML }}
+
+</span><!-- | safeHTML-->
+						      				{{ end }}
+						      			</p>
+					      		</header>	
+			      				</summary>
+								    {{ .Content| replaceRE "PeR" "<span class='ttn fs-initial'>P<sup class='large v-sup'>e̲</sup>R</span>" | replaceRE "(?i)(fair tech\b)|(FTR)|[ft][ai][air][nrt][eact/s]?[eactkh/s]?[ckh]?[ckh]" "<strong class=''>FAIRtech</strong>" | safeHTML }}
+
+
+				      		</details>
+				       </div><!-- /fr outline -->
+			      </div><!-- /w-two-thirds -->
+			    </div><!-- /ph2-ns -->
+			  </div><!-- /mw9 center ph3-ns -->
+				</section><!-- /cf w-100 pv3 f4 ph3 ph4-ns -->
+			</article>
+			</li><!-- /li.html -->
+		{{ end }}
+
+
+
+
+
+
+
+
+
 		
 		<li class="post-holder">
 			{{ partial "connect" . }}
 		</li>
 		
 		{{ partial "contact" . }}
+	</ul>
+	<ul class="list bg-dark-gray white-90 antialias ma0">
+		{{ range first 1 (where .Data.Pages "Type" "principle") }}
+			{{ .Render "li" }}
+		{{ end }}
 	</ul>
 </div>
 {{ partial "footer" . }}
