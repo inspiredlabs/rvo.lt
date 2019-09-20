@@ -32,7 +32,14 @@
 				{{ end }}
 				*/</script>
 
-				
+				<li>
+					<a class="no-underline pa3 border-box f3 f5-ns f5-m f3-l tracked-tight white flex items-center
+					{{ if .IsHome }}fw7 bg-black-30{{ end }}"
+					href="https://rvo.lt">Home</a>
+
+					
+				</li>
+
 				{{ $currentPage := . }}
 				{{ range .Site.Menus.principle }}
 				<li>
