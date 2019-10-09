@@ -1,4 +1,5 @@
 ---
+draft: true
 title: Beyond Sustainability
 date: 2017-01-04T15:04:10.000Z
 description: Three Principles of Sufficiency
@@ -49,6 +50,7 @@ Self-sufficient people appreciate more ecological benefits.
 The de-emphasis of financialisation stunts exploitation. Grass-roots movements do not rely on complex intervention.
 
 This differs from sustainability where any economic incentive seeks exploitation.
+
 
 #### Sustainability model
 

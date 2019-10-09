@@ -1,6 +1,6 @@
 ---
 title: Technology for Developing Countries
-date: 2019-08-21T17:51:50.757Z
+date: 2019-10-09T16:43:26+02:00
 description: 'FAIRtech Workshop, 1: Learn how to do more with less!'
 
 menu:

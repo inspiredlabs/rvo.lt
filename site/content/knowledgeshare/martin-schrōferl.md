@@ -1,6 +1,6 @@
 ---
 title: Martin Schrōferl
-date: 2017-01-04T15:04:10.000Z
+date: 2019-10-09T16:43:26+02:00
 description: Cyclist & off-grid enthusiast
 menu:
   knowledgeshare

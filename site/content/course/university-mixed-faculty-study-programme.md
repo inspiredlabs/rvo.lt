@@ -1,6 +1,6 @@
 ---
 title: University Student Practical Course
-date: 2019-08-21T17:51:50.757Z
+date: 2019-10-09T16:43:26+02:00
 description: 'Interdepartmental Programme, 1: Beyond&nbsp;Sustainability'
 
 menu:

@@ -1,6 +1,6 @@
 ---
 title: "The Light Bike"
-date: 2019-09-02T00:00:00+02:00
+date: 2019-10-09T16:43:26+02:00
 description: >-
   Boundless adventure fueled by the&nbsp;sun
 menu:

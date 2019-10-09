@@ -1,6 +1,6 @@
 ---
 title: Maker Faire, Rome 2019
-date: 2017-01-04T15:04:10.000Z
+date: 2019-10-09T16:43:26+02:00
 description: >-
   Introducing: The Light Bike, a personal electric vehicle with combined solar charger
 

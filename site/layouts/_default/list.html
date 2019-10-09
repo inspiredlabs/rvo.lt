@@ -37,7 +37,7 @@
 					      			<use xlink:href="#url"></use>
 					      		</svg>
 					      		<!--span class="pr3">{{ .Permalink }}</span-->
-						      	<time class="b">{{- dateFormat " 2006-01-01" .Date -}}</time>
+						      	<time class="b">{{ dateFormat "01-02-2006" .Date }}{{/* dateFormat "Monday January, 2, 2006" .Date */}}</time>
 					      	</a>
 				    			<hr class="ba bw1 mb0 bg-inherit o-10"/>
 					      	<details class="details highlight">
@@ -62,7 +62,7 @@
 						      				<span class="fw7">&hairsp;—&nbsp;{{ .Params.location| replaceRE "PeR" "<span class='ttn fs-initial'>P<sup class='large v-sup'>e̲</sup>R</span>" | replaceRE "(?i)(fair tech\b)|(FTR)|[ft][ai][air][nrt][eact/s]?[eactkh/s]?[ckh]?[ckh]" "<strong class=''>FAIRtech</strong>" | safeHTML }}</span><!-- | safeHTML-->
 						      				{{ end }}
 						      			</p>
-					      		</header>	
+					      		</header>
 			      				</summary>
 								    <script>{{/* .Content | replaceRE "<blockquote>" "<blockquote class='red underline bg-gold'>" | replaceRE  "<p>" "<p class='green'>" | safeHTML */}}</script>
 										{{ .Content | replaceRE "PeR" "<span class='ttn fs-initial'>P<sup class='large v-sup'>e̲</sup>R</span>" | replaceRE "(?i)(fair tech\b)|(FTR)|[ft][ai][air][nrt][eact/s]?[eactkh/s]?[ckh]?[ckh]" "<strong class=''>FAIRtech</strong>" | safeHTML }}

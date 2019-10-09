@@ -1,6 +1,6 @@
 ---
 title: Active Shelter
-date: 2019-09-02T00:00:00+02:00
+date: 2019-10-09T16:43:26+02:00
 description: >-
   Self-sufficienct, net-positive impact architecture 
 menu:

@@ -1,9 +1,9 @@
 ---
 weight: -1
 title: What is FAIRtech?
-date: 2019-08-22T09:27:45.588Z
+date: 2019-10-09T16:43:26+02:00
 description: For the first time in human history we can do more with less!
-
+draft: true
 menu:
   principle
 
