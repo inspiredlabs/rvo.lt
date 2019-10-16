@@ -2,12 +2,12 @@
 	/*! TACHYONS PATCHED | http://inspiredlabs.co.uk/j/css/tachyons.min.patched.css */
 	/*! Tachyons is the correct abstraction layer to expresses layout control across the web */
 	
-	/* 16.04.19	.dim 				transform:translateZ(0)	bug fix 	*/
-	/* 17.04.19	.grow 			background-clip					bug fix 	*/
-	/* 01.05.19	.ts 				shadow									addition 	*/
-	/* 30.05.19	.f8 				0.6rem									addition 	*/
-	/* 14.08.19	.debug *		display colours					media query addition 	*/
-	
+	/* 16.04.19	.dim 							transform:translateZ(0)	bug fix 	*/
+	/* 17.04.19	.grow 						background-clip					bug fix 	*/
+	/* 01.05.19	.ts 							shadow									addition 	*/
+	/* 30.05.19	.f8 							0.6rem									addition 	*/
+	/* 14.08.19	.debug *					display colours					media query addition 		*/
+	/* 13.10.19	.b--transparent		border top highlight		moved cascade override	*/
 	
 	/* .box-sizing,etc...{border-box;margin-top:0;margin-bottom:0;}. */
 	/* .dim and .grow: https://github.com/tachyons-css/tachyons/issues/337 */
@@ -27,6 +27,8 @@
 	/*! TACHYONS v4.9.1 | http://tachyons.io */
 	
 	/*! normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */
+	
+	/* : .b--transparent { border-color: transparent; } */
 	
 	html {
 		line-height: 1.15;
@@ -398,6 +400,10 @@
 		border-width: 0;
 	}
 	
+	.b--transparent {
+		border-color: transparent;
+	}
+	
 	.b--black {
 		border-color: #000;
 	}
@@ -637,11 +643,7 @@
 	.b--washed-red {
 		border-color: #ffdfdf;
 	}
-	
-	.b--transparent {
-		border-color: transparent;
-	}
-	
+		
 	.b--inherit {
 		border-color: inherit;
 	}
@@ -8030,6 +8032,29 @@
 </style>
 <style>
 
+	/*------------------- Dim Gray! ---------------------*/
+	.dim-gray { color: #444; }
+	.bg-dim-gray { background-color: #444; }
+	.b--dim-gray { border-color: #444; }
+	
+	.hover-dim-gray:hover,
+	.hover-dim-gray:focus { color: #444; }
+	
+	.hover-bg-dim-gray:hover,
+	.hover-bg-dim-gray:focus { background-color: #444; }
+	
+
+	/*------------------- Off White ---------------------*/
+		.off-white { color:#ddd; }
+		.bg-off-white { background-color:#ddd; }
+		.b--off-white { border-color:#ddd; }
+	
+		.hover-off-white:hover,
+		.hover-off-white:focus { color:#ddd; }
+	
+		.hover-bg-off-white:hover,
+		.hover-bg-off-white:focus { background-color:#ddd; }
+
 	/*------------------- Charcoal grey ---------------------*/
 	.charcoal { color:#4a4a4a; }
 	.bg-charcoal { background-color:#4a4a4a; }
@@ -8108,6 +8133,177 @@
 	.hover-bg-oxford:hover,
 	.hover-bg-oxford:focus { background-color: #002147; }
 </style>
+
+<style>
+	/*--------------------- Dark Lime ----------------------*/
+	/* https://thediscobunny.com */
+	.dark-lime { color: #66a61e; }
+	.bg-dark-lime { background-color: #66a61e; }
+	.b--dark-lime { border-color: #66a61e; }
+	
+	.hover-dark-lime:hover,
+	.hover-dark-lime:focus { color: #66a61e; }
+	
+	.hover-bg-dark-lime:hover,
+	.hover-bg-dark-lime:focus { background-color: #66a61e; }
+		
+	/*--------------------- Lilac Flower ----------------------*/
+	/* https://thediscobunny.com */
+	.lilac-flower { color: #7570b3; }
+	.bg-lilac-flower { background-color: #7570b3; }
+	.b--lilac-flower { border-color: #7570b3; }
+	
+	.hover-lilac-flower:hover,
+	.hover-lilac-flower:focus { color: #7570b3; }
+	
+	.hover-bg-lilac-flower:hover,
+	.hover-bg-lilac-flower:focus { background-color: #7570b3; }
+	
+	/*--------------------- Jade ----------------------*/
+	/* https://thediscobunny.com */
+	.jade { color: #1b9e77; }
+	.bg-jade { background-color: #1b9e77; }
+	.b--jade { border-color: #1b9e77; }
+	
+	.hover-jade:hover,
+	.hover-jade:focus { color: #1b9e77; }
+	
+	.hover-bg-jade:hover,
+	.hover-bg-jade:focus { background-color: #1b9e77; }
+	
+	/*--------------------- Disco Pink ----------------------*/	
+	.disco-pink { color: #e7298a; }
+	.bg-disco-pink { background-color: #e7298a; }
+	.b--disco-pink { border-color: #e7298a; }
+	
+	.hover-disco-pink:hover,
+	.hover-disco-pink:focus { color: #e7298a; }
+	
+	.hover-bg-disco-pink:hover,
+	.hover-bg-disco-pink:focus { background-color: #e7298a; }
+	
+</style>
+
+<style>
+	/*------------ HEFTS, Area colour scheme ------------*/
+	/* from: https://www.visualisingdata.com/2019/08/five-ways-to-design-for-red-green-colour-blindness/ */
+	
+	/*--------------------- HEALTH ----------------------*/
+	.health { color: #ef604d; }
+	.bg-health { background-color: #ef604d; }
+	.b--health { border-color: #ef604d; }
+
+	.hover-health:hover,
+	.hover-health:focus { color: #ef604d; }
+
+	.hover-bg-health:hover,
+	.hover-bg-health:focus { background-color: #ef604d; }
+
+	/*------------------ EDUCATION -------------------*/
+	.education { color: #f4ad8b; }
+	.bg-education { background-color: #f4ad8b; }
+	.b--education { border-color: #f4ad8b; }
+
+	.hover-education:hover,
+	.hover-education:focus { color: #f4ad8b; }
+
+	.hover-bg-education:hover,
+	.hover-bg-education:focus { background-color: #f4ad8b; }
+
+	/*--------------------- FOOD ----------------------*/
+	.food { color: #e2d0c5; } /* deccc2 */
+	.bg-food { background-color: #e2d0c5; }
+	.b--food { border-color: #e2d0c5; }
+
+	.hover-food:hover,
+	.hover-food:focus { color: #e2d0c5; }
+
+	.hover-bg-food:hover,
+	.hover-bg-food:focus { background-color: #e2d0c5; }
+	
+	/*------------------ TRANSPORT -------------------*/
+	.transport { color: #b2d9e8; }
+	.bg-transport { background-color: #b2d9e8; }
+	.b--transport { border-color: #b2d9e8; }
+
+	.hover-transport:hover,
+	.hover-transport:focus { color: #b2d9e8; }
+
+	.hover-bg-transport:hover,
+	.hover-bg-transport:focus { background-color: #b2d9e8; }
+
+	/*--------------------- SHELTER ----------------------*/
+	.shelter { color: #7db6d0; }
+	.bg-shelter { background-color: #7db6d0; }
+	.b--shelter { border-color: #7db6d0; }
+
+	.hover-shelter:hover,
+	.hover-shelter:focus { color: #7db6d0; }
+
+	.hover-bg-shelter:hover,
+	.hover-bg-shelter:focus { background-color: #7db6d0; }
+	
+	/*--------------- Level colour scheme ----------------*/
+	/* "all" "colour blind" "palette" */
+	/* "colour blind" "colour scheme" */
+	/* Tripple staining, from: https://jfly.uni-koeln.de/color/ */
+	
+	/*--------------------- GLOBAL ----------------------*/	
+	.global { color: #c858c5; }
+	.bg-global { background-color: #c858c5; }
+	.b--global { border-color: #c858c5; }
+	
+	.hover-global:hover,
+	.hover-global:focus { color: #c858c5; }
+	
+	.hover-bg-global:hover,
+	.hover-bg-global:focus { background-color: #c858c5; }
+	
+	/*--------------- NATIONAL / FEDERAL ---------------*/
+	.national { color: #f0a1e0; }
+	.bg-national { background-color: #f0a1e0; }
+	.b--national { border-color: #f0a1e0; }
+	
+	.hover-national:hover,
+	.hover-national:focus { color: #f0a1e0; }
+	
+	.hover-bg-national:hover,
+	.hover-bg-national:focus { background-color: #f0a1e0; }
+	
+	/*--------------- REGIONAL / STATE -----------------*/
+	.regional { color: #d8eeea; }
+	.bg-regional { background-color: #d8eeea; }
+	.b--regional { border-color: #d8eeea; }
+	
+	.hover-regional:hover,
+	.hover-regional:focus { color: #d8eeea; }
+	
+	.hover-bg-regional:hover,
+	.hover-bg-regional:focus { background-color: #d8eeea; }
+	
+	/*------------------ INSTITUTION -------------------*/
+	.institution { color: #9df5d2; }
+	.bg-institution { background-color: #9df5d2; }
+	.b--institution { border-color: #9df5d2; }
+	
+	.hover-institution:hover,
+	.hover-institution:focus { color: #9df5d2; }
+	
+	.hover-bg-institution:hover,
+	.hover-bg-institution:focus { background-color: #9df5d2; }
+	
+	/*------------------- COMMUNITY --------------------*/		
+	.community { color: #59ce89; }
+	.bg-community { background-color: #59ce89; }
+	.b--community { border-color: #59ce89; }
+	
+	.hover-community:hover,
+	.hover-community:focus { color: #59ce89; }
+	
+	.hover-bg-community:hover,
+	.hover-bg-community:focus { background-color: #59ce89; }
+	
+</style>
 <style>
 	
 	.large {
@@ -8123,7 +8319,7 @@
 	*/	
 	details * figure, details * a { transition: all .125s ease-in-out; }
   details * a { color: black; cursor: pointer; }
-  details * a:hover { color: white; background-color: rgba(0,0,0,.8); cursor: pointer; }
+  details * a:hover { color: white; /*background-color: rgba(0,0,0,.8);*/ cursor: pointer; }
 	
 	/* details hr { border-color: rgba(0,0,0,.05); border-width: .125rem; border-bottom-style: solid; }*/
   /* https://discourse.gohugo.io/t/whats-best-way-to-style-markdown-on-single-pages/16622 */
@@ -8135,8 +8331,7 @@
 		font-family: "baskerville","serif";/* "Georgia" */
 		font-size: 124%;/* f3=1.5rem f2=2.25rem 1.88rem !bold */
 		font-style: italic;/* i */
-		text-align: right;/* tr */
-		padding: 1em 0 1rem 3rem;/* pv3=1rem pa0 pl4=2rem */
+		padding: 1em 0 1rem;/* pv3=1rem pa0 pl4=2rem */
 		margin: 0;
 		opacity 1;
 		display: block;
@@ -8153,17 +8348,26 @@
     font-family: "Helvetica Neue", HelveticaNeue, "TeX Gyre Heros", TeXGyreHeros, FreeSans, "Nimbus Sans L", "Liberation Sans", Arimo, Helvetica, Arial, sans-serif;
   }
   
-  .post-holder p a {
-  	color: rgba(188, 188, 188, 1);
+  .post-holder * a {
+  	color: rgba(166, 166, 166, 1);
 
   }
   
-  .post-holder p a:focus,
-  .post-holder p a:hover {
-  	color: rgba(188, 188, 188, 0.8);
+  .post-holder * a:focus,
+  .post-holder * a:hover {
+  	color: rgba(166, 166, 166, 0.8);
   	transition: color 0.15s ease-in;
   }
 </style>
+
+<style>
+.transition {
+	transition: all 0.4s ease 0s;
+	-webkit-transition: all 0.4s ease 0s;
+}
+</style>
+
+
 <!-- Extending Tachyons.CSS -->
 <style>
   /* Break URL: https://css-tricks.com/snippets/css/prevent-long-urls-from-breaking-out-of-container/ */
@@ -8573,19 +8777,6 @@
 		line-height:1.953;
   }
 }
-
-
-
-.mid-gray { color: #ddd; }
-.bg-mid-gray { background-color: #ddd; }
-.b--mid-gray { border-color: #ddd; }
-
-.hover-mid-gray:hover,
-.hover-mid-gray:focus { color: #ddd; }
-
-.hover-bg-mid-gray:hover,
-.hover-bg-mid-gray:focus { background-color: #ddd; }
-
 </style>
 
 <style>

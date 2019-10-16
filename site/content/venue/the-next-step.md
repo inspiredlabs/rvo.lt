@@ -10,6 +10,11 @@ menu:
 
 ---
 
+Fairtech comes from a general approach to design and implementation at [PeR](https://inspiredlabs.co.uk/per.umbria.it/en/). By creating community resilience for ourselves, we are in sharing knowledge to encourage collaboration – to make **HEFTS** free!
+
+<!--## Reimagine: Purpose-->
+<!-- beat future&nbsp;challenges. -->
+<!--Fairtech is a community resilience platform developed by [PeR](https://inspiredlabs.co.uk/per.umbria.it/en/) to share knowledge of self-sufficiency, encourage collaboration and beat future&nbsp;challenges.-->
 <!--During PeR's development we have become a source of inspiration, a place to learn, and a relaxing oasis. Our facility hosts exciting labs, an opportunity for knowledge-share and a guiding light.-->
 
 

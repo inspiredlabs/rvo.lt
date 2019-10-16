@@ -116,7 +116,7 @@ Students, had enough of theory? Put your studies into practice! **PeR** provides
 This course isn't restricted to students in one faculty. In fact, we work with architechture, design, environmental sciences, and agricultural departments all the&nbsp;time.
 
 #### Background
-In 2002 we built a zero-impact home with the aim of understanding decarbonisation. Living this way forms the basis of our Sustainability Research Center, called **PeR**. **Parco dell' Energia Rinnovabile** is based in Umbria, Italy. 
+In 2002 we built a zero-impact home with the aim of understanding decarbonisation. Living this way forms the basis of our Sustainability Research Center, called: **Parco dell' Energia Rinnovabile**, which is based in Umbria, Italy. 
 
 #### Course In-Residence
 Help develop **PeR**'s community-scale decarbonisation efforts. We show you how to wisely approach resource management, natural resources, materials, shelter building, transport and rethinking waste. 

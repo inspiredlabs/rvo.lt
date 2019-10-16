@@ -4,7 +4,7 @@ date: 2019-10-09T16:43:26+02:00
 description: >-
   Boundless adventure fueled by the&nbsp;sun
 menu:
-  development
+  transport
 ---
 
 <!-- SIDE -->
@@ -31,7 +31,7 @@ The Light Bike is intended for the democratic rider. If you're an eco-concious e
 
 - The bike has an unmodified street-legal frame.
 - The charge controller fits into a custom pannier rack connected to a custom collapsable&nbsp;panel.
-- The charge controller is external, so the bike electronics also remain&nbsp;unmodified. 
+- The charge controller is external, so the bike electronics also remain&nbsp;unmodified.
 
 ### On-board Recharging system
 
@@ -41,7 +41,7 @@ The Light Bike is intended for the democratic rider. If you're an eco-concious e
 - 400W solar panels take 6h 45m for a full charge.
 - Solar charge controller only weighs **300g**.
 
-### Custom folding solar assembly 
+### Custom folding solar assembly
 
 - 4*18v, 100w monocrystaline photovoltaic panels.
 - Panels are approx. the size of a sheet of A4 for mobile recharging.
@@ -50,7 +50,7 @@ The Light Bike is intended for the democratic rider. If you're an eco-concious e
 
 ### PEV Battery
 
-- Panasonic Hi-power, _18650_ lithium ion cells. 
+- Panasonic Hi-power, _18650_ lithium ion cells.
 - 60V, 32Ah rating.
 - Four in-built temperature sensors and BMS (battery management&nbsp;system).
 
@@ -63,7 +63,7 @@ The Light Bike is intended for the democratic rider. If you're an eco-concious e
 - Solar charge controller only weighs **300g**.
 
 <!--
-- Democratic principles for the self-sufficient rider 
+- Democratic principles for the self-sufficient rider
 - One self-sufficient goal is transport
 - The most efficient ways to increase your wealth is to find opportunities and synergies to increase income and reduce spending at the same time.
 -->
@@ -106,12 +106,6 @@ Learn how to do more with less & [www.rvo.lt](https://www.rvo.lt)
 <!--# Become more self-sufficient
 
 **PeR** is a reference point for fair technologies that can have a positive net impact. We consistently aim to do more with less. -->
-
-## We help people like you
-
-Reduce wasteful spending, improve well-being and understand life changing technology. To visit **PeR**, call: [+39 0744 988 050](+39 0744 988 050)
-
-**Parco dell' Energia Rinnovabile**<br/>Localitá Inano snc.<br/>Frazione Frattuccia,<br/>05025, Guardea TR, Italia
 
 <!-- FRONT -->
 ![An unmodified enduro SUR-RON, front.](/img/lightbike-front-2x.png)

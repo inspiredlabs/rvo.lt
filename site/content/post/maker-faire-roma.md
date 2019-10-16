@@ -5,7 +5,7 @@ description: >-
   Introducing: The Light Bike, a personal electric vehicle with combined solar charger
 
 menu:
-  development
+  post
 
 ---
 
@@ -34,7 +34,7 @@ FairteH
 Fairtec
 fairtehc
 
-FTR = FAIRtech revolution 
+FTR = FAIRtech revolution
 
 
 {{/* This is what I ended up with: */}}

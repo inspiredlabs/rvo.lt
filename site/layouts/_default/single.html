@@ -9,7 +9,7 @@
 						  <div class="ph2-ns">
 						    <div class="fl w-100 w-70-ns pr4"><!-- w-two-thirds -->
 						      <div class="pv4 fr w-100 w-90-m w-80-l highlight"><!--highlight--><!-- outline bg-black-05 truncate no-wrap -->
-	
+
 						      	<a href="../../" class="no-underline dim db f6 ttu tracked fw1 inherit"><!--{{.Site.Home}}-->
 						      		<svg viewBox="-356 235 128 128" class="no-select pr2 h07">
 						      			<use xlink:href="#home"></use>
@@ -17,7 +17,7 @@
 						      		<!--span class="pr3">{{ .Site.Title }}</span-->
 						      		<time class="b">{{ dateFormat "01-02-2006" .Date }}{{/* dateFormat "Monday January, 2, 2006" .Date */}}</time>
 						      	</a>
-	
+
 					    			<hr class="ba bw1 mb0 bg-inherit o-10"/>
 						      	<!--<details class="details highlight">-->
 						      		<span class="list"><!-- summary -->
@@ -61,6 +61,12 @@
 				</section><!-- /cf w-100 pv3 f4 ph3 ph4-ns -->
 			</article>
 		</li><!-- /li.html -->
+
+
+		<li class="post-holder">
+		  {{ partial "visit" . }}
+		</li>
+
 		<li class="post-holder">
 			{{ partial "connect" . }}
 		</li>

@@ -19,9 +19,12 @@ title = "Rvo.lt" #FAIRtech Revolution | Rvo.lt
 
 ## As of v0.20, all content files include a default "categories" value that's the same as the section. This was a cheap future-proofing method and should/could be changed accordingly.
 [taxonomies]
+  tag = "tags"
+  area = "areas"
+  level = "levels"
+  category = "categories"
   #region = "regions"
   #price = "prices"
-
 
 [Params.widgets]
   #search = true # Enable "Search" widget

@@ -1,40 +1,61 @@
 ---
-weight: -1
-title: What is FAIRtech?
+title: In-depth
 date: 2019-10-09T16:43:26+02:00
-description: For the first time in human history we can do more with less!
 draft: true
+description: Community Resilience Deepdive
 menu:
   principle
-
 ---
-# The world is better than ever
+<!--deep dive-->
+<!--weight: -1-->
 
-## Due to technological progress, we're managing energy and resources, without unwanted side-effects.
 
-Today, Nations, Governments and Corporations are asking, how do we approach decarbonisation? 
+# Fairtech's goal
 
-At **PeR** we have made decarbonisation a reality for our community. For over 10 years, we have become conscious of loose measures to help track our progress.
+Our goal, is to encourage a movement to build a resilient society. One which is prepared for the combined impacts of the climate emergency, disruptive job replacement due to automation and AI. And XYZ.
 
-### What is FAIRtech?
+Principles:
+- drive the cost of HEFTS down to zero. 
+- all reviewers on board w. same goal. 
+- people to run the model by: GT, BLM, RVOLT, XR, 
+- abstraction layers:
+    - end user (personal development)
+    - Generalists
+    - municipal 
+    - state/ regional level. 
+    - federal/ country/ 
+    - Supranational (UK territories) 
+    - global. 
+- x
 
-#### FAIRtech is a fast way to asses projects. 
+## Five areas for a stable living:
 
-Do more with less. Measure your capacity to:
+- **Health** for well-being and <!--community -->fitness.
+- **Education** to connect<!-- scientifically--> with the natural world.
+- **Food** is central to ending scarcity.
+- **Transport** is the circulation system of society.<!--for strength and stability.-->
+- **Shelter** is the basis of security.
 
-* reduce what is scarce, preserve what is important and maintain constraints. Investments in time and attention, are: **Finite**.
-
-* connect, teach and share. Be responsible. Network effects result in powerful waves. What do you need to restrict and: **Amplify**?
-
-* define your priorities. Aim to improve your core idea. Make things as simple as possible, but not simpler. Make it: **Irreducible**.
-
-* Can you gain from disorder? Improvements come from feedback loops whilst you test and iterate. Prove your project is: **Reliable**.
-
-### What is the goal of FAIRtech?
-
-At **PeR** we have humanist values that put people first. This way we can ensure everyone in the community has enough. Our goal is to formalise this model to help share abundance with everyone.
+> Remember the acronym **"HEFTS"**
 
 <hr/>
+
+## Five areas for a stable living:
+
+- **Health** for well-being and <!--community -->fitness.
+- **Education** to connect<!-- scientifically--> with the natural world.
+- **Food** is central to ending scarcity.
+- **Transport** is the circulation system of society.<!--for strength and stability.-->
+- **Shelter** is the basis of security.
+
+> Remember the acronym **"HEFTS"**
+
+
+
+<hr/>
+
+Fairtech
+
 
 Fairtech mission:
 
@@ -113,31 +134,3 @@ Do more with less. Measure your capacity to:
 At **PeR** we have humanist values that put people first. This way we can ensure everyone in the community has enough. Our goal is to formalise this model to help share abundance with everyone.
 
 -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

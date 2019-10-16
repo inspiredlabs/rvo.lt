@@ -6,7 +6,6 @@ description: Three Principles of Sufficiency
 menu:
   principle
 
-
 ---
 
 <!--

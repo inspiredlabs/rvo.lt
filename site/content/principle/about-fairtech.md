@@ -1,9 +1,9 @@
 ---
-title: About Fairtech
+title: Overview
 date: 2019-10-09T16:43:26+02:00
 draft: false
 
-<!--weight: -1-->
+weight: -1
 
 description: Community Resilience Platform
 menu:
@@ -16,44 +16,33 @@ menu:
 PeR is pronounced in [Italian](https://per.umbria.it) as Il Parco dell' Energia Rinnovabile, meaning "renewable energy park" [(learn more)](https://inspiredlabs.co.uk/per.umbria.it/en/). PeR is the largest and most comprehensive sustainability research centre in&nbsp;Italy. PeR operates in the agritourism space as a teaching&nbsp;facility.
 
 
-
 ## How did Fairtech begin?
 
 ### Teaching life’s necessities
 
-During PeR’s 20 years of evolution, we've aimed to live in harmony with the environment and share this with&nbsp;others. Doing so, we discovered life’s necessities fit neatly into five&nbsp;categories:
+During PeR’s 20 years of evolution, we've aimed to live in harmony with the environment and share what we&nbsp;learn. Doing so, we discovered life’s necessities fit neatly into five&nbsp;categories:
 
-- **Health** for well-being and improving&nbsp;strength.
+- **Health** for well-being and&nbsp;strength.
 - **Education** is our interface with the&nbsp;world.
-- **Food** is central to everyone's&nbsp;success.
+- **Food** is central to&nbsp;success.
 - **Transport** is the&nbsp;community circulation&nbsp;system.<!--for strength and stability.-->
 - **Shelter** became our primary engineering&nbsp;focus.
 
-### Resilience is transcalar
-
-We realised these five categories are special. They are **Transcalar**: meaning, they scale in all directions. And, are just as important for communities, nomadic people, and developed civilisations – all over the&nbsp;globe!
-
-**Transcalar** suggests there is always the potential to benefit from improvments. For example: improving your health is non-rivalrous – it won't change someone else’s&nbsp;well-being.
-
-If you talk to people about **"HEFTS"**, you'll realise how **transcalar** this idea is because individuals, professionals, business leaders, politicians and global policy makers all have a role to play in making communities resilient that can overcome any challenge!
-
 ### Nothing new, but a revolution
 
-This knowledge is very old and you can find links to each area in all kinds civilisation – even ancient&nbsp;ones! 
+This knowledge is very old. You can find links to each of the five areas in every civilisation – even ancient&nbsp;ones! 
 
-Doctors, Teachers, Farmers, Drivers (of vehicles, horses and other animals) and Builders are evidence of the longevity of these&nbsp;professions.
+Doctors, teachers, farmers, builders and drivers (of vehicles, animals, <!--like horses and --> even rivers!)  are evidence of the longevity and importance of these&nbsp;areas.
 
-<!--Doctor. 👩‍⚕️ 
+<!--
+Doctor. 👩‍⚕️ 
 Teacher.👩‍🏫 
 Farmer. 👨‍🌾 
-Pedaler. 🚴‍♀️ mechanic.👨‍🔧 driver. 🐎 
-Builder. 👷‍♂️ -->
+Pedaler. 🚴‍♀️ mechanic.👨‍🔧 driver. 🐎 even driving the river!
+Builder. 👷‍♂️
+-->
 
-What is different now the Internet makes information almost free! This affect is called: _zero marginal cost_, and we share designs, skills and ideas using the Collaborative&nbsp;Commons.
-
-### The next step for PeR
-
-Fairtech is a community resilience platform. Developed by PeR to share knowldge of self-sufficiency, encourage collaboration and beat future&nbsp;challenges.
+What is different is IT (Information Technology). Exchanging ideas over the internet makes information virtually free! This affect is called: **zero marginal cost**. By sharing design ideas and methods – everyone can access the tools to thrive at zero marginal&nbsp;cost.
 
 <hr/>
 
@@ -65,4 +54,22 @@ Fairtech is a community resilience platform. Developed by PeR to share knowldge 
 - **Transport** is the circulation system of society.<!--for strength and stability.-->
 - **Shelter** is the basis of security.
 
-> Remember this easily with **"HEFTS"**  
+<!--> Remember this easily with **"HEFTS"**-->
+> Remember the acronym **"HEFTS"**
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

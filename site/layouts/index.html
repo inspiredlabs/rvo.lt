@@ -35,7 +35,9 @@
 */}}</script>
 
 <ul class="list bg-dark-gray white-90 antialias ma0">
-{{ range last 1 (where .Data.Pages "Type" "principle") }}
+
+{{/* last 1 */}}
+{{ range (where .Data.Pages "Type" "principle") }}
 	{{ .Render "li" }}
 {{ end }}
 </ul>
@@ -96,7 +98,7 @@
 </span><!-- | safeHTML-->
 						      				{{ end }}
 						      			</p>
-					      		</header>	
+					      		</header>
 			      				</summary>
 								    {{ .Content| replaceRE "PeR" "<span class='ttn fs-initial'>P<sup class='large v-sup'>e̲</sup>R</span>" | safeHTML }}
 
@@ -170,7 +172,7 @@
 </span><!-- | safeHTML-->
 						      				{{ end }}
 						      			</p>
-					      		</header>	
+					      		</header>
 			      				</summary>
 								    {{ .Content| replaceRE "PeR" "<span class='ttn fs-initial'>P<sup class='large v-sup'>e̲</sup>R</span>" | safeHTML }}
 
@@ -258,7 +260,7 @@
 </span><!-- | safeHTML-->
 						      				{{ end }}
 						      			</p>
-					      		</header>	
+					      		</header>
 			      				</summary>
 								    {{ .Content| replaceRE "PeR" "<span class='ttn fs-initial'>P<sup class='large v-sup'>e̲</sup>R</span>" | safeHTML }}
 
@@ -337,7 +339,7 @@
 </span><!-- | safeHTML-->
 						      				{{ end }}
 						      			</p>
-					      		</header>	
+					      		</header>
 			      				</summary>
 								    {{ .Content| replaceRE "PeR" "<span class='ttn fs-initial'>P<sup class='large v-sup'>e̲</sup>R</span>" | safeHTML }}
 
@@ -360,17 +362,20 @@
 
 
 
-		
+		<li class="post-holder">
+			{{ partial "visit" . }}
+		</li>
+
 		<li class="post-holder">
 			{{ partial "connect" . }}
 		</li>
-		
+
 		{{ partial "contact" . }}
 	</ul>
-	<ul class="list bg-dark-gray white-90 antialias ma0">
+	<!-- <ul class="list bg-dark-gray white-90 antialias ma0">
 		{{ range first 1 (where .Data.Pages "Type" "principle") }}
 			{{ .Render "li" }}
 		{{ end }}
-	</ul>
+	</ul> -->
 </div>
 {{ partial "footer" . }}
