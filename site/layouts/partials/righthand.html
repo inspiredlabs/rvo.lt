@@ -49,7 +49,88 @@
 				</li>
 				{{ end }}
 				
-				{{ $currentPage := . }}
+				
+				
+				
+				
+				
+				
+				
+				
+				<li class="bg-global">
+					<a class="no-underline bt bw2 bw1-m bw2-l b--transparent pa3 border-box f3 f5-ns f5-m f3-l tracked-tight dim-gray transition hover-black flex items-center
+					{{/* if .IsCurrent }}b--black-20 fw7 bg-white-20{{ end */}}"
+					href="{{ .Site.BaseURL }}levels/global/">Global</a>
+				</li>
+				
+				<li class="bg-national">
+					<a class="no-underline bt bw2 bw1-m bw2-l b--transparent pa3 border-box f3 f5-ns f5-m f3-l tracked-tight dim-gray transition hover-black flex items-center
+					{{/* if .IsCurrent }}b--black-20 fw7 bg-white-20{{ end */}}"
+					href="{{ .Site.BaseURL }}levels/national/">National</a>
+				</li>
+				
+				<li class="bg-regional">
+					<a class="no-underline bt bw2 bw1-m bw2-l b--transparent pa3 border-box f3 f5-ns f5-m f3-l tracked-tight dim-gray transition hover-black flex items-center
+					{{/* if .IsCurrent }}b--black-20 fw7 bg-white-20{{ end */}}"
+					href="{{ .Site.BaseURL }}levels/regional/">Regional</a>
+				</li>
+				
+				<li class="bg-institution">
+					<a class="no-underline bt bw2 bw1-m bw2-l b--transparent pa3 border-box f3 f5-ns f5-m f3-l tracked-tight dim-gray transition hover-black flex items-center
+					{{/* if .IsCurrent }}b--black-20 fw7 bg-white-20{{ end */}}"
+					href="{{ .Site.BaseURL }}levels/institution/">Institution</a>
+				</li>
+				
+				<li class="bg-community">
+					<a class="no-underline bt bw2 bw1-m bw2-l b--transparent pa3 border-box f3 f5-ns f5-m f3-l tracked-tight dim-gray transition hover-black flex items-center
+					{{/* if .IsCurrent }}b--black-20 fw7 bg-white-20{{ end */}}"
+					href="{{ .Site.BaseURL }}levels/community/">Community</a>
+				</li>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				<li class="bg-health">
+					<a class="no-underline bt bw2 bw1-m bw2-l b--transparent pa3 border-box f3 f5-ns f5-m f3-l tracked-tight dim-gray transition hover-black flex items-center
+					{{/* if .IsCurrent }}b--black-20 fw7 bg-white-20{{ end */}}"
+					href="{{ .Site.BaseURL }}areas/health/">Health</a>
+				</li>
+				
+				<li class="bg-education">
+					<a class="no-underline bt bw2 bw1-m bw2-l b--transparent pa3 border-box f3 f5-ns f5-m f3-l tracked-tight dim-gray transition hover-black flex items-center
+					{{/* if .IsCurrent }}b--black-20 fw7 bg-white-20{{ end */}}"
+					href="{{ .Site.BaseURL }}areas/education/">Education</a>
+				</li>
+				
+				<li class="bg-food">
+					<a class="no-underline bt bw2 bw1-m bw2-l b--transparent pa3 border-box f3 f5-ns f5-m f3-l tracked-tight dim-gray transition hover-black flex items-center
+					{{/* if .IsCurrent }}b--black-20 fw7 bg-white-20{{ end */}}"
+					href="{{ .Site.BaseURL }}areas/food/">Food</a>
+				</li>
+				
+				<li class="bg-transport">
+					<a class="no-underline bt bw2 bw1-m bw2-l b--transparent pa3 border-box f3 f5-ns f5-m f3-l tracked-tight dim-gray transition hover-black flex items-center
+					{{/* if .IsCurrent }}b--black-20 fw7 bg-white-20{{ end */}}"
+					href="{{ .Site.BaseURL }}areas/transport/">Transport</a>
+				</li>
+				
+				<li class="bg-shelter">
+					<a class="no-underline bt bw2 bw1-m bw2-l b--transparent pa3 border-box f3 f5-ns f5-m f3-l tracked-tight dim-gray transition hover-black flex items-center
+					{{/* if .IsCurrent }}b--black-20 fw7 bg-white-20{{ end */}}"
+					href="{{ .Site.BaseURL }}areas/shelter/">Shelter</a>
+				</li>
+				
+
+				{{/* $currentPage := . }}
 				{{ range .Site.Menus.health }}
 				<li class="bg-health">
 					<a class="no-underline bt bw2 bw1-m bw2-l b--transparent pa3 border-box f3 f5-ns f5-m f3-l tracked-tight dim-gray transition hover-black flex items-center 
@@ -58,9 +139,9 @@
 						{{end}}"
 					href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a>
 				</li>
-				{{ end }}
+				{{ end */}}
 				
-				{{ $currentPage := . }}
+				{{/* $currentPage := . }}
 				{{ range .Site.Menus.education }}
 				<li class="bg-education">
 					<a class="no-underline bt bw2 bw1-m bw2-l  b--transparent pa3 border-box f3 f5-ns f5-m f3-l tracked-tight dim-gray transition hover-black flex items-center 
@@ -69,9 +150,9 @@
 						{{end}}"
 					href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a>
 				</li>
-				{{ end }}
+				{{ end */}}
 				
-				{{ $currentPage := . }}
+				{{/* $currentPage := . }}
 				{{ range .Site.Menus.food }}
 				<li class="bg-food">
 					<a class="no-underline bt bw2 bw1-m bw2-l b--transparent pa3 border-box f3 f5-ns f5-m f3-l tracked-tight dim-gray transition hover-black flex items-center 
@@ -80,9 +161,9 @@
 						{{end}}"
 					href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a>
 				</li>
-				{{ end }}
+				{{ end */}}
 				
-				{{ $currentPage := . }}
+				{{/* $currentPage := . }}
 				{{ range .Site.Menus.transport }}
 				<li class="bg-transport">
 					<a class="no-underline bt bw2 bw1-m bw2-l b--transparent pa3 border-box f3 f5-ns f5-m f3-l tracked-tight dim-gray transition hover-black flex items-center 
@@ -91,9 +172,9 @@
 						{{end}}"
 					href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a>
 				</li>
-				{{ end }}
+				{{ end */}}
 				
-				{{ $currentPage := . }}
+				{{/* $currentPage := . }}
 				{{ range .Site.Menus.shelter }}
 				<li class="bg-shelter">
 					<a class="no-underline bt bw2 bw1-m bw2-l b--transparent pa3 border-box f3 f5-ns f5-m f3-l tracked-tight dim-gray transition hover-black flex items-center 
@@ -102,7 +183,7 @@
 						{{end}}"
 					href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a>
 				</li>
-				{{ end }}
+				{{ end */}}
 
 				{{ $currentPage := . }}
 				{{ range .Site.Menus.venue }}

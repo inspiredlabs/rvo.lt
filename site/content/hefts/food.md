@@ -18,7 +18,7 @@ areas: ["food"]
 
 Agronomy is the scientific study of soil. It's important to note that it borrows some ancient techniques from the **Aggrarian-age** in combination with the modern scientific&nbsp;method.
 
-# Aggrarian knowledge
+# Agrarian knowledge
 
 Soil knowledge became vital to growing food for larger and larger groups of&nbps;people. This includes methods such as crop-rotation and irrigation.
 

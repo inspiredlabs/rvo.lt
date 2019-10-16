@@ -2,10 +2,16 @@
 title: "The Light Bike"
 date: 2019-10-09T16:43:26+02:00
 description: >-
-  Boundless adventure fueled by the&nbsp;sun
-menu:
-  transport
+  Boundless adventure fuelled by the&nbsp;sun
+
+levels: ["community"]
+areas: ["transport"]
+
 ---
+
+<!--menu:
+  transport
+-->
 
 <!-- SIDE -->
 ![An unmodified enduro SUR-RON, side.](/img/lightbike-with-panel-2x.png)

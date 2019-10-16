@@ -5,6 +5,10 @@ description: >-
   Boundless adventure fueled by the&nbsp;sun
 menu:
   post
+
+levels: ["community"]
+areas: ["transport"]
+
 ---
 
 <!-- SIDE -->

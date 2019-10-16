@@ -9,19 +9,24 @@ menu:
 
 ---
 
-# For&nbsp;everybody
+# Policy, Practice &amp; Purpose
+
+## For&nbsp;everybody
 
 We realised these five categories are special. They are **Transcalar**: meaning, they scale in all directions. And, are just as important for communities, nomadic people, and developed civilisations – all over the&nbsp;globe!
 
 **Transcalar** suggests there is always the potential to benefit from improvements, and improving your health is non-rivalrous – it won't change someone else’s&nbsp;well-being.
 
-## Policy and practice
+## Participate
 
 Talk to people about **"HEFTS"** and you realise how **transcalar** this idea is. Individuals, professionals, business leaders, politicians and global policy makers all have a role to play in making communities resilient.
 
-Together we can overcome challenges such as The Climate Crisis or economic uncertainty by encouraging collaboration to become more resilient to&nbsp;shocks
+Together we can overcome challenges. Becoming more resilient requires a co-ordinated movement large enough to affect change – and **PeR** encourages your&nbsp;collaboration.
 
+# Purpose
+## Make&nbsp;the future&nbsp;free
 
+The Climate Crisis, economic shocks and job stagnation demand concentrating laser-beam focus on life's&nbsp;necessities: our combined effort can _make&nbsp;the future&nbsp;free_.
 
 <!--# Developed by PeR
 

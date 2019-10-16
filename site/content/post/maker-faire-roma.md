@@ -7,6 +7,9 @@ description: >-
 menu:
   post
 
+levels: ["community"]
+areas: ["transport"]
+
 ---
 
 {{<flickity src="/img/maker-faire-2019-image-author-894.jpg" title="An unmodified enduro SUR-RON, which is very light." color="blue" selectCell="flkty.selectCell( value, isWrapped, isInstant )" >}}

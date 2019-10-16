@@ -3,13 +3,15 @@ title: Active Shelter
 date: 2019-10-09T16:43:26+02:00
 description: >-
   Net-positive impact self-sufficiency
-menu:
-  shelter
 
 levels: ["community"]
 areas: ["shelter"]
 
 ---
+
+<!--menu:
+  shelter
+-->
 
 <!--levels: ["global", "national", "regional", "institution", "community"]
 areas: ["health", "education", "food", "transport", "shelter"]-->
