@@ -54,8 +54,8 @@ What is different is IT (Information Technology). Exchanging ideas over the inte
 - **Transport** is the circulation system of society.<!--for strength and stability.-->
 - **Shelter** is the basis of security.
 
-<!--> Remember this easily with **"HEFTS"**-->
-> Remember the acronym **"HEFTS"**
+<!-- Remember this easily with **"HEFTS"**-->
+> Remember the acronym: **"HEFTS"**
 
 
 
