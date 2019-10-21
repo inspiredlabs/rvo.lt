@@ -35,7 +35,7 @@
 				<li>
 					<a class="no-underline bt bw2 bw1-m bw2-l b--transparent pa3 border-box f3 f5-ns f5-m f3-l tracked-tight white transition hover-white-80 flex items-center
 					{{ if .IsHome }}b--black-20 fw7 bg-black-30{{ end }}"
-					href="{{ .Site.BaseURL }}">Home</a>
+					href="{{ .Site.BaseURL }}">{{/* .Title */}}HOME</a>
 				</li>
 
 				{{ $currentPage := . }}
@@ -49,19 +49,70 @@
 				</li>
 				{{ end }}
 				
-				{{/* $currentPage := .Permalink}}
-				{{ range first 1 (index .Site.Taxonomies.areas.health) }}
+
+
+				<script>/*
+				{{ $currentPage := .Permalink}}
+				{{/* range first 1 (index .Site.Taxonomies.areas.health) */}}
 				<li class="bg-health">
 				  <a class="no-underline bt bw2 bw1-m bw2-l b--transparent pa3 border-box f3 f5-ns f5-m f3-l tracked-tight dim-gray transition hover-black flex items-center
 				  	{{if (eq .Page.Permalink $currentPage)}}
 				    	b--black-20 fw7 bg-white-20
 				    {{end}}"
-				    href="{{ .Page.Permalink }}">{{ .Page.Title }}</a>
+				    href="{{ .Site.BaseURL }}areas/health">HEALTH{{/* .Page.Title */}}</a>
 				</li>
-				{{ end */}}
-				
+				{{/* end */}}
+				*/</script>
 				
 				{{ $currentPage := .Permalink}}
+				<li class="bg-health">
+				  <a class="no-underline bt bw2 bw1-m bw2-l b--transparent pa3 border-box f3 f5-ns f5-m f3-l tracked-tight dim-gray transition hover-black flex items-center
+				  	{{/* if (eq .Page.Permalink $currentPage)}}
+				    	b--black-20 fw7 bg-white-20
+				    {{end */}}"
+				    href="{{ .Site.BaseURL }}areas/health">HEALTH</a>
+				</li>
+				
+				{{ $currentPage := .Permalink}}
+				<li class="bg-education">
+				  <a class="no-underline bt bw2 bw1-m bw2-l b--transparent pa3 border-box f3 f5-ns f5-m f3-l tracked-tight dim-gray transition hover-black flex items-center
+				  	{{/* if (eq .Page.Permalink $currentPage)}}
+				    	b--black-20 fw7 bg-white-20
+				    {{end */}}"
+				    href="{{ .Site.BaseURL }}areas/education">EDUCATION</a>
+				</li>
+				
+				{{ $currentPage := .Permalink}}
+				<li class="bg-food">
+				  <a class="no-underline bt bw2 bw1-m bw2-l b--transparent pa3 border-box f3 f5-ns f5-m f3-l tracked-tight dim-gray transition hover-black flex items-center
+				  	{{/* if (eq .Page.Permalink $currentPage)}}
+				    	b--black-20 fw7 bg-white-20
+				    {{end */}}"
+				    href="{{ .Site.BaseURL }}areas/food">FOOD</a>
+				</li>
+				
+				{{ $currentPage := .Permalink}}
+				<li class="bg-transport">
+				  <a class="no-underline bt bw2 bw1-m bw2-l b--transparent pa3 border-box f3 f5-ns f5-m f3-l tracked-tight dim-gray transition hover-black flex items-center
+				  	{{/* if (eq .Page.Permalink $currentPage)}}
+				    	b--black-20 fw7 bg-white-20
+				    {{end */}}"
+				    href="{{ .Site.BaseURL }}areas/transport">TRANSPORT</a>
+				</li>
+				
+				{{ $currentPage := .Permalink}}
+				<li class="bg-shelter">
+				  <a class="no-underline bt bw2 bw1-m bw2-l b--transparent pa3 border-box f3 f5-ns f5-m f3-l tracked-tight dim-gray transition hover-black flex items-center
+				  	{{/* if (eq .Page.Permalink $currentPage)}}
+				    	b--black-20 fw7 bg-white-20
+				    {{end */}}"
+				    href="{{ .Site.BaseURL }}areas/shelter">SHELTER</a>
+				</li>
+
+				
+				<!------------------ DEBUG THE MENU ------------------------>
+				<script>/*
+				{{/* $currentPage := .Permalink}}
 				{{ range .Site.Taxonomies.areas.health }}
 				<li class="bg-health">
 				  <a class="no-underline bt bw2 bw1-m bw2-l b--transparent pa3 border-box f3 f5-ns f5-m f3-l tracked-tight dim-gray transition hover-black flex items-center
@@ -70,7 +121,7 @@
 				    {{end}}"
 				    href="{{ .Page.Permalink }}">{{ .Page.Title }}</a>
 				</li>
-				{{ end }}
+				{{ end */}}
 				
 				{{$currentPage := .Permalink}}
 				{{ range .Site.Taxonomies.areas.education }}
@@ -115,6 +166,8 @@
 				    href="{{ .Page.Permalink }}">{{ .Page.Title }}</a>
 				</li>
 				{{ end }}
+			*/</script>
+			<!------------------ DEBUG THE MENU ------------------------>
 
 			<ciao style="display:none;">
 				{{$currentPage := .Permalink}}

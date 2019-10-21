@@ -1,9 +1,9 @@
 ---
-title: Overview
+title: Fairtech
 date: 2019-10-09T16:43:26+02:00
 draft: false
 
-weight: -1
+weight: 1
 
 description: Community Resilience Platform
 menu:
@@ -46,7 +46,9 @@ What is different is IT (Information Technology). Exchanging ideas over the inte
 
 <hr/>
 
-### Five areas for any stable society:
+<!--### Five areas for any stable society:-->
+
+### Five areas every human&nbsp;needs
 
 - **Health** for well-being and <!--community -->fitness.
 - **Education** to connect<!-- scientifically--> with the natural world.
@@ -56,20 +58,3 @@ What is different is IT (Information Technology). Exchanging ideas over the inte
 
 <!-- Remember this easily with **"HEFTS"**-->
 > Remember the acronym: **"HEFTS"**
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

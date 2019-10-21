@@ -10,12 +10,11 @@ title = "Rvo.lt" #FAIRtech Revolution | Rvo.lt
   description = "Change Artisans: Rvo.lt" #Artisans for Change, join the RVO.LT
   #description = "This isn't a paradigm shift: this is a RVO.LT" #Rvo.lt
 
-  [[Params.assignment]]
-    assignment = ""
+  #[[Params.assignment]]
+    #assignment = ""
 
-  [[Params.location]]
-    location = ""
-
+  #[[Params.location]]
+    #location = ""
 
 ## As of v0.20, all content files include a default "categories" value that's the same as the section. This was a cheap future-proofing method and should/could be changed accordingly.
 [taxonomies]
@@ -38,19 +37,23 @@ title = "Rvo.lt" #FAIRtech Revolution | Rvo.lt
     user = "fairtech@pm.me"
 
   [[Params.social]]
+    icon = "Twitter"
+    site = "Twitter"
+    url = "https://twitter.com/fairtechrvolt"
+    user = "@FairTechRvolt"
+
+  [[Params.social]]
     icon = "partial 'social-icon' (dict 'link' '#' 'svg' 'icons-facebook')"
     site = "Facebook"
-    url = "https://it-it.facebook.com/risparmiaenergia/"
+    # url = "https://it-it.facebook.com/risparmiaenergia/"
+    url = "https://www.facebook.com/PeRIlParcodellaEnergiaRinnovabile/"
 
   [[Params.social]]
     icon = "youtube"
     site = "Youtube"
-    url = "https://www.youtube.com/user/risparmiaenergia/videos"
+    url = "https://www.youtube.com/user/PeRParcodellEnergia/videos"
+    #url = "https://www.youtube.com/user/risparmiaenergia/videos"
 
   [[Params.links]]
     title = "Email"
     url = "mailto:fairtech@pm.me"
-
-  [[Params.links]]
-    title = "Facebook"
-    url = "https://it-it.facebook.com/risparmiaenergia/"

@@ -2,7 +2,7 @@
 title: Active Shelter
 date: 2019-10-09T16:43:26+02:00
 description: >-
-  Net-positive impact self-sufficiency
+  Net-positive self-sufficiency
 
 levels: ["community"]
 areas: ["shelter"]
@@ -24,7 +24,7 @@ Equipped with a self-contained bathroom, kitchen and&nbsp;utility.
 
 Initially mobile, the **Technical Block** can be deployed in emergency, onto under-used urban space or <!--temporarily,--> anywhere&nbsp;permissable!
 
-Discrete from a greenhouse, living quarters and storage the **Technical Block** is easy to&nbps;move.
+Discrete from a greenhouse, living quarters and storage the **Technical Block** is easy to move.
 
 ## Discrete, iterative design
 
