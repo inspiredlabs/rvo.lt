@@ -31,7 +31,7 @@ Talk to people about **"HEFTS"** and you realise how transcalar this idea is. In
 
 Together we can overcome challenges. Becoming more resilient requires a co-ordinated movement large enough to affect change – and **PeR** encourages engineers to stretch the practicality of making "HEFTS" free.
 
-## Crowdsourced Network
+## Crowdsource
 
 At **PeR** we are exploring these ideas at community&nbsp;level. But, a willing network is required to share transcalar, non-rivalous answers. <!-- People make the difference – _how can you take this idea&nbsp;further?_ -->
 
@@ -39,15 +39,17 @@ Are you an engineer that wants to share your expertise freely and improve&nbsp;l
 
 Those able to share their time, can advocate by emailing their profile&nbsp;page.
 
-## Who should join?
+<!--## Who should join?-->
+
+## Who&nbsp;are we looking&nbsp;for?
 
 ### Generalists
 
-We are looking for Makers, Designers and Engineers. We want to focus on <!--low impact, low maintainence,--> low energy solutions to make "HEFTS" as democratically available as&nbsp;possible.
+We are looking for Makers, Designers and Engineers. We want to focus on <!--low impact, low maintainence,--> low&nbsp;impediment solutions to make "HEFTS" as democratically available as&nbsp;possible.
 
 
 
-## Share, Adapt &amp; Upgrade    
+## Adapt, Upgrade &amp;&nbsp;Share
 
 By optimsing away red-tape our designs should be Open-Source and shared freely. 
 
@@ -62,21 +64,29 @@ Adaptations for local materials and methods will serve as a feedback loop to red
 
 Making adaptive designs will be unlike the original due to local resources and tools. But design implementation that anticipate adaptation means we can act before crisis hits.-->
 
-## Make it&nbsp;work
+<!--## Make it&nbsp;work-->
 
-### Low&nbsp;impact. Low&nbsp;maintainence. Low&nbsp;energy.
+## High&nbsp;Impact
+
+### <!--Low&nbsp;maintainence. -->Low&nbsp;impediment. Low&nbsp;energy.
 
 Together we can overcome challenges. Becoming more resilient requires a co-ordinated movement large enough to affect change – and **PeR** encourages collaboration non-rival answers to&nbsp;problems.
 
 ## For&nbsp;critics
 
-So, a shoddy interpretation of Socialism,&nbsp;amirite?
+Your input may improve our&nbsp;reach and&nbsp;reliability. 
 
 We aim to provide an engineering solution where there might be future _market&nbsp;failure_. Doing so, we're unearthing benefits such as upskilling and cost&nbsp;savings! 
 
-Any attempt to guide people away from capital investment, reasonable labour value or democratic welfare is simply&nbsp;naïve.
+> It's just shoddy Socialism&nbsp;–&nbsp;Amirite?!
 
-Our system is to encourge sharing proven low/no-tech design, uncommon wisdom and executed with modern&nbsp;principles.
+Any attempt to guide people away from capital investment, reasonable labour value or democratic convention is simply&nbsp;naïve.
+
+Our system is to encourge sharing proven low/no-tech design, uncommon wisdom and executing projects using modern&nbsp;principles.
+
+### Motivation
+
+The market is seeking win-win crisis&nbsp;mitigation. Although, we expect dematerialisation to be correlated with purpose before&nbsp;profit.
 
 <!--Why not prepare to avoid unecessary discomfort?-->
 
@@ -97,7 +107,15 @@ Design for simple&nbsp;living.
 
 ## For&nbsp;Economists
 
-Applied like this **Transcalar** means leveraging zero-marginal cost acceptably applied to life's necessities<!-- (as early as possible)-->. The five categories: "HEFTS", require extra intervention to normalise a reduction in energy, materials and tools to achive security before a&nbsp;crisis.
+Applied like this **Transcalar** means leveraging zero-marginal cost applied _acceptably_ to life's necessities<!-- (as early as possible)-->. 
+
+By acceptably, we mean:
+
+- The total life-cycle cost analysis must be attainable and pragmatic when considering&nbsp;externalities.
+- Investments in waste reducution, processing and engergetic defficiencies should be not be cost-prohibitive.
+- Frame "HEFTS", as _utilitarian_ <!--_just and equitable manner_--> (prior to any&nbsp;mandate).
+
+The five categories: "HEFTS", require extra intervention to normalise a reduction in energy, materials and tools to achive security before a&nbsp;crisis.
 
 <!--## For&nbsp;Degrowthers-->
 
