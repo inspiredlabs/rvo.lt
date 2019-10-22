@@ -78,7 +78,15 @@
 			</article>
 			</li><!-- /li.html -->
 		{{ end }}
-		{{ partial "contact" . }}
+
+		<li class="post-holder">
+			{{ partial "visit" . }}
+		</li>
+
+		<li class="post-holder">
+			{{ partial "connect" . }}
+		</li>
+
 	</ul>
 </div>
-{{ partial "footer" . }}
+{{/* partial "footer" . */}}

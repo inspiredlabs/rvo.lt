@@ -64,6 +64,14 @@
 				{{/* end */}}
 				*/</script>
 				
+				<div style="color:grey; font-size:16px;">
+				{{ if .Params.moods }}<strong>Moods:</strong>
+					{{range .Params.moods}}
+						<a href="{{ "/moods/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
+					{{end}}
+				{{end}}
+				</div>
+				
 				{{ $currentPage := .Permalink}}
 				<li class="bg-health">
 				  <a class="no-underline bt bw2 bw1-m bw2-l b--transparent pa3 border-box f3 f5-ns f5-m f3-l tracked-tight dim-gray transition hover-black flex items-center

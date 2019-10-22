@@ -37,7 +37,10 @@ At **PeR** we are exploring these ideas at community&nbsp;level. But, a willing 
 
 Are you an engineer that wants to share your expertise freely and improve&nbsp;lives?
 
-Those able to share their time, can advocate by emailing their profile&nbsp;page.
+Those able to share their time, can advocate by [email](mailto:fairtech@pm.me) their profile&nbsp;page.
+
+<!--[email](https://rvo.lt/contact)-->
+<!--[email]({{ .Site.BaseURL }}contact)-->
 
 <!--## Who should join?-->
 
@@ -47,7 +50,7 @@ Those able to share their time, can advocate by emailing their profile&nbsp;page
 
 We are looking for Makers, Designers and Engineers. We want to focus on <!--low impact, low maintainence,--> low&nbsp;impediment solutions to make "HEFTS" as democratically available as&nbsp;possible.
 
-
+Those able to share their time, can advocate by [email](mailto:fairtech@pm.me) their profile&nbsp;page.
 
 ## Adapt, Upgrade &amp;&nbsp;Share
 
@@ -82,7 +85,11 @@ We aim to provide an engineering solution where there might be future _market&nb
 
 Any attempt to guide people away from capital investment, reasonable labour value or democratic convention is simply&nbsp;naïve.
 
-Our system is to encourge sharing proven low/no-tech design, uncommon wisdom and executing projects using modern&nbsp;principles.
+<!--Our system is to encourge sharing proven low/no-tech design, uncommon wisdom and executing projects using modern&nbsp;principles.-->
+
+### Uncommon&nbsp;Wisdom
+
+Our system is to encourge sharing proven methods, low-tech/no-tech design and modern material&nbsp;science.
 
 ### Motivation
 
