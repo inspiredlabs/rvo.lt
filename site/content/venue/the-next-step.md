@@ -18,7 +18,7 @@ Fairtech comes from a general approach to design and implementation at [PeR](htt
 <!--During PeR's development we have become a source of inspiration, a place to learn, and a relaxing oasis. Our facility hosts exciting labs, an opportunity for knowledge-share and a guiding light.-->
 
 
-{{<flickity src="/img/DSCN0436-2x.JPG" title="Beginning construction" color="blue" selectCell="flkty.selectCell( value, isWrapped, isInstant )" >}}
+{{<flickity src="/img/DSCN0436-2x.JPG" title="Beginning construction, 2000." color="" selectCell="flkty.selectCell( value, isWrapped, isInstant )" >}}
 
 Ten years ago, we began the sustainability research center to realise our vision. In this time, we proved our case for comfortable living standards, with a positive impact.
 

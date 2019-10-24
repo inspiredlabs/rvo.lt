@@ -10,7 +10,9 @@ areas: ["food"]
 
 ---
 
-![Fresh foods are most nutrient-dense and grow in nature with all the colours of the rainbow.](/img/david-milan-food-photo-x2.jpg "Rainbow Diet")
+<!--![Fresh foods are most nutrient-dense and grow in nature with all the colours of the rainbow.](/img/david-milan-food-photo-x2.jpg "Rainbow Diet")
+-->
+{{<flickity src="/img/david-milan-food-photo-x2.jpg" title="" color="transparent" selectCell="flkty.selectCell( value, isWrapped, isInstant )" >}}
 
 <!--
 • Colour wheel image source: 

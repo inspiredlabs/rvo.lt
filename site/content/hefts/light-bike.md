@@ -16,7 +16,7 @@ areas: ["transport"]
 <!-- SIDE 
 ![An unmodified enduro SUR-RON, side.](/img/lightbike-with-panel-2x.png)
 -->
-{{<flickity src="/img/lightbike-with-panel-2x.png" title="An unmodified enduro SUR-RON, side." color="blue" selectCell="flkty.selectCell( value, isWrapped, isInstant )" >}}
+{{<flickity src="/img/lightbike-with-panel-2x.png" title="" color="transparent" selectCell="flkty.selectCell( value, isWrapped, isInstant )" >}}
 
 
 The Light Bike is intended for the democratic rider. If you're an eco-concious explorer, self-sufficienct survivalist or fearless&nbsp;commuter – this is for&nbsp;you!
@@ -121,4 +121,4 @@ Learn how to do more with less & [www.rvo.lt](https://www.rvo.lt)
 <!-- FRONT 
 ![An unmodified enduro SUR-RON, front.](/img/lightbike-front-2x.png)
 -->
-{{<flickity src="/img/lightbike-front-2x.png" title="An unmodified enduro SUR-RON, front." color="blue" selectCell="flkty.selectCell( value, isWrapped, isInstant )" >}}
+{{<flickity src="/img/lightbike-front-2x.png" title="" color="transparent" selectCell="flkty.selectCell( value, isWrapped, isInstant )" >}}
