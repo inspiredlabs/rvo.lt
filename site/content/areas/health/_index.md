@@ -1,13 +1,11 @@
 ---
 title: Health
+areas: ["health"]
+order: 1
+weight: 1
+
 date: 2019-10-09T16:43:26+02:00
 description: The ultimate investment
-menu:
-  health
-
-areas: ["health"]
-
-<!--order: 1-->
 
 ---
 # The first rule of&nbsp;health

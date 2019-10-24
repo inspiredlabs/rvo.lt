@@ -3,7 +3,7 @@ title: Fairtech
 date: 2019-10-09T16:43:26+02:00
 draft: false
 
-weight: 1
+<!--weight: 1-->
 
 description: Community Resilience Platform
 menu:

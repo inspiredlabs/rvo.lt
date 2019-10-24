@@ -29,6 +29,29 @@ title = "RVO.LT" #FAIRtech Revolution | Rvo.lt
   url = "/areas/health"
 
   [[menu.main]]
+  identifier = "education"
+  name = "education"
+  weight = 2
+  url = "/areas/education"
+
+  [[menu.main]]
+  identifier = "food"
+  name = "food"
+  weight = 3
+  url = "/areas/food"
+
+  [[menu.main]]
+  identifier = "transport"
+  name = "transport"
+  weight = 4
+  url = "/areas/transport"
+
+  [[menu.main]]
+  identifier = "shelter"
+  name = "shelter"
+  weight = 5
+  url = "/areas/shelter"
+
 
 [taxonomies]
   tag = "tags"
