@@ -53,7 +53,8 @@
 				<!-- It Works! -->
 				{{ $currentPage := .RelPermalink }}
 				{{ range first 5 .Site.Pages.ByWeight }}
-				  <li class="bg-{{ .Page.Title | lower }}">
+				  <li class="bg-gold">				
+				  <!--li class="bg-{{ .Page.Title | lower }}"-->
 				    <a class="no-underline bt bw2 bw1-m bw2-l b--transparent pa3 border-box f3 f5-ns f5-m f3-l tracked-tight dim-gray transition hover-black flex items-center
 				    	{{ if (eq .Page.RelPermalink $currentPage )}}
 				      	b--black-20 fw7 bg-white-20
