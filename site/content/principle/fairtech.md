@@ -13,7 +13,9 @@ menu:
 
 # Developed by **PeR**
 
-**PeR** is pronounced in Italian as [Il Parco dell' Energia Rinnovabile](https://per.umbria.it), meaning "renewable energy park". [Learn more &#x279D;](https://inspiredlabs.co.uk/per.umbria.it/en/). **PeR** is the largest and most comprehensive sustainability research centre in&nbsp;Italy. **PeR** operates in the agritourism space as a teaching&nbsp;facility.
+**PeR** is pronounced in Italian as [Il Parco dell' Energia Rinnovabile](https://per.umbria.it), meaning "renewable energy park": [Learn more &#x279D;](https://inspiredlabs.co.uk/per.umbria.it/en/).
+
+**PeR** is the largest and most comprehensive sustainability research centre in&nbsp;Italy. **PeR** operates in the agritourism space as a teaching&nbsp;facility.
 
 
 ## How did Fairtech begin?

@@ -12,12 +12,17 @@ areas: ["food"]
 
 <!--![Fresh foods are most nutrient-dense and grow in nature with all the colours of the rainbow.](/img/david-milan-food-photo-x2.jpg "Rainbow Diet")
 -->
-{{<flickity src="/img/david-milan-food-photo-x2.jpg" title="" color="transparent" selectCell="flkty.selectCell( value, isWrapped, isInstant )" >}}
+{{<flickity src="/img/david-milan-food-photo-x2.jpg" title="Photo by David Milan" color="" selectCell="flkty.selectCell( value, isWrapped, isInstant )" >}}<!--title="" color="transparent" -->
 
 <!--
 • Colour wheel image source: 
 https://www.gettyimages.co.uk/detail/photo/fruit-and-vegetable-colour-wheel-on-a-black-high-res-stock-photography/857856388
 • Food wheel:https://www.creativelive.com/blog/edible-color-wheel-photos/
+
+Consensus info:
+- https://vitals.lifehacker.com/the-only-three-things-everybody-agrees-on-when-it-comes-1709039566#_ga=1.253474569.1055861349.1441835238
+- https://vitals.lifehacker.com/there-s-finally-a-consensus-sort-of-on-what-we-should-1749509246
+
 -->
 
 ## The Present&nbsp;Consensus

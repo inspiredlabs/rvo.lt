@@ -18,6 +18,14 @@
   #query = {path = ":path"}
 
 [[redirects]]
+  from = "/principle"
+  to = "/"
+  status = 301
+  #force = false
+  #query = {path = ":path"}
+
+
+[[redirects]]
   from = "/areas"
   to = "/"
   status = 301
