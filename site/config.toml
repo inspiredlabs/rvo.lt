@@ -5,6 +5,9 @@ languageCode = "en-us"
 #languageCode = "en-gb" #Initial configuration reset
 title = "RVO.LT" #FAIRtech Revolution | Rvo.lt
 
+[permalinks]
+  posts = ":title/" #/:year/:month/:title/
+
 [Params]
   #author = "Alessandro Ronca" #https://duckduckgo.com/?q=%22config.toml%22+%22.author%22&t=osx
   description = "Change Artisans RVO.LT" #Artisans for Change, join the RVO.LT
@@ -17,6 +20,15 @@ title = "RVO.LT" #FAIRtech Revolution | Rvo.lt
     #location = ""
 
 ## As of v0.20, all content files include a default "categories" value that's the same as the section. This was a cheap future-proofing method and should/could be changed accordingly.
+
+[menu]
+  [[menu.main]]
+  identifier = "health"
+  name = "health"
+  weight = 1
+  url = "/areas/health"
+
+  [[menu.main]]
 
 [taxonomies]
   tag = "tags"
