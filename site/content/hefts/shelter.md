@@ -10,6 +10,8 @@ menu:
 levels: ["community"]
 areas: ["shelter"]
 
+<!--order: 5-->
+
 ---
 
 ### A Proof-of-concept 

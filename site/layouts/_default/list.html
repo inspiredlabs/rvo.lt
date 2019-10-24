@@ -32,6 +32,7 @@
 					  <div class="ph2-ns">
 					    <div class="fl w-100 w-70-ns pr4"><!-- w-two-thirds -->
 					      <div class="pv4 fr w-100 w-90-m w-80-l"><!-- outline bg-black-05 truncate no-wrap -->
+					      
 					      	<a href="{{ .Permalink }}" class="no-underline dim db f6 ttu tracked fw1 inherit">
 					      		<svg viewbox="0 0 482 482" class="no-select pr2 h07 ">
 					      			<use xlink:href="#url"></use>
@@ -67,6 +68,21 @@
 						      			</p>
 					      		</header>
 			      				</summary>
+
+			      				<!-- Tags document -->
+			      				<script>/*
+			      				{{ $areas := "areas" }} <!-- Use the plural form here -->
+			      				<ul id="{{ $areas }}" class="list pt2">
+			      				{{ range .Param $areas }}
+			      				  {{ $name := . }}
+			      				  {{ with $.Site.GetPage (printf "/%s/%s" $areas ($name | urlize)) }}
+			      				    <li class="dib"><a class="f7 ttu tracked-mega pa2 ph3 bg-light-gray" href="{{ .Permalink }}">{{ $name }}</a></li>
+			      				  {{ end }}
+			      				{{ end }}
+			      				</ul>
+			      				*/</script>
+			      				<!-- /Tag -->
+			      				
 								    <script>{{/* .Content | replaceRE "<blockquote>" "<blockquote class='red underline bg-gold'>" | replaceRE  "<p>" "<p class='green'>" | safeHTML */}}</script>
 										{{ .Content | replaceRE "PeR" "<span class='ttn fs-initial'>P<sup class='large v-sup'>e̲</sup>R</span>" | safeHTML }}
 									</details>

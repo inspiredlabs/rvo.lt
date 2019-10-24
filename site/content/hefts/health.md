@@ -7,6 +7,8 @@ menu:
 
 areas: ["health"]
 
+<!--order: 1-->
+
 ---
 # The first rule of&nbsp;health
 

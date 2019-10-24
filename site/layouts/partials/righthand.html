@@ -17,6 +17,7 @@
 					w-25-m w-20-l
     			ttu bg-charcoal"
     			role="menu"><!-- w-third-ns w-25-m w-25-l --><!-- avenir ttu bg-deep-petrol bg-near-black antialias bg-light-gray -->
+
 			<ul class="list pa0 ma0"><!-- fw1 fl w-100 mb4 pa0 data-gumshoe ttu tracked -->
 				<script>/*
 				{{ $thisTitle := .Title }}
@@ -48,30 +49,33 @@
 					href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a>
 				</li>
 				{{ end }}
-				
 
 
-				<script>/*
-				{{ $currentPage := .Permalink}}
-				{{/* range first 1 (index .Site.Taxonomies.areas.health) */}}
-				<li class="bg-health">
-				  <a class="no-underline bt bw2 bw1-m bw2-l b--transparent pa3 border-box f3 f5-ns f5-m f3-l tracked-tight dim-gray transition hover-black flex items-center
-				  	{{if (eq .Page.Permalink $currentPage)}}
-				    	b--black-20 fw7 bg-white-20
-				    {{end}}"
-				    href="{{ .Site.BaseURL }}areas/health">HEALTH{{/* .Page.Title */}}</a>
-				</li>
-				{{/* end */}}
-				*/</script>
-				
-				<div style="color:grey; font-size:16px;">
+				<!--<div style="color:grey; font-size:16px;">
 				{{ if .Params.moods }}<strong>Moods:</strong>
 					{{range .Params.moods}}
 						<a href="{{ "/moods/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
 					{{end}}
 				{{end}}
-				</div>
+				</div>-->
 				
+				<script>/*
+				////////////// NEW ////////////
+				{{ $areas := .Site.GetPage "/areas" }}
+				{{ range $areas.Data.Terms.ByCount }}
+				
+				    <li class="bg-health">
+				      <a class="no-underline bt bw2 bw1-m bw2-l b--transparent pa3 border-box f3 f5-ns f5-m f3-l tracked-tight dim-gray transition hover-black flex items-center
+				      	{{/* if (eq .Page.Permalink $currentPage)}}
+				        	b--black-20 fw7 bg-white-20
+				        {{end */}}"
+				        href="">{{ . }}</a>
+				    </li>
+				{{ end }}
+				
+
+
+				////////////// OLD ////////////
 				{{ $currentPage := .Permalink}}
 				<li class="bg-health">
 				  <a class="no-underline bt bw2 bw1-m bw2-l b--transparent pa3 border-box f3 f5-ns f5-m f3-l tracked-tight dim-gray transition hover-black flex items-center
@@ -116,6 +120,46 @@
 				    {{end */}}"
 				    href="{{ .Site.BaseURL }}areas/shelter">SHELTER</a>
 				</li>
+				
+				
+				// GOOD ;) //
+				{{ $currentPage := .RelPermalink }}
+				{{ range .Site.Taxonomies.areas.health }}
+				  <li class="bg-{{ .Page.Title }}">
+				    <a class="no-underline bt bw2 bw1-m bw2-l b--transparent pa3 border-box f3 f5-ns f5-m f3-l tracked-tight dim-gray transition hover-black flex items-center
+				    	{{ if (eq .Page.RelPermalink $currentPage )}}
+				      	b--black-20 fw7 bg-white-20
+				      {{end }}"
+				      href="{{ .Page.RelPermalink }}">{{ .Page.Title }}</a>
+				  </li>
+				{{ end }}
+				
+				*/</script>
+				
+				
+				
+				{{ $currentPage := .RelPermalink }}
+				{{ range .Site.Taxonomies.areas }}
+				<li class="bg-{{ .Page.Title }}">
+				  <a class="no-underline bt bw2 bw1-m bw2-l b--transparent pa3 border-box f3 f5-ns f5-m f3-l tracked-tight dim-gray transition hover-black flex items-center
+				  	{{ if (eq .Page.RelPermalink $currentPage )}}
+				    	b--black-20 fw7 bg-white-20
+				    {{end }}"
+				    href="{{ .Page.RelPermalink }}">{{ .Page.Title }}</a>
+				</li>
+				{{ end }}
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
 
 				
 				<!------------------ DEBUG THE MENU ------------------------>

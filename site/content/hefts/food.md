@@ -2,11 +2,10 @@
 title: Food
 date: 2019-10-09T16:43:26+02:00
 description: The center of self-sufficiency
-menu:
-  food
-
 levels: ["community"]
 areas: ["food"]
+
+<!--order: 3-->
 
 ---
 

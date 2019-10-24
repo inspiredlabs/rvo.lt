@@ -6,6 +6,8 @@ description: >-
 levels: ["community"]
 areas: ["education"]
 
+<!--order: 2-->
+
 ---
 
 {{<flickity src="/img/london-climate-strike-sept-2019-x2.jpg" title="Two teachers supporting XR stand outside the department of Education in central London and grafiti the building" color="" selectCell="flkty.selectCell( value, isWrapped, isInstant )" >}}
