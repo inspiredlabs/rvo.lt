@@ -9,8 +9,8 @@ title = "RVO.LT" #FAIRtech Revolution | Rvo.lt
   from = "/contact"
   to = "/"
   status = 301
-  #force = false
-  #query = {path = ":path"}
+  force = true
+  query = {path = ":path"}
 
 [[redirects]]
   from = "/areas"
