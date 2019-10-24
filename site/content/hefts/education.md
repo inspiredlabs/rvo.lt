@@ -8,13 +8,15 @@ areas: ["education"]
 
 ---
 
-{{<flickity src="/img/london-climate-strike-sept-2019-x2.jpg" title="Two teachers supporting XR stand outside the department of Education in central London and grafiti the building." color="blue" selectCell="flkty.selectCell( value, isWrapped, isInstant )" >}}
 
-<!--![Two teachers supporting XR stand outside the department of Education in central London and grafiti the building](/img/london-climate-strike-sept-2019-x2.jpg "")
--->
+![Two teachers supporting XR stand outside the department of Education in central London and grafiti the building](/img/london-climate-strike-sept-2019-x2.jpg "Two teachers supporting XR stand outside the department of Education in central London and grafiti the building")
+
 ## Climate&nbsp;Crisis
 
 By not educating children about a **Climate&nbsp;Crisis**, teachers protest that this is affecting thier mental&nbsp;health.
+
+
+
 
 
 

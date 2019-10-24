@@ -8,6 +8,8 @@
 [context.deploy-preview]
   command = "yarn build-preview"
 
+#https://docs.netlify.com/routing/redirects/#syntax-for-the-netlify-configuration-file
+
 [[redirects]]
   from = "/contact"
   to = "/"
