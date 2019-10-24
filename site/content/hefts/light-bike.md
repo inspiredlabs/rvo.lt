@@ -114,4 +114,6 @@ Learn how to do more with less & [www.rvo.lt](https://www.rvo.lt)
 **PeR** is a reference point for fair technologies that can have a positive net impact. We consistently aim to do more with less. -->
 
 <!-- FRONT -->
-![An unmodified enduro SUR-RON, front.](/img/lightbike-front-2x.png)
+{{<flickity src="/img/lightbike-front-2x.png" title="An unmodified enduro SUR-RON, front." color="blue" selectCell="flkty.selectCell( value, isWrapped, isInstant )" >}}
+<!--![An unmodified enduro SUR-RON, front.](/img/lightbike-front-2x.png)
+-->

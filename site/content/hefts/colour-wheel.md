@@ -10,7 +10,9 @@ areas: ["food"]
 
 ---
 
-![Fresh foods are most nutrient-dense and grow in nature with all the colours of the rainbow.](/img/david-milan-food-photo-x2.jpg "Rainbow Diet")
+{{<flickity src="/img/david-milan-food-photo-x2.jpg "Rainbow Diet" title="Fresh foods are most nutrient-dense and grow in nature with all the colours of the rainbow." color="blue" selectCell="flkty.selectCell( value, isWrapped, isInstant )" >}}
+
+<!--![Fresh foods are most nutrient-dense and grow in nature with all the colours of the rainbow.](/img/david-milan-food-photo-x2.jpg "Rainbow Diet")-->
 
 <!--
 • Colour wheel image source: 
@@ -20,17 +22,15 @@ https://www.gettyimages.co.uk/detail/photo/fruit-and-vegetable-colour-wheel-on-a
 
 ## The Present&nbsp;Consensus
 
-Knowing there is no scientific consensus for our diet, <!--in 2020 -->is a cause of systemic&nbsp;humiliation!
+Progress it seems, is short of a consensus on exactly what we should&nbsp;eat. Sam&nbsp;Harris, talking with Dr. Nina&nbsp;Shapiro, summed&#8209;up this humiliation&nbsp;perfectly&hellip;
 
-Sam Harris talking with Dr. Nina Shapiro, summed this up&nbsp;perfectly.
-
-> One of the greatest embarrassments to modern science <!--that there's any diversity of opinion at all about what human beings should eat, so as to be healthy.How--> is that we don't have a rock-solid consensus of a healthy diet  <!--[in this day in age]--> – [Sam Harris (skip: 55:35)](https://samharris.org/podcasts/129-insiders-view-medicine/) 
+> One&nbsp;of the greatest embarrassments to modern science <!--that there's any diversity of opinion at all about what human beings should eat, so as to be healthy.How--> is that we don't have a rock-solid consensus of a healthy&nbsp;diet  <!--[in this day in age]--> – [Sam Harris (skip: 55:35)](https://samharris.org/podcasts/129-insiders-view-medicine/) 
 
 ## Why does what we eat&nbsp;mystify?
 
 There is no _one_ perfect answer to diet for every single&nbsp;person. <!--on this entire&nbsp;planet. That's impossible.-->
 
-That's becasue over hundreds of thousands of years of human evolution, we have flourished to require very little food on a day-to-day basis. Yet when we do eat – our&nbsp;gut is organised to extract as much nutrients from the food&nbsp;source.
+That's becasue over hundreds of thousands of years of human evolution, we have flourished to require _very little food_ on a day-to-day basis. Yet when we do eat – our&nbsp;gut is organised to extract as much nutrients from that&nbsp;source.
 
 Knowing this, we can simplify healthy&nbsp;eating.<!-- without&nbsp;sacrifice.-->
 
@@ -40,9 +40,11 @@ Knowing this, we can simplify healthy&nbsp;eating.<!-- without&nbsp;sacrifice.--
 
 Fresh&nbsp;foods are most nutrient-dense and grow in&nbsp;nature. <!-- with all the colours of the&nbsp;rainbow. Choosing vegatables high in vitamins and minerals is important.-->
 
-Eating all the colours of the&nbsp;rainbow, is a great starting&nbsp;point. Any diet should hydrate, be high in nutrients and low in processed foods – which come in man-made packaging making them easy to spot! 
+Eating all the colours of the&nbsp;rainbow, is a great starting&nbsp;point. Any diet should hydrate, be high in nutrients and low in processed&nbsp;foods – which come in man-made packaging, making them easy to&nbsp;spot! 
 
-Locally sourced and seasonally available food is also&nbsp;X.
+## Eat in harmony
+
+Locally sourced, seasonally available food is also&nbsp;optimal.
 
 
 <!--
