@@ -10,7 +10,7 @@ areas: ["food"]
 
 ---
 
-{{<flickity src="/img/david-milan-food-photo-x2.jpg "Rainbow Diet" title="Fresh foods are most nutrient-dense and grow in nature with all the colours of the rainbow." color="blue" selectCell="flkty.selectCell( value, isWrapped, isInstant )" >}}
+{{<flickity src="/img/david-milan-food-photo-x2.jpg" "Rainbow Diet" title="Fresh foods are most nutrient-dense and grow in nature with all the colours of the rainbow." color="blue" selectCell="flkty.selectCell( value, isWrapped, isInstant )" >}}
 
 <!--![Fresh foods are most nutrient-dense and grow in nature with all the colours of the rainbow.](/img/david-milan-food-photo-x2.jpg "Rainbow Diet")-->
 
