@@ -7,29 +7,29 @@ title = "RVO.LT" #FAIRtech Revolution | Rvo.lt
 
 [[redirects]]
   from = "/contact"
-  to = "/"
-  status = 301
-  force = true
-  query = {path = ":path"}
+  to = "/index.html"
+  status = 404
+  #force = false
+  #query = {path = ":path"}
 
 [[redirects]]
   from = "/areas"
   to = "/"
-  status = 301
+  status = 404
   #force = false
   #query = {path = ":path"}
 
 [[redirects]]
   from = "/levels"
   to = "/"
-  status = 301
+  status = 404
   #force = false
   #query = {path = ":path"}
 
 [[redirects]]
   from = "/*"
   to = "/"
-  status = 200
+  status = 404
   #force = false
   #query = {path = ":path"}
 
