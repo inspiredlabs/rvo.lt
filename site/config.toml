@@ -3,11 +3,11 @@ baseurl = "https://rvo.lt/" #{{ .Site.BaseURL }} "/" && netlify
 # relativeURLs = "true" #https://github.com/gohugoio/hugo/issues/985
 languageCode = "en-us"
 #languageCode = "en-gb" #Initial configuration reset
-title = "Rvo.lt" #FAIRtech Revolution | Rvo.lt
+title = "RVO.LT" #FAIRtech Revolution | Rvo.lt
 
 [Params]
   #author = "Alessandro Ronca" #https://duckduckgo.com/?q=%22config.toml%22+%22.author%22&t=osx
-  description = "Change Artisans: Rvo.lt" #Artisans for Change, join the RVO.LT
+  description = "Change Artisans RVO.LT" #Artisans for Change, join the RVO.LT
   #description = "This isn't a paradigm shift: this is a RVO.LT" #Rvo.lt
 
   #[[Params.assignment]]
