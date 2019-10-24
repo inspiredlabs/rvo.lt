@@ -5,6 +5,34 @@ languageCode = "en-us"
 #languageCode = "en-gb" #Initial configuration reset
 title = "RVO.LT" #FAIRtech Revolution | Rvo.lt
 
+[[redirects]]
+  from = "/contact"
+  to = "/"
+  status = 301
+  #force = false
+  #query = {path = ":path"}
+
+[[redirects]]
+  from = "/areas"
+  to = "/"
+  status = 301
+  #force = false
+  #query = {path = ":path"}
+
+[[redirects]]
+  from = "/levels"
+  to = "/"
+  status = 301
+  #force = false
+  #query = {path = ":path"}
+
+[[redirects]]
+  from = "/*"
+  to = "/"
+  status = 200
+  #force = false
+  #query = {path = ":path"}
+
 [Params]
   #author = "Alessandro Ronca" #https://duckduckgo.com/?q=%22config.toml%22+%22.author%22&t=osx
   description = "Change Artisans RVO.LT" #Artisans for Change, join the RVO.LT
