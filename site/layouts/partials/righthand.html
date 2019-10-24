@@ -50,19 +50,6 @@
 				</li>
 				{{ end }}
 
-				<!-- It Works! bg-{{/* .Page.Title | lower */}} -->
-				{{ $currentPage := .Permalink }}
-				{{ range first 5 .Site.Pages }}
-				{{/* range first 5 .Site.Pages.ByWeight */}}
-				  <li class="bg-moon-gray">				
-				    <a class="no-underline bt bw2 bw1-m bw2-l b--transparent pa3 border-box f3 f5-ns f5-m f3-l tracked-tight dim-gray transition hover-black flex items-center
-				    	{{ if (eq .Page.Permalink $currentPage )}}
-				      	b--black-20 fw7 bg-white-20
-				      {{end }}" 
-				    href="{{ .Permalink }}">{{ .Title }}</a>
-				  </li>
-				{{ end }}
-				<!-- It Works! -->
 
 
 
