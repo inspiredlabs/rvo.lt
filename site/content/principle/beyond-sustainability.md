@@ -87,8 +87,8 @@ What is the climate crisis trying to communicate?
 
 <div class="fl w-100 f8 f6-m f5-l tc mt4 mb4" id=sustainability>
 <div class="w-third pr2 fl">
-<svg viewBox="0 0 128 128" class="bg-blue br-100 mr-auto ml-auto no-select" alt="">
-	<use xlink:href="#op-arrow"></use>
+<svg viewBox="0 0 128 128" class="bg-dark-green br-100 mr-auto ml-auto no-select" alt="">
+	<use xlink:href="#up-arrow"></use>
 </svg>
 <p>ECONOMY</p>
 </div>
