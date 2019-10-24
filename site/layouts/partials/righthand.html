@@ -49,122 +49,28 @@
 					href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a>
 				</li>
 				{{ end }}
-
-
 				
 
-			<ciao style="display:none;">
-				{{$currentPage := .Permalink}}
-				{{ range .Site.Taxonomies.levels.global }}
-				<li class="bg-global">
-				  <a class="no-underline bt bw2 bw1-m bw2-l b--transparent pa3 border-box f3 f5-ns f5-m f3-l tracked-tight dim-gray transition hover-black flex items-center
-				  	{{if (eq .Page.Permalink $currentPage)}}
-				    	b--black-20 fw7 bg-white-20
-				    {{end}}"
-				    href="{{ .Page.Permalink }}">{{ .Page.Title }}</a>
-				</li>
-				{{ end }}
-				
-				{{$currentPage := .Permalink}}
-				{{ range .Site.Taxonomies.levels.national }}
-				<li class="bg-national">
-				  <a class="no-underline bt bw2 bw1-m bw2-l b--transparent pa3 border-box f3 f5-ns f5-m f3-l tracked-tight dim-gray transition hover-black flex items-center
-				  	{{if (eq .Page.Permalink $currentPage)}}
-				    	b--black-20 fw7 bg-white-20
-				    {{end}}"
-				    href="{{ .Page.Permalink }}">{{ .Page.Title }}</a>
-				</li>
-				{{ end }}
-				
-				{{$currentPage := .Permalink}}
-				{{ range .Site.Taxonomies.levels.regional }}
-				<li class="bg-regional">
-				  <a class="no-underline bt bw2 bw1-m bw2-l b--transparent pa3 border-box f3 f5-ns f5-m f3-l tracked-tight dim-gray transition hover-black flex items-center
-				  	{{if (eq .Page.Permalink $currentPage)}}
-				    	b--black-20 fw7 bg-white-20
-				    {{end}}"
-				    href="{{ .Page.Permalink }}">{{ .Page.Title }}</a>
-				</li>
-				{{ end }}
-				
-				{{$currentPage := .Permalink}}
-				{{ range .Site.Taxonomies.levels.institution }}
-				<li class="bg-institution">
-				  <a class="no-underline bt bw2 bw1-m bw2-l b--transparent pa3 border-box f3 f5-ns f5-m f3-l tracked-tight dim-gray transition hover-black flex items-center
-				  	{{if (eq .Page.Permalink $currentPage)}}
-				    	b--black-20 fw7 bg-white-20
-				    {{end}}"
-				    href="{{ .Page.Permalink }}">{{ .Page.Title }}</a>
-				</li>
-				{{ end }}
-				
-				{{$currentPage := .Permalink}}
-				{{ range .Site.Taxonomies.levels.community }}
-				<li class="bg-community">
-				  <a class="no-underline bt bw2 bw1-m bw2-l b--transparent pa3 border-box f3 f5-ns f5-m f3-l tracked-tight dim-gray transition hover-black flex items-center
-				  	{{if (eq .Page.Permalink $currentPage)}}
-				    	b--black-20 fw7 bg-white-20
-				    {{end}}"
-				    href="{{ .Page.Permalink }}">{{ .Page.Title }}</a>
-				</li>
-				{{ end }}
 
+
+
+
+
+				{{ $currentPage := .RelPermalink }}
+				{{ range .Site.Taxonomies.areas }}
+				  <li class="bg-{{ .Page.Title }}">
+				    <a class="no-underline bt bw2 bw1-m bw2-l b--transparent pa3 border-box f3 f5-ns f5-m f3-l tracked-tight dim-gray transition hover-black flex items-center
+				    	{{ if (eq .Page.RelPermalink $currentPage )}}
+				      	b--black-20 fw7 bg-white-20
+				      {{end }}"
+				      href="{{ .Page.RelPermalink }}">{{ .Page.Title }}</a>
+				  </li>
+				{{ end }}	
 				
-				{{/* $currentPage := . }}
-				{{ range .Site.Menus.health }}
-				<li class="bg-health">
-					<a class="no-underline bt bw2 bw1-m bw2-l b--transparent pa3 border-box f3 f5-ns f5-m f3-l tracked-tight dim-gray transition hover-black flex items-center 
-						{{if or ($currentPage.IsMenuCurrent "health" .) ($currentPage.HasMenuCurrent "health" .) }}
-							b--black-20 fw7 bg-white-20
-						{{end}}"
-					href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a>
-				</li>
-				{{ end */}}
-				
-				{{/* $currentPage := . }}
-				{{ range .Site.Menus.education }}
-				<li class="bg-education">
-					<a class="no-underline bt bw2 bw1-m bw2-l  b--transparent pa3 border-box f3 f5-ns f5-m f3-l tracked-tight dim-gray transition hover-black flex items-center 
-						{{if or ($currentPage.IsMenuCurrent "education" .) ($currentPage.HasMenuCurrent "education" .) }}
-							b--black-20 fw7 bg-white-20
-						{{end}}"
-					href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a>
-				</li>
-				{{ end */}}
-				
-				{{/* $currentPage := . }}
-				{{ range .Site.Menus.food }}
-				<li class="bg-food">
-					<a class="no-underline bt bw2 bw1-m bw2-l b--transparent pa3 border-box f3 f5-ns f5-m f3-l tracked-tight dim-gray transition hover-black flex items-center 
-						{{if or ($currentPage.IsMenuCurrent "food" .) ($currentPage.HasMenuCurrent "food" .) }}
-							b--black-20 fw7 bg-white-20
-						{{end}}"
-					href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a>
-				</li>
-				{{ end */}}
-				
-				{{/* $currentPage := . }}
-				{{ range .Site.Menus.transport }}
-				<li class="bg-transport">
-					<a class="no-underline bt bw2 bw1-m bw2-l b--transparent pa3 border-box f3 f5-ns f5-m f3-l tracked-tight dim-gray transition hover-black flex items-center 
-						{{if or ($currentPage.IsMenuCurrent "transport" .) ($currentPage.HasMenuCurrent "transport" .) }}
-							b--black-20 fw7 bg-white-20
-						{{end}}"
-					href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a>
-				</li>
-				{{ end */}}
-				
-				{{/* $currentPage := . }}
-				{{ range .Site.Menus.shelter }}
-				<li class="bg-shelter">
-					<a class="no-underline bt bw2 bw1-m bw2-l b--transparent pa3 border-box f3 f5-ns f5-m f3-l tracked-tight dim-gray transition hover-black flex items-center 
-						{{if or ($currentPage.IsMenuCurrent "shelter" .) ($currentPage.HasMenuCurrent "shelter" .) }}
-							b--black-20 fw7 bg-white-20
-						{{end}}"
-					href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a>
-				</li>
-				{{ end */}}
-			</ciao>
+
+
+
+
 
 				{{ $currentPage := . }}
 				{{ range .Site.Menus.venue }}
