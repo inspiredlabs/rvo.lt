@@ -84,51 +84,51 @@
 // https://discourse.gohugo.io/t/confusion-regarding-proper-use-of-menus/1647
 </script>
 {{ $currentNode := . }}
-{{ range first 1 .Site.Menus.health }}
+{{ range .Site.Menus.health }}
 <li class="bg-health">
 	<a class="no-underline bt bw2 bw1-m bw2-l b--transparent pa3 border-box f3 f5-ns f5-m f3-l tracked-tight dim-gray transition hover-black flex items-center
 		{{if or ($currentNode.IsMenuCurrent "health" .) ($currentNode.HasMenuCurrent "health" .) }}
-			b--black-20 fw7 bg-white-20
+			b--black-20 fw7 bg-white-70
 		{{end}}" href="{{.URL}}">{{ .Name }}</a>
 <li>
 {{ end }}
 
 {{ $currentNode := . }}
-{{ range first 1 .Site.Menus.education }}
+{{ range .Site.Menus.education }}
 <li class="bg-education">
 	<a class="no-underline bt bw2 bw1-m bw2-l b--transparent pa3 border-box f3 f5-ns f5-m f3-l tracked-tight dim-gray transition hover-black flex items-center
 		{{if or ($currentNode.IsMenuCurrent "education" .) ($currentNode.HasMenuCurrent "education" .) }}
-			b--black-20 fw7 bg-white-20
+			b--black-20 fw7 bg-white-70
 		{{end}}" href="{{.URL}}">{{ .Name }}</a>
 <li>
 {{ end }}
 
 {{ $currentNode := . }}
-{{ range first 1 .Site.Menus.food }}
+{{ range .Site.Menus.food }}
 <li class="bg-food">
 	<a class="no-underline bt bw2 bw1-m bw2-l b--transparent pa3 border-box f3 f5-ns f5-m f3-l tracked-tight dim-gray transition hover-black flex items-center
 		{{if or ($currentNode.IsMenuCurrent "food" .) ($currentNode.HasMenuCurrent "food" .) }}
-			b--black-20 fw7 bg-white-20
+			b--black-20 fw7 bg-white-70
 		{{end}}" href="{{.URL}}">{{ .Name }}</a>
 <li>
 {{ end }}
 
 {{ $currentNode := . }}
-{{ range first 1 .Site.Menus.transport }}
+{{ range .Site.Menus.transport }}
 <li class="bg-transport">
 	<a class="no-underline bt bw2 bw1-m bw2-l b--transparent pa3 border-box f3 f5-ns f5-m f3-l tracked-tight dim-gray transition hover-black flex items-center
 		{{if or ($currentNode.IsMenuCurrent "transport" .) ($currentNode.HasMenuCurrent "transport" .) }}
-			b--black-20 fw7 bg-white-20
+			b--black-20 fw7 bg-white-70
 		{{end}}" href="{{.URL}}">{{ .Name }}</a>
 <li>
 {{ end }}
 
 {{ $currentNode := . }}
-{{ range first 1 .Site.Menus.shelter }}
+{{ range .Site.Menus.shelter }}
 <li class="bg-shelter">
 	<a class="no-underline bt bw2 bw1-m bw2-l b--transparent pa3 border-box f3 f5-ns f5-m f3-l tracked-tight dim-gray transition hover-black flex items-center
 		{{if or ($currentNode.IsMenuCurrent "shelter" .) ($currentNode.HasMenuCurrent "shelter" .) }}
-			b--black-20 fw7 bg-white-20
+			b--black-20 fw7 bg-white-70
 		{{end}}" href="{{.URL}}">{{ .Name }}</a>
 <li>
 {{ end }}
@@ -145,7 +145,7 @@
 				</li>
 				{{ end }}
 
-				{{ $currentPage := . }}
+				{{/* $currentPage := . }}
 				{{ range .Site.Menus.development }}
 				<li class="bg-mustard">
 					<a class=" white no-underline b--transparentbt bw2 bw1-m bw2-lb--transparentflex items-center pa3 border-box f3 f5-ns f5-m f3-l tracked-tight
@@ -154,7 +154,7 @@
 						{{end}}"
 					href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a>
 				</li>
-				{{ end }}
+				{{ end */}}
 				
 				{{ $currentPage := . }}
 				{{ range .Site.Menus.course }}

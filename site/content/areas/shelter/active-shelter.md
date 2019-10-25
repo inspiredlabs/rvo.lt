@@ -6,7 +6,8 @@ description: >-
 
 levels: ["community"]
 areas: ["shelter"]
-menu: shelter
+weight: 5
+order: 5
 
 ---
 
