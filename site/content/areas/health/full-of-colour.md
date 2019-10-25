@@ -1,12 +1,15 @@
 ---
-title: The Healthiest Diet
+title: Full Colour Diet
 date: 2019-10-09T16:43:26+02:00
-description: Is full of&nbsp;colour
-menu:
-  food
+description: "Could be the healthiest diet"
+menu:	health
 levels: ["community"]
-areas: ["food"]
+areas: ["food", "health"]
+weight: 3
+order: 3
 ---
+
+<!--menu: ["food", "health"]-->
 
 <!--![Fresh foods are most nutrient-dense and grow in nature with all the colours of the rainbow.](/img/david-milan-food-photo-x2.jpg "Rainbow Diet")
 -->
@@ -38,7 +41,7 @@ That's becasue over hundreds of thousands of years of human evolution, we have f
 Knowing this, we can simplify healthy&nbsp;eating.<!-- without&nbsp;sacrifice.-->
 
 
-# Full of&nbsp;colour
+# Full Colour&nbsp;Diet
 
 ## Fresh, &amp; Nutrient-Dense
 

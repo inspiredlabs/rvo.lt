@@ -1,14 +1,18 @@
 ---
 title: Food
-date: 2019-10-09T16:43:26+02:00
-description: The center of self-sufficiency
 
+description: >-
+  The heart of self-sufficiency 
+
+date: 2019-10-09T16:43:26+02:00
 areas: ["food"]
 order: 3
 weight: 3
 
+menu:
+  food
+
 levels: ["community"]
-areas: ["food"]
 
 
 ---

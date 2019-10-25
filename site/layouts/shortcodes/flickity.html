@@ -7,7 +7,7 @@
 	    <img class="b-lazy no-select w-100 ma0" src="data:image/gif,GIF89a,AAAAAAE" data-src="{{ index .Params "src" }}" {{ if or (isset .Params "alt") (isset .Params "caption") }}alt="{{ if isset .Params "alt"}}{{ index .Params "alt"}}{{else}}{{ index .Params "caption" }}{{ end }}"{{ end }} />
 	    {{ if isset .Params "link"}}</span>{{ end }}
 	    {{ if or (or (isset .Params "title") (isset .Params "caption")) (isset .Params "attr")}}
-	    <figcaption class="bg-black-80 white-80 pa3 lh-solid relative" style="top:-0.4em; background:{{ .Get `color` }};">{{ if isset .Params "title" }}
+	    <figcaption class="bg-black-80 white-80 pa3 f5 lh-solid relative" style="top:-0.5em; background:{{ .Get `color` }};">{{ if isset .Params "title" }}
 	        <span class="">{{ index .Params "title" }}</span>{{ end }}
 	        {{ if or (isset .Params "caption") (isset .Params "attr")}}<p>
 	        {{ index .Params "caption" }}

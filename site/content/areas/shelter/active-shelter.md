@@ -6,6 +6,7 @@ description: >-
 
 levels: ["community"]
 areas: ["shelter"]
+menu: shelter
 
 ---
 

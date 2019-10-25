@@ -1,6 +1,7 @@
 ---
 title: Health
 areas: ["health"]
+menu: health
 order: 1
 weight: 1
 

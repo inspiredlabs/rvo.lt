@@ -5,6 +5,7 @@ description: >-
   Our interface with the natural world
 levels: ["community"]
 areas: ["education"]
+menu: education
 order: 2
 weight: 2
 ---
