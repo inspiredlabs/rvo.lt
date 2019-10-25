@@ -7992,41 +7992,60 @@
 	    color:rgba(38, 38, 38, 1)
 	}
 	
-	 :root{
-	    --tint-fg:darkgrey;
-	    --tint-bg:white;
-	    --dim-cta:darkgrey;
-	    --lit-cta:gainsboro
+ :root{
+    
+    --oxford:#002147;
+    --violet:#741472;
+    --mustard:#8a3700;
+    --spa:#006f45;
+    
+    --health:#ef604d;
+    --education:#f4ad8b;
+    --food:#dcd7d7;
+    --transport:#b2d9e8;
+    --shelter:#7db6d0;
+    
+    --global:#c858c5;
+    --national:#f0a1e0;
+    --regional:#d8eeea;
+    --institution):#9df5d2;
+    --community:#59ce89;
+    
+    --charcoal:#4a4a4a;
+    
+    --tint-fg:darkgrey;	/*#4a4a4a*/
+    --tint-bg:white;
+    --dim-cta:darkgrey;	/*#4a4a4a*/
+    --lit-cta:gainsboro;/*gray*/
 	}
-	.tint-bg{
-	    background-color:var(--tint-bg)
-	}
+	
+	.tint-bg{ background-color:var(--tint-bg) }
 	.tint-fg{
-	    color:var(--tint-fg);
-	    fill:var(--tint-fg)
+    color:var(--tint-fg);
+    fill:var(--tint-fg)
 	}
 	.dim-cta{
-	    color:var(--dim-cta);
-	    fill:var(--dim-cta)
+    color:var(--dim-cta);
+    fill:var(--dim-cta)
 	}
 	.lit-cta{
-	    color:var(--lit-cta);
-	    fill:var(--lit-cta)
+    color:var(--lit-cta);
+    fill:var(--lit-cta)
 	}
 	.hover-bg-gray{
-	    transition:all 1s ease-out
+    transition:all 1s ease-out
 	}
 	#searchEntry{
-	    transition:opacity 1s ease
+    transition:opacity 1s ease
 	}
 	#searchEntry:focus,#searchEntry:hover{
-	    opacity:1
+    opacity:1
 	}
 	input:-webkit-autofill{
-	    -webkit-box-shadow:0 0 0 99rem #f8f8f8 inset
+    -webkit-box-shadow:0 0 0 99rem #f8f8f8 inset
 	}
 	.h07{
-	    height: 0.7rem;
+    height: 0.7rem;
 	}
 	
 </style>
@@ -8056,15 +8075,15 @@
 		.hover-bg-off-white:focus { background-color:#ddd; }
 
 	/*------------------- Charcoal grey ---------------------*/
-	.charcoal { color:#4a4a4a; }
-	.bg-charcoal { background-color:#4a4a4a; }
-	.b--charcoal { border-color:#4a4a4a; }
+	.charcoal { color:var(--charcoal); }
+	.bg-charcoal { background-color:var(--charcoal); }
+	.b--charcoal { border-color:var(--charcoal); }
 
 	.hover-charcoal:hover,
-	.hover-charcoal:focus { color:#4a4a4a; }
+	.hover-charcoal:focus { color:var(--charcoal); }
 
 	.hover-bg-charcoal:hover,
-	.hover-bg-charcoal:focus { background-color:#4a4a4a; }
+	.hover-bg-charcoal:focus { background-color:var(--charcoal); }
 	
 	/*------------------- Beacon orange ---------------------*/
 	.beacon { color: #F15A22; } /* hazard, warning, prepare, signal, logo */
@@ -8078,60 +8097,59 @@
 	.hover-bg-beacon:focus { background-color: #F15A22; }
 	
 	/*------------------- Dijon mustard ---------------------*/
-	.mustard { color: #8A3700; }
-	.bg-mustard { background-color: #8A3700; }
-	.b--mustard { border-color: #8A3700; }
+	.mustard { color:var(--mustard); }
+	.bg-mustard { background-color:var(--mustard); }
+	.b--mustard { border-color:var(--mustard); }
 	
 	.hover-mustard:hover,
-	.hover-mustard:focus { color: #8A3700; }
+	.hover-mustard:focus { color:var(--mustard); }
 	
 	.hover-bg-mustard:hover,
-	.hover-bg-mustard:focus { background-color: #8A3700; }
-	
-	
+	.hover-bg-mustard:focus { background-color:var(--mustard); }
+
 	
 	/*---------------------- Luxury spa ----------------------*/
-	.spa { color: #006f45; }
-	.bg-spa { background-color: #006f45; }
-	.b--spa { border-color: #006f45; }
+	.spa { color:var(--spa); }
+	.bg-spa { background-color:var(--spa); }
+	.b--spa { border-color:var(--spa); }
 	
 	.hover-spa:hover,
-	.hover-spa:focus { color: #006f45; }
+	.hover-spa:focus { color:var(--spa); }
 	
 	.hover-bg-spa:hover,
-	.hover-bg-spa:focus { background-color: #006f45; }
-	
-	
+	.hover-bg-spa:focus { background-color:var(--spa); }
+
+
 	
 	/*-------------------- Crystal violet ---------------------*/
 	/* en.wikipedia.org/wiki/Crystal_violet */
 	/* Purple for PeR, three pointed star */
 	/* Used: medicinal antisceptic/ dye */	
 	
-	.violet { color: #741472; }
-	.bg-violet { background-color: #741472; }
-	.b--violet { border-color: #741472; }
+	.violet { color:var(--violet); }
+	.bg-violet { background-color:var(--violet); }
+	.b--violet { border-color:var(--violet); }
 	
 	.hover-violet:hover,
-	.hover-violet:focus { color: #741472; }
+	.hover-violet:focus { color:var(--violet); }
 	
 	.hover-bg-violet:hover,
-	.hover-bg-violet:focus { background-color: #741472; }
-	
-	
+	.hover-bg-violet:focus { background-color:var(--violet); }
+
 	
 	/*--------------------- Oxford blue ----------------------*/
 	/* https://encycolorpedia.com/002147 */
 	
-	.oxford { color: #002147; }
-	.bg-oxford { background-color: #002147; }
-	.b--oxford { border-color: #002147; }
+	.oxford { color:var(--oxford); }
+	.bg-oxford { background-color:var(--oxford); }
+	.b--oxford { border-color:var(--oxford); }
 	
 	.hover-oxford:hover,
-	.hover-oxford:focus { color: #002147; }
+	.hover-oxford:focus { color:var(--oxford); }
 	
 	.hover-bg-oxford:hover,
-	.hover-bg-oxford:focus { background-color: #002147; }
+	.hover-bg-oxford:focus { background-color:var(--oxford); }
+	
 </style>
 
 <style>
@@ -8189,59 +8207,59 @@
 	/* from: https://www.visualisingdata.com/2019/08/five-ways-to-design-for-red-green-colour-blindness/ */
 	
 	/*--------------------- HEALTH ----------------------*/
-	.health { color: #ef604d; }
-	.bg-health { background-color: #ef604d; }
-	.b--health { border-color: #ef604d; }
+	.health { color:var(--health); }
+	.bg-health { background-color:var(--health); }
+	.b--health { border-color:var(--health); }
 
 	.hover-health:hover,
-	.hover-health:focus { color: #ef604d; }
+	.hover-health:focus { color:var(--health); }
 
 	.hover-bg-health:hover,
-	.hover-bg-health:focus { background-color: #ef604d; }
+	.hover-bg-health:focus { background-color:var(--health); }
 
 	/*------------------ EDUCATION -------------------*/
-	.education { color: #f4ad8b; }
-	.bg-education { background-color: #f4ad8b; }
-	.b--education { border-color: #f4ad8b; }
+	.education { color:var(--education); }
+	.bg-education { background-color:var(--education); }
+	.b--education { border-color:var(--education); }
 
 	.hover-education:hover,
-	.hover-education:focus { color: #f4ad8b; }
+	.hover-education:focus { color:var(--education); }
 
 	.hover-bg-education:hover,
-	.hover-bg-education:focus { background-color: #f4ad8b; }
+	.hover-bg-education:focus { background-color:var(--education); }
 
 	/*--------------------- FOOD ----------------------*/
-	.food { color: #dcd7d7; } /* deccc2 */
-	.bg-food { background-color: #dcd7d7; }
-	.b--food { border-color: #dcd7d7; }
+	.food { color:var(--food); } /* deccc2 */
+	.bg-food { background-color:var(--food); }
+	.b--food { border-color:var(--food); }
 
 	.hover-food:hover,
-	.hover-food:focus { color: #dcd7d7; }
+	.hover-food:focus { color:var(--food); }
 
 	.hover-bg-food:hover,
-	.hover-bg-food:focus { background-color: #dcd7d7; }
+	.hover-bg-food:focus { background-color:var(--food); }
 	
 	/*------------------ TRANSPORT -------------------*/
-	.transport { color: #b2d9e8; }
-	.bg-transport { background-color: #b2d9e8; }
-	.b--transport { border-color: #b2d9e8; }
+	.transport { color:var(--transport); }
+	.bg-transport { background-color:var(--transport); }
+	.b--transport { border-color:var(--transport); }
 
 	.hover-transport:hover,
-	.hover-transport:focus { color: #b2d9e8; }
+	.hover-transport:focus { color:var(--transport); }
 
 	.hover-bg-transport:hover,
-	.hover-bg-transport:focus { background-color: #b2d9e8; }
+	.hover-bg-transport:focus { background-color:var(--transport); }
 
 	/*--------------------- SHELTER ----------------------*/
-	.shelter { color: #7db6d0; }
-	.bg-shelter { background-color: #7db6d0; }
-	.b--shelter { border-color: #7db6d0; }
+	.shelter { color:var(--shelter); }
+	.bg-shelter { background-color:var(--shelter); }
+	.b--shelter { border-color:var(--shelter); }
 
 	.hover-shelter:hover,
-	.hover-shelter:focus { color: #7db6d0; }
+	.hover-shelter:focus { color:var(--shelter); }
 
 	.hover-bg-shelter:hover,
-	.hover-bg-shelter:focus { background-color: #7db6d0; }
+	.hover-bg-shelter:focus { background-color:var(--shelter); }
 	
 	/*--------------- Level colour scheme ----------------*/
 	/* "all" "colour blind" "palette" */
@@ -8249,60 +8267,59 @@
 	/* Tripple staining, from: https://jfly.uni-koeln.de/color/ */
 	
 	/*--------------------- GLOBAL ----------------------*/	
-	.global { color: #c858c5; }
-	.bg-global { background-color: #c858c5; }
-	.b--global { border-color: #c858c5; }
+	.global { color:var(--global); }
+	.bg-global { background-color:var(--global); }
+	.b--global { border-color:var(--global); }
 	
 	.hover-global:hover,
-	.hover-global:focus { color: #c858c5; }
+	.hover-global:focus { color:var(--global); }
 	
 	.hover-bg-global:hover,
-	.hover-bg-global:focus { background-color: #c858c5; }
-	
+	.hover-bg-global:focus { background-color:var(--global); }
+
 	/*--------------- NATIONAL / FEDERAL ---------------*/
-	.national { color: #f0a1e0; }
-	.bg-national { background-color: #f0a1e0; }
-	.b--national { border-color: #f0a1e0; }
+	.national { color:var(--national); }
+	.bg-national { background-color:var(--national); }
+	.b--national { border-color:var(--national); }
 	
 	.hover-national:hover,
-	.hover-national:focus { color: #f0a1e0; }
+	.hover-national:focus { color:var(--national); }
 	
 	.hover-bg-national:hover,
-	.hover-bg-national:focus { background-color: #f0a1e0; }
+	.hover-bg-national:focus { background-color:var(--national); }
 	
 	/*--------------- REGIONAL / STATE -----------------*/
-	.regional { color: #d8eeea; }
-	.bg-regional { background-color: #d8eeea; }
-	.b--regional { border-color: #d8eeea; }
+	.regional { color:var(--regional); }
+	.bg-regional { background-color:var(--regional); }
+	.b--regional { border-color:var(--regional); }
 	
 	.hover-regional:hover,
-	.hover-regional:focus { color: #d8eeea; }
+	.hover-regional:focus { color:var(--regional); }
 	
 	.hover-bg-regional:hover,
-	.hover-bg-regional:focus { background-color: #d8eeea; }
+	.hover-bg-regional:focus { background-color:var(--regional); }
 	
 	/*------------------ INSTITUTION -------------------*/
-	.institution { color: #9df5d2; }
-	.bg-institution { background-color: #9df5d2; }
-	.b--institution { border-color: #9df5d2; }
+	.institution { color:var(--institution); }
+	.bg-institution { background-color:var(--institution); }
+	.b--institution { border-color:var(--institution); }
 	
 	.hover-institution:hover,
-	.hover-institution:focus { color: #9df5d2; }
+	.hover-institution:focus { color:var(--institution); }
 	
 	.hover-bg-institution:hover,
-	.hover-bg-institution:focus { background-color: #9df5d2; }
+	.hover-bg-institution:focus { background-color:var(--institution); }
 	
 	/*------------------- COMMUNITY --------------------*/		
-	.community { color: #59ce89; }
-	.bg-community { background-color: #59ce89; }
-	.b--community { border-color: #59ce89; }
+	.community { color:var(--community); }
+	.bg-community { background-color:var(--community); }
+	.b--community { border-color:var(--community); }
 	
 	.hover-community:hover,
-	.hover-community:focus { color: #59ce89; }
+	.hover-community:focus { color:var(--community); }
 	
 	.hover-bg-community:hover,
-	.hover-bg-community:focus { background-color: #59ce89; }
-	
+	.hover-bg-community:focus { background-color:var(--community); }
 </style>
 <style>
 	
@@ -8557,9 +8574,9 @@
 	
 	.select-reset{display:inline-block;width:100%;min-width:5.0rem;background-image:url(data:image/svg+xml;charset=utf-8,%3Csvg%20version%3D%221.1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20x%3D%220px%22%20y%3D%220px%22%20fill%3D%22%23555555%22%20%0A%09%20width%3D%2224px%22%20height%3D%2224px%22%20viewBox%3D%22-261%20145.2%2024%2024%22%20style%3D%22enable-background%3Anew%20-261%20145.2%2024%2024%3B%22%20xml%3Aspace%3D%22preserve%22%3E%0A%3Cpath%20d%3D%22M-245.3%2C156.1l-3.6-6.5l-3.7%2C6.5%20M-252.7%2C159l3.7%2C6.5l3.6-6.5%22%2F%3E%0A%3C%2Fsvg%3E);background-repeat:no-repeat;background-position:right center;/* background-position:calc(100% - 1rem) center; */cursor:pointer;outline:0;border:0;border-radius:0;-webkit-appearance:none;-moz-appearance:none;appearance:none;}
 	
-	
 	[role="tablist"] [aria-selected], [role="tabpanel"] {
-	  background:#445576;/* petrol */
+	  /* Reference: https://inspiredlabs.co.uk/j/ */
+	  background:var(--charcoal);/* == .bg-charcoal !petrol = #445576 */
 	  color: hsla(0,0%,100%,1);/* override the white-60 and white-hover */
 	}
 	

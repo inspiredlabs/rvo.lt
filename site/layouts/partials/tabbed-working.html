@@ -1,0 +1,393 @@
+<!-- bg-black -->
+<button tabindex="" id="menu-toggle" aria-haspopup="true" class="no-clutter fixed z-max pointer mb5 bottom-0 right-0 fr ba bw2 b--black bg-dark-gray transition hover-bg-near-black white mr0 ml0 pa2 pt1 pb1 tc" aria-expanded="true"><!-- //Default: aria-expanded="false" -->
+  <svg viewBox="0 0 16 16" class="db h2 w2 mt1 mb1 mr-auto ml-auto no-select" alt="Menu">
+    <use xlink:href="#icon-menu"></use>
+    <!--<use viewBox="-356 235 128 128" xlink:href="#home"></use>-->
+  </svg>
+  <span class="dib dib-ns dn-m dib-l f8 tracked ttu bb mb2">Menu</span><!-- bw1 f7 f7-ns f6-m f6-l -->
+</button>
+
+<div id="menu" class="no-clutter fixed z-999 antialias white"><!-- //Default not: hidden -->
+  <div id="overlay" class="overlay fixed z-1 bg-black-30 top-0 left-0 right-0 btm-0 vh-100 vw-100 h-100 w-100"></div><!-- //Default not: hidden -->
+
+  	<!-- Start right UI -->
+    <nav class="fixed z-2 top-0
+    			right-0 fr h-100 touch-scrolling
+					w-two-thirds w-20-ns
+					w-25-m w-20-l
+    			ttu"
+    			role="menu"><!-- w-third-ns w-25-m w-25-l --><!-- avenir ttu bg-deep-petrol bg-near-black antialias bg-light-gray -->
+
+			<!--<ul class="list pa0 ma0">
+				<li>test</li>
+      </ul>-->
+    
+      <div class="tabbed bg-charcoal"><!--bg-deep-petrol-->
+      
+	      <ul class="w-100 list pa0 ma0 cf dt bg-near-black" role="tablist">
+	        <li class="fl w-third dtc v-mid " role="presentation">
+	          <a href="#section1" class="white-60 tc w-100 pv3 pv1-ns pv1-m pv3-l db no-underline b--transparentbt bw2 bw1-m bw2-lb--transparent transition hover-white" role="tab" id="tab1" aria-selected="true">
+	    				<svg viewBox="0 0 24 24" class="db h2 w2 mt1 mb1 mr-auto ml-auto no-select" alt="icon-home-outline">
+	    					<use xlink:href="#icon-home-outline"></use>
+	    				</svg>
+	          	<span class="db db-ns dn-m db-l f5 f6-ns f7-m f5-l overflow-x-hidden">Home</span>
+	          </a>
+	        </li>
+	        <li class="fl w-third dtc v-mid " role="presentation">
+	          <a href="#section2" class="white-60 tc w-100 pv3 pv1-ns pv1-m pv3-l db no-underline b--transparentbt bw2 bw1-m bw2-lb--transparent transition hover-white" role="tab" id="tab2" tabindex="-1">
+	    				<svg viewBox="0 0 32 32" class="db h2 w2 mt1 mb1 mr-auto ml-auto no-select" alt="icon-user">
+	    					<use xlink:href="#icon-user"></use>
+	    				</svg>
+	          	<span class="db db-ns dn-m db-l f5 f6-ns f7-m f5-l overflow-x-hidden">Profilo</span>
+	          </a>
+	        </li>
+	        <li class="fl w-third dtc v-mid " role="presentation">
+	           <a href="#section3" class="white-60 tc w-100 pv3 pv1-ns pv1-m pv3-l db no-underline b--transparentbt bw2 bw1-m bw2-lb--transparent transition hover-white" role="tab" id="tab3" tabindex="-1">
+	           <svg viewBox="0 0 24 24" class="db h2 w2 mt1 mb1 mr-auto ml-auto no-select" alt="icon-search">
+	    					<use xlink:href="#icon-search"></use>
+	    				</svg>	
+	           	<span class="db db-ns dn-m db-l f5 f6-ns f7-m f5-l overflow-x-hidden">Cerca</span>
+	           </a>
+	        </li>
+	      </ul>
+	      
+	      
+	      
+	      <section id="section1" class="pa0 ma0" role="tabpanel" tabindex="-1" aria-labelledby="tab1">
+	  			
+	  			<!--<ul id="scrollspy" class="mt0 pl0 list f3 f4-ns f5-m f3-l b overflow-x-hidden">-->
+	  				<!--<li class="">
+	  					<a class="hover-o-100 white o-70" href="#experiences" tabindex>Experiences</a>
+	  					<ul class="pl0 list f5 f6-ns f7-m f5-l">
+	  						<li><a class="hover-o-100 white o-70" href="#tours" tabindex>Tours</a></li>
+	  						<li><a class="hover-o-100 white o-70" href="#cruises" tabindex>Cruises</a></li>
+	  						<li><a class="hover-o-100 white o-70" href="#hotels" tabindex>Hotels</a></li>
+	  					</ul>
+	  				</li>-->
+	  			<!--<li><a class="hover-o-100 white o-70 bb bw1 f5 f6-ns f7-m f5-l" href="#top" tabindex="">Top</a></li>-->
+	  			</ul><!-- data-scroll -->
+	  			
+	  			<ul class="list pa0">
+	  			
+	  				<li>
+							<a class="no-underline bt bw2 bw1-m bw2-l b--transparent pa3 border-box f3 f5-ns f5-m f3-l tracked-tight white transition hover-white-80 flex items-center
+							{{ if .IsHome }}b--black-20 fw7 bg-black-30{{ end }}"
+							href="{{ .Site.BaseURL }}">{{/* .Title */}}HOME</a>
+						</li>
+		
+						{{ $currentPage := . }}
+						{{ range .Site.Menus.principle }}
+						<li>
+							<a class="no-underline bt bw2 bw1-m bw2-l b--transparent pa3 border-box f3 f5-ns f5-m f3-l tracked-tight white transition hover-white-80 flex items-center 
+								{{if or ($currentPage.IsMenuCurrent "principle" .) ($currentPage.HasMenuCurrent "principle" .) }}
+									b--black-20 fw7 bg-black-30
+								{{end}}"
+							href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a>
+						</li>
+						{{ end }}
+						
+		  			<!-- HEFTS -->
+		  			{{ $currentNode := . }}
+		  			{{ range .Site.Menus.health }}
+		  			<li class="bg-health">
+		  				<a class="no-underline bt bw2 bw1-m bw2-l b--transparent pa3 border-box f3 f5-ns f5-m f3-l tracked-tight dim-gray transition hover-black flex items-center
+		  					{{if or ($currentNode.IsMenuCurrent "health" .) ($currentNode.HasMenuCurrent "health" .) }}
+		  						b--black-20 fw7 bg-white-70
+		  					{{end}}" href="{{.URL}}">{{ .Name }}</a>
+		  			<li>
+		  			{{ end }}
+		  			
+		  			{{ $currentNode := . }}
+		  			{{ range .Site.Menus.education }}
+		  			<li class="bg-education">
+		  				<a class="no-underline bt bw2 bw1-m bw2-l b--transparent pa3 border-box f3 f5-ns f5-m f3-l tracked-tight dim-gray transition hover-black flex items-center
+		  					{{if or ($currentNode.IsMenuCurrent "education" .) ($currentNode.HasMenuCurrent "education" .) }}
+		  						b--black-20 fw7 bg-white-70
+		  					{{end}}" href="{{.URL}}">{{ .Name }}</a>
+		  			<li>
+		  			{{ end }}
+		  			
+		  			{{ $currentNode := . }}
+		  			{{ range .Site.Menus.food }}
+		  			<li class="bg-food">
+		  				<a class="no-underline bt bw2 bw1-m bw2-l b--transparent pa3 border-box f3 f5-ns f5-m f3-l tracked-tight dim-gray transition hover-black flex items-center
+		  					{{if or ($currentNode.IsMenuCurrent "food" .) ($currentNode.HasMenuCurrent "food" .) }}
+		  						b--black-20 fw7 bg-white-70
+		  					{{end}}" href="{{.URL}}">{{ .Name }}</a>
+		  			<li>
+		  			{{ end }}
+		  			
+		  			{{ $currentNode := . }}
+		  			{{ range .Site.Menus.transport }}
+		  			<li class="bg-transport">
+		  				<a class="no-underline bt bw2 bw1-m bw2-l b--transparent pa3 border-box f3 f5-ns f5-m f3-l tracked-tight dim-gray transition hover-black flex items-center
+		  					{{if or ($currentNode.IsMenuCurrent "transport" .) ($currentNode.HasMenuCurrent "transport" .) }}
+		  						b--black-20 fw7 bg-white-70
+		  					{{end}}" href="{{.URL}}">{{ .Name }}</a>
+		  			<li>
+		  			{{ end }}
+		  			
+		  			{{ $currentNode := . }}
+		  			{{ range .Site.Menus.shelter }}
+		  			<li class="bg-shelter">
+		  				<a class="no-underline bt bw2 bw1-m bw2-l b--transparent pa3 border-box f3 f5-ns f5-m f3-l tracked-tight dim-gray transition hover-black flex items-center
+		  					{{if or ($currentNode.IsMenuCurrent "shelter" .) ($currentNode.HasMenuCurrent "shelter" .) }}
+		  						b--black-20 fw7 bg-white-70
+		  					{{end}}" href="{{.URL}}">{{ .Name }}</a>
+		  			<li>
+		  			{{ end }}
+		  			<!-- /HEFTS -->
+		  			{{ $currentPage := . }}
+						{{ range .Site.Menus.venue }}
+						<li class="bg-violet">
+							<a class="no-underline bt bw2 bw1-m bw2-l b--transparent pa3 border-box f3 f5-ns f5-m f3-l tracked-tight white transition hover-white-80 flex items-center 
+								{{if or ($currentPage.IsMenuCurrent "venue" .) ($currentPage.HasMenuCurrent "venue" .) }}
+									b--black-20 fw7 bg-black-30
+								{{end}}"
+							href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a>
+						</li>
+						{{ end }}
+		
+						{{/* $currentPage := . }}
+						{{ range .Site.Menus.development }}
+						<li class="bg-mustard">
+							<a class=" white no-underline b--transparentbt bw2 bw1-m bw2-lb--transparentflex items-center pa3 border-box f3 f5-ns f5-m f3-l tracked-tight
+								{{if or ($currentPage.IsMenuCurrent "development" .) ($currentPage.HasMenuCurrent "development" .) }}
+									b--black-20 fw7 bg-black-30
+								{{end}}"
+							href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a>
+						</li>
+						{{ end */}}
+						
+						{{ $currentPage := . }}
+						{{ range .Site.Menus.course }}
+						<li class="bg-spa">
+							<a class="no-underline bt bw2 bw1-m bw2-l b--transparent pa3 border-box f3 f5-ns f5-m f3-l tracked-tight white transition hover-white-80 flex items-center 
+								{{if or ($currentPage.IsMenuCurrent "course" .) ($currentPage.HasMenuCurrent "course" .) }}
+									b--black-20 fw7 bg-black-30
+								{{end}}"
+							href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a>
+						</li>
+						{{ end }}
+		
+						{{ $currentPage := . }}
+						{{ range .Site.Menus.knowledgeshare }}
+						<li class="bg-oxford"><!-- black bg-gold -->
+							<a class="no-underline bt bw2 bw1-m bw2-l b--transparent pa3 border-box f3 f5-ns f5-m f3-l tracked-tight white transition hover-white-80 flex items-center 
+								{{if or ($currentPage.IsMenuCurrent "knowledgeshare" .) ($currentPage.HasMenuCurrent "knowledgeshare" .) }}
+									b--black-20 fw7 bg-black-30
+								{{end}}"
+							href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a>
+						</li>
+						{{ end }}
+		
+						{{ $currentPage := . }}
+						{{ range .Site.Menus.post }}
+						<li class="bg-off-white"><!-- -->
+							<a class="no-underline bt bw2 bw1-m bw2-l b--transparent pa3 border-box f3 f5-ns f5-m f3-l tracked-tight dim-gray transition hover-black flex items-center 
+								{{if or ($currentPage.IsMenuCurrent "post" .) ($currentPage.HasMenuCurrent "post" .) }}
+									b--black-20 fw7 bg-white-20
+								{{end}}"
+							href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a>
+						</li>
+						{{ end }}
+		
+						{{ $currentPage := . }}
+						{{ range .Site.Menus.press }}
+						<li class="bg-gold"><!-- -->
+							<a class="no-underline bt bw2 bw1-m bw2-l b--transparent pa3 border-box f3 f5-ns f5-m f3-l tracked-tight dim-gray transition hover-black flex items-center 
+								{{if or ($currentPage.IsMenuCurrent "press" .) ($currentPage.HasMenuCurrent "press" .) }}
+									b--black-20 fw7 bg-white-20
+								{{end}}"
+							href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a>
+						</li>
+						{{ end }}
+	  			</ul>
+	  			
+	      </section><!-- /section1 -->
+	      
+	      <section id="section2" class="pa2 pa1-ns pa3-m pa3-l pt2 pt1-ns pt3-m  ml0 f5 f6-ns f7-m f5-l" role="tabpanel" tabindex="-1" aria-labelledby="tab2" hidden="">
+	        <h2 class="overflow-hidden mt0" lang="it">Profilo Utente</h2>
+	        <!--
+		        Login:
+		        - X, close
+		        - Nome utente o indirizzo
+		        	- Email
+		        	- Password
+		        - Ricordami
+		        	- [LOGIN]
+		        - Password dimenticata?
+	        -->
+			    <div class="ttu tl tc-ns tc-m tl-l cf "><!-- tachyons.io/docs/ -->
+			      <div class="w-third w-25-ns w-100-m w-25-l dib dib-ns db-m dib-l fl tc center"><!-- float:left -->
+			        <img src="https://inspiredlabs.co.uk/j/images/admin.jpg" class="br-100 w-90 w-50-ns w-50-m w-90-l ba bw1 bw0-ns bw1-m bw2-l b--white no-select" title="Profile">
+			        
+			        <a href="#" class="db  no-underline b--transparentbt bw2 bw1-m bw2-l b--transparent overflow-x-hidden b ttu tracked-none-l tracked-none-ns tracked-mega-m tracked mb2"><span class="pointer white-60 transition hover-o-100 transition hover-white f8 f6-ns f7-m f8-l bb bw1">Logout</span></a><!-- w-100-m -->
+			      </div>
+			      <div class="w-two-thirds w-75-ns w-100-m w-75-l dib dib-ns db-m dib-l pl0 pl1-ns pl0-m pl2-l tracked-mega fr">
+				      
+				      <dl class="w-100 mt0 tl ml2 tc-ns ml0-ns tc-m ml0-m tl-l ml2-l">
+				        <dt class="f5 f6-ns f8-m f6-l fw6 ma0 pa0 v-top">Gianluca Rubino</dt>
+				        <dd class="f5 f6-ns f8-m f6-l fw4 ma0 pa0 v-top">WALTER ITALIA</dd>
+				        <dt class="f6 f7-ns f8-m f7-l fw4 ma0 pa0 v-top">LIVELLO&nbsp;5</dt>
+				      </dl>
+				      
+			      </div>
+			    </div>
+			    
+			    <div class=" v-btm lh-copy mv0 pa3 pa2-ns pa0-m pa3-l ttu tracked-mega tc db">
+						<h3 class="f5 f6-ns f7-m f5-l fw4">Dettagli&nbsp;di <span class="fw6">viaggio</span></h3>
+			        
+		        <a href="#" class="dib pointer no-underline b--transparentbt bw2 bw1-m bw2-lb--transparentbr0 f6 f5-ns f6-l b pv3 ph2 ph1-ns ph2-m pv0-m pv2-l ph2-l grow transition hover-o-100 o-70 ttu tracked tracked-mega-ns white" lang="it">
+		        	<svg viewBox="0 0 32 32" class="db h2 w2 mt1 mb1 mr-auto ml-auto no-select" alt="icon-info-outline">
+		        		<use xlink:href="#icon-footprint"></use>
+		        	</svg>
+		          <!-- bb bw1 mb2 --><span class="db db-ns dn-m db-l f5 f6-ns f7-m f5-l overflow-x-hidden ttu">impronte</span>
+		        </a>
+		        
+		        <a href="#" class="dib pointer no-underline b--transparentbt bw2 bw1-m bw2-lb--transparentbr0 f6 f5-ns f6-l b pv3 ph2 ph1-ns ph2-m pv0-m pv2-l ph2-l grow transition hover-o-100 o-70 ttu tracked tracked-mega-ns white mb3-l" lang="it">
+		        	<svg viewBox="-3 -1 32 32" class="db h2 w2 mt1 mb1 mr-auto ml-auto no-select" alt="icon-info-outline">
+		        			<use xlink:href="#icon-palmtree"></use>
+		        		</svg>	
+		          <!-- bb bw1 mb2 --><span class="db db-ns dn-m db-l f5 f6-ns f7-m f5-l overflow-x-hidden ttu">viaggi</span>
+		        </a>
+			        
+	        </div><!-- dtc -->
+	        
+	        <div class=" v-btm lh-copy mv0 pa3 pa2-ns pa0-m pa3-l ttu tracked-mega tc db">
+	        	<!-- Migliorare i -->
+	        	<h3 class="f5 f6-ns f7-m f5-l fw4">i&nbsp;dettagli <span class="fw6">personali</span></h3>
+	          <a href="#" class="dib pointer no-underline b--transparentbt bw2 bw1-m bw2-lb--transparentbr0 f6 f5-ns f6-l b pv3 ph2 ph1-ns ph2-m pv0-m pv2-l ph2-l grow transition hover-o-100 o-70 ttu tracked tracked-mega-ns white" lang="it">
+	          	<svg viewBox="0 0 32 32" class="db h2 w2 mt1 mb1 mr-auto ml-auto no-select" alt="icon-info-outline">
+	          			<use xlink:href="#icon-passport"></use>
+	          		</svg>
+	            <!-- bb bw1 mb2 --><span class="db db-ns dn-m db-l f5 f6-ns f7-m f5-l overflow-x-hidden ttu">dati</span>
+	          </a>
+	          
+	          <a href="#" class="dib pointer no-underline b--transparentbt bw2 bw1-m bw2-lb--transparentbr0 f6 f5-ns f6-l b pv3 ph2 ph1-ns ph2-m pv0-m pv2-l ph2-l grow transition hover-o-100 o-70 ttu tracked tracked-mega-ns white mb3-l" lang="it">
+	          	<svg viewBox="0 0 32 32" class="db h2 w2 mt1 mb1 mr-auto ml-auto no-select" alt="icon-info-outline">
+	          			<use xlink:href="#icon-checklist"></use>
+	          		</svg>
+	            <!-- bb bw1 mb2 --><span class="db db-ns dn-m db-l f5 f6-ns f7-m f5-l overflow-x-hidden ttu">risposta</span><!-- questionari -->
+	          </a>
+	            
+	        </div><!-- dtc -->
+
+	        <!--<p class="measure ttn">Phasellus ac tristique orci. Nulla maximus <a href="#" class="b white o-70" lang="it">justo nec dignissim consequat</a>. Sed vehicula diam sit amet mi efficitur vehicula in in nisl. Aliquam erat volutpat. Suspendisse lorem turpis, accumsan consequat consectetur gravida, <a href="#" class="b white o-70" lang="it">pellentesque ac ante</a>. Aliquam in commodo ligula, sit amet mollis neque. Vestibulum at facilisis massa.</p>-->
+	        
+	      </section><!-- /section2 -->
+	
+	      <section id="section3" class="pa2 pa1-ns pa3-m pa3-l pt2 pt1-ns pt3-m ml0 f5 f6-ns f7-m f5-l" role="tabpanel" tabindex="-1" aria-labelledby="tab3" hidden="">
+	        <h2 class="overflow-hidden mt0">Cerca</h2>
+
+	        <form method="post" action="" class="mt0 mb4"><!-- mb2 mb3-l -->
+        		<label for="search-domain" class="measure ttn dt pb2">Cosa ti piacerebbe cercare?</label>
+	        	<select class="input-reset select-reset br0 bn w-100 mr0 h3 h2-m h3-l f4 f6-ns f5-m f3-l bg-white-90 pa1 mb3" id="search-domain" name="search-domain" placeholder="Viaggi" required="">
+
+	        		
+	        			<option value="viaggi" selected="">Viaggi</option>
+	        			<option value="kel12_team">Team</option>
+	        			<option value="kel12_club_lounge">Lounge</option>
+	        			<option value="kel12_eventi">Eventi</option>
+	        			<option value="icnc_magazine">Articoli</option>
+	        			<option value="touroperator">Tour operator</option>
+        			
+      			</select>
+	        
+	        
+		        <input id="search" type="text" name="search" title="Search" placeholder="Cerca" class="input-reset bn w-70 w-70-ns w-100-m w-70-l h3 h2-m h3-l f4 f6-ns f5-m f3-l br0 pl1"><!-- bg-deep-petrol white thick-underline -->
+		        <button class="h3 h2-m h3-l w-auto w-100-m pointer ba bw2 b--deep-petrol bg-petrol white mr0 ml0 pr0 pl0 fr ttu mb2-m transition hover-bg-black" type="submit" for="search" onclick="event.preventDefault();"><!-- preventDefault maintains :focus -->
+		        	<span class="ph2 b f7 f7-ns f6-m f6-l">Go</span>
+		        </button><!-- Search -->
+	        </form>
+
+	      </section><!-- /section3 -->
+ 	
+	    	<aside class="dt pv2 pv3-m pv2-ns ml0 f5 f6-ns f7-m f5-l bg-black"><!-- pt6 bg-yellow -->
+	    	  <div class="dtc v-btm lh-copy mv0 pa3 pa2-ns ttu tracked-mega tc"><!-- bg-blue -->
+	    	  	<img src="https://inspiredlabs.co.uk/j/images/consultant-256.jpg" class="br-100 w-third w-50-ns w-50-l db ba bw2 bw1-ns bw2-m bw3-l b--white no-select center" title="Consultant"><!-- class="br-100 h4 w4 h3-ns w3-ns db ba bw2 bw1-ns bw2-m b--white no-select center" -->
+	    	  	
+	    	  	<h3 class="f5 f6-ns f7-m f5-l fw4 pv2 pv1-m pv2-l">CHIAMACI PER CONOSCERE IL&nbsp;TUO <span class="fw6">CONSULENTE</span></h3><!-- Connect with your personal travel consultant -->
+	    	  	
+		    	    <a href="#" class="dib pointer no-underline b--transparentbt bw2 bw1-m bw2-lb--transparentbr0 f6 f5-ns f6-l b pv3 ph2 ph1-ns ph2-m pv0-m pv2-l ph2-l grow transition hover-o-100 o-70 ttu tracked tracked-mega-ns white" lang="it"><!-- ba bw2-ns bb b--black black bg-white -->
+		    	    	<svg viewBox="0 0 24 24" class="db h2 w2 mt1 mb1 mr-auto ml-auto no-select" alt="icon-info-outline">
+		    	    			<use xlink:href="#icon-info-outline"></use>
+		    	    		</svg>
+		    	      <!-- bb bw1 mb2 --><span class="db db-ns dn-m db-l f5 f6-ns f7-m f5-l overflow-x-hidden ttu">Info</span>
+		    	    </a>
+		    	    <a href="#" class="dib pointer no-underline b--transparentbt bw2 bw1-m bw2-lb--transparentbr0 f6 f5-ns f6-l b pv3 ph2 ph1-ns ph2-m pv0-m pv2-l ph2-l grow transition hover-o-100 o-70 ttu tracked tracked-mega-ns white" lang="it"><!-- ba bw2-ns bb b--black black bg-white -->
+		    	    	<svg viewBox="0 0 24 24" class="db h2 w2 mt1 mb1 mr-auto ml-auto no-select" alt="icon-mail-outline">
+		    	    			<use xlink:href="#icon-mail-outline"></use>
+		    	    		</svg>
+		    	      <!-- bb bw1 mb2 --><span class="db db-ns dn-m db-l f5 f6-ns f7-m f5-l overflow-x-hidden ttu">Email</span>
+		    	    </a>
+	    	  </div>
+	    	</aside><!-- /Call-to-action -->
+
+	    
+	    </div><!-- /tabbed -->
+
+    
+    </nav>
+  </div><!-- /#menu -->
+
+
+
+<script>/*
+<nav class="w-25 w-30-l fixed z-999 mt0 pa1 top-0 white right-0 overflow-y overflow-x-hidden h-100 vh-100"><!--bg-black-->
+<!-- `{{ if eq (relURL .URL) ("/" | safeHTML) }}<hr/>{{ end }}`: discourse.gohugo.io/t/how-to-check-for-home-page/149/17 -->
+{{ if .IsHome }}
+<ul class="list"><!-- fw1 fl w-100 mb4 pa0 data-gumshoe ttu tracked -->
+	<li class="fl w-100 ttn"><!-- h3 -->
+		<form class="ml3 bb bw1 b--light-gray w-70 relative">
+			<button value="clear" class="absolute right-0 bn z-1 bg-transparent pointer " onclick="searchEntryZero();resetArticleSearch();" value=""><span class="input-reset pr0 bn bg-transparent bg-animate flex items-center pa3 border-box f3 f2-ns f3-m f2-l o-30">&#215;</span><!-- Unicode times symbol: rapidtables.com/web/html/html-codes.html -->
+			</button>
+			<!--
+			<svg viewBox="112 -112 32 32" class="bg-transparent dim pointer w-50" >
+			  <use xlink:href="#clear"></use>
+			</svg>
+			-->
+		  <input id="searchEntry" class="input-reset o-40 pl0 bn bg-transparent bg-animate flex items-center pa3 border-box f3 f2-ns f3-m f2-l" type="text" aria-describedby="search" placeholder="Search" oninput="inputUpdate(value);" />
+		</form>
+	</li>
+	
+	<!--li class="fl w-100">
+	  <a class="no-underline bt bw2 bw1-m bw2-lb--transparentbg-animate flex items-center pa3 border-box f3 f2-ns f3-m f2-l" href="#contact">Contact</a>
+	</li-->
+	
+	<li class="fl w-100">
+	  <button class="pointer bn bg-transparent bg-animate w-100 tl pa3 border-box f3 f2-ns f3-m f2-l"
+	  onclick="articleSearch.search(searchString = 'about');">About</button> 
+	</li>
+	<li class="fl w-100">
+	  <button class="pointer bn bg-transparent bg-animate w-100 tl pa3 border-box f3 f2-ns f3-m f2-l"
+	  onclick="articleSearch.search(searchString = 'contact');">Contact</button> 
+	</li>
+</ul>
+{{ end }}
+
+<!-- Understand scope: youtube.com/watch?v=juSnHsCX9RU -->
+<!-- https://discourse.gohugo.io/t/how-to-check-if-not-homepage/9086 -->
+<!-- https://gohugo.io/templates/menu-templates/#section-menu-for-lazy-bloggers -->
+<!-- https://discourse.gohugo.io/t/list-pages-of-sub-sub-folders/9436/8 -->
+{{if not .IsHome}}
+<ul class="list ttn"><!-- fw1 -->
+	<li class=""><!-- fl 100 -->
+		<a href="{{ .Site.BaseURL }}" class="no-underline bt bw2 bw1-m bw2-lb--transparentbg-animate flex items-center pa3 pb0 border-box f3 f2-ns f3-m f2-l tracked-tight ttu">Home</a>
+	</li>
+	{{ $thisTitle := .Title }}
+	{{ range .Site.Pages.ByWeight }}
+		<li class=""><!-- fl 100 -->
+			<a href="{{ .URL }}"
+				class="no-underline bt bw2 bw1-m bw2-lb--transparentbg-animate flex items-center pa3 border-box f3 f2-ns f3-m f2-l tracked-tight
+				{{ if eq .Title $thisTitle }}
+					fw7
+				{{ end }}">{{ .Title }}</a><!-- pa3 -->
+		</li>
+	{{ end }}
+</ul>
+{{ end }}
+</nav>
+*/</script>
+
+
