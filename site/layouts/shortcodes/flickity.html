@@ -4,16 +4,11 @@
 	<!--	https://flickity.metafizzy.co/api.html#selectcell		-->
 	<figure class="w-100 ma0 inherit bg-inherit"><!--<figure {{ if isset .Params "class" }}class="{{ index .Params "class" }}"{{ end }}>-->
 	    {{ if isset .Params "link"}}<span href="{{ index .Params "link"}}">{{ end }}
-	    <img class="b-lazy no-select w-100 ma0" src="data:image/gif,GIF89a,AAAAAAE" 
-	    
-	    
-	    
-	    
+	    <img class="b-lazy no-select w-100 ma0" src="data:image/gif,GIF89a,AAAAAAE"
+
 	    data-src="{{ index .Params "src" }}" 
-	    
 	    data-src-small="{{ index .Params "src-small" }}"
-	    
-	    
+
 	    {{ if or (isset .Params "alt") (isset .Params "caption") }}alt="{{ if isset .Params "alt"}}{{ index .Params "alt"}}{{else}}{{ index .Params "caption" }}{{ end }}"{{ end }} />
 	    {{ if isset .Params "link"}}</span>{{ end }}
 	    {{ if or (or (isset .Params "title") (isset .Params "caption")) (isset .Params "attr")}}

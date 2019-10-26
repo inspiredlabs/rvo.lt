@@ -74,7 +74,11 @@
 										{{ .Content | replaceRE "PeR" "<span class='ttn fs-initial'>P<sup class='large v-sup'>e̲</sup>R</span>" | safeHTML }}
 										
 										<hr class="ba bw1 mb0 bg-inherit o-10"/>
-										<p>Author: <b>{{ .Params.authors }}</b></p>
+										
+										{{ if .Params.authors }}
+											<p>Author: <b>{{.Params.authors}}</b></p>
+										{{ end }}
+
 										{{ $areas := "areas" }} <!-- Use the plural form here -->
 										<ul id="{{ $areas }}" class="list pt2">
 										{{ range .Param $areas }}<!-- .GroupBy "Weight" -->

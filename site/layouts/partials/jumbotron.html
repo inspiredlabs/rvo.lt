@@ -1,5 +1,5 @@
 <div class="watermark ">
-	<article class="vh-100 w-100 cover z-0 bg-top pa0 blazy" style="background-image: url({{ .imageUrl }})"><!-- background-image: url(/img/alessandro-ronca-05-x1b.jpg) -->
+	<article class="vh-100 w-100 cover z-0 bg-top pa0 b-lazy" data-src="{{ .Site.BaseURL }}img/alessandro-ronca-05-x1.jpg|{{ .Site.BaseURL }}img/alessandro-ronca-05-x2.jpg" ><!-- style="background-image: url({{/* .imageUrl */}})" background-image: url(/img/alessandro-ronca-05-x1b.jpg) -->
 		<section class="cf w-100 pv3 f4 ph3 ph4-ns">
 			<div class="mw9 center ph3-ns">
 				<div class="ph2-ns">
@@ -11,8 +11,8 @@
 							<div class="flex flex-column flex-grow-1">
 								
 								<h2 class="flex-auto f6 f6-m f4-l fw9 fs-8vmin fs-5vmax lh-8vh">
-									{{ if .Params.author }}
-										{{ .Params.author }}
+									{{ if .Params.authors }}
+										<span>{{.Params.authors}}</span>
 									{{ end }}
 									<span>Alessandro Ronca's</span>
 									<!--Mitigation Engineering--> 

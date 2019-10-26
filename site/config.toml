@@ -8,7 +8,12 @@ title = "RVO.LT" #FAIRtech Revolution | Rvo.lt
 [permalinks]
   posts = ":title/" #/:year/:month/:title/
 
-[Params]
+
+
+
+[params]
+  author = "Alessandro Ronca"
+  copyright = 2020
   #author = "Alessandro Ronca" #https://duckduckgo.com/?q=%22config.toml%22+%22.author%22&t=osx
   description = "Change Artisans RVO.LT" #Artisans for Change, join the RVO.LT
   #description = "This isn't a paradigm shift: this is a RVO.LT" #Rvo.lt
