@@ -8,7 +8,7 @@ menu:
 
 ---
 
-{{<flickity src="/img/profile.jpg" title="Scott Phillips at Rool in Umbria" color="" selectCell="flkty.selectCell( value, isWrapped, isInstant )" >}}
+{{<flickity src="/img/profile.jpg" title="Scott Phillips at Rool, Umbria" color="" selectCell="flkty.selectCell( value, isWrapped, isInstant )" >}}
 
 <!--# AKA: Inspired&nbsp;Labs-->
 ## Fearless Creative
@@ -21,11 +21,11 @@ He loves to be deep in nature, programming and living&nbsp;minimally.
 
 In the mid 1980's he felt the urgency of climate science. As he <!--precosiously--> begin to understand _James Lovelock's_ ground breaking work tracking CFCs in the&nbsp;atmosphere.
 
-Just before the millenium, he sold his petrol vehicle, became a vegetarian and decided to&nbsp;walk. Since then he has slowly began to envision a longievity system to maximise well-being<!--that directs a life of simplicity and&nbsp;mindfulness-->.
+<!--Just before the millenium,--> 20 years ago he sold his petrol vehicle, became a vegetarian and decided to&nbsp;walk. Since then he has slowly began to envision a longievity system to maximise well-being<!--that directs a life of simplicity and&nbsp;mindfulness-->.
 
 ### Now
 
-He reads mostly non-fiction. Acording to _Philip Zimbardo's_ _Time Perspectives_ he is oriented highly future&nbsp;positive. 
+Inspired to pursue a lifestyle akin to that of science-fiction, he reads mostly non-fiction. Acording to _Philip Zimbardo's_ _Time Perspectives_ he is oriented highly future&nbsp;positive. 
 
 ### Future
 
