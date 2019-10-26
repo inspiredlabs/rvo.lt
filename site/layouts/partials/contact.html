@@ -29,7 +29,7 @@
 		      	{{ end }}
 		      	
 		      	{{if not .IsHome}}
-		      	<a href="../../" class="no-underline dim db f6 ttu tracked fw1 inherit"><!-- /contact -->
+		      	<a href="{{ .Site.BaseURL }}" class="no-underline dim db f6 ttu tracked fw1 inherit"><!-- /contact -->
 		      		<svg style="-webkit-transform: translate3d(0,0,0);" viewbox="-356 235 128 128" class="no-select pr2 h07 inherit">
 		      			<use xlink:href="#home"></use>
 		      		</svg>     	
@@ -39,7 +39,7 @@
 		      	{{ end }}
 
 
-		      	<script>/*<a href="../../" class="no-underline dim db f6 ttu tracked fw1 inherit"><!-- /contact -->
+		      	<script>/*<a href="{{ .Site.BaseURL }}" class="no-underline dim db f6 ttu tracked fw1 inherit"><!-- /contact -->
 		      		<svg style="-webkit-transform: translate3d(0,0,0);" viewbox="0 0 482 482" class="no-select pr2 h07 inherit">
 		      			<use xlink:href="#url"></use>
 		      		</svg>     	
@@ -64,7 +64,7 @@
 	    			data-netlify="true"
 	    			-->
 	    			<section>
-	    			    <form accept-charset=utf-8 method=POST enctype="application/x-www-form-urlencoded" class="f5 f4-ns" name="contact" action="/thank-you" netlify-honeypot="gotcha" netlify> 
+	    			    <form accept-charset=utf-8 method=POST enctype="application/x-www-form-urlencoded" class="f5 f4-ns highlight" name="contact" action="{{ .Site.BaseURL }}done.html" netlify-honeypot="gotcha" netlify> 
 	    			        <input name=subject type=hidden value="Change Artisan">
 	    			        <input name=gotcha class=dn />
 	    			        <div class=mb4>

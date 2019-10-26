@@ -11,37 +11,28 @@
 #https://docs.netlify.com/routing/redirects/#syntax-for-the-netlify-configuration-file
 
 [[redirects]]
-  from = "/contact"
-  to = "/"
-  status = 301
-  #force = false
-  #query = {path = ":path"}
-
-[[redirects]]
   from = "/principle"
   to = "/"
   status = 301
   #force = false
   #query = {path = ":path"}
 
+[[redirects]]
+  #from = "/support"
+  #to = "/"
+  #status = 301
 
 [[redirects]]
   from = "/areas"
   to = "/"
   status = 301
-  #force = false
-  #query = {path = ":path"}
 
 [[redirects]]
   from = "/levels"
   to = "/"
   status = 301
-  #force = false
-  #query = {path = ":path"}
 
 [[redirects]]
-  from = "/*"
+  from = "*"
   to = "/"
   status = 404
-  #force = false
-  #query = {path = ":path"}

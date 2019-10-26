@@ -69,25 +69,23 @@
 					      		</header>
 			      				</summary>
 
-
-			      				
-
-			      				<!-- Tags document -->
-			      				<script>/*
-			      				{{ $areas := "areas" }} <!-- Use the plural form here -->
-			      				<ul id="{{ $areas }}" class="list pt2">
-			      				{{ range .Param $areas }}
-			      				  {{ $name := . }}
-			      				  {{ with $.Site.GetPage (printf "/%s/%s" $areas ($name | urlize)) }}
-			      				    <li class="dib"><a class="f7 ttu tracked-mega pa2 ph3 bg-light-gray" href="{{ .Permalink }}">{{ $name }}</a></li>
-			      				  {{ end }}
-			      				{{ end }}
-			      				</ul>
-			      				*/</script>
-			      				<!-- /Tag -->
-			      				
 								    <script>{{/* .Content | replaceRE "<blockquote>" "<blockquote class='red underline bg-gold'>" | replaceRE  "<p>" "<p class='green'>" | safeHTML */}}</script>
+								    
 										{{ .Content | replaceRE "PeR" "<span class='ttn fs-initial'>P<sup class='large v-sup'>e̲</sup>R</span>" | safeHTML }}
+										
+										<hr class="ba bw1 mb0 bg-inherit o-10"/>
+										<p>Author: <b>{{ .Params.authors }}</b></p>
+										{{ $areas := "areas" }} <!-- Use the plural form here -->
+										<ul id="{{ $areas }}" class="list pt2">
+										{{ range .Param $areas }}<!-- .GroupBy "Weight" -->
+										  {{ $name := . }}
+										  {{ with $.Site.GetPage (printf "/%s/%s" $areas ($name | urlize)) }}
+										    <li class="dib"><a class="link f7 ttu tracked-mega pa2 ph3 bg-{{ $name | lower }}" href="{{ .Permalink }}" style="color:#383838;">{{ $name }}</a></li><!--  -->
+										  {{ end }}
+										{{ end }}
+										</ul>
+										
+										
 									</details>
 				       </div><!-- /fr outline -->
 			      </div><!-- /w-two-thirds -->

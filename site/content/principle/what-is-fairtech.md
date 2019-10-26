@@ -1,4 +1,5 @@
 ---
+authors: Alessandro Ronca
 weight: -1
 title: What is FAIRtech?
 date: 2019-10-09T16:43:26+02:00

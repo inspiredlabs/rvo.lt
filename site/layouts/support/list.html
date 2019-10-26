@@ -1,0 +1,32 @@
+{{ partial "head" . }}
+
+<script>
+    {
+        {
+            /*
+            <div id="newList">
+            	<ul class="list">
+            	{{ range .Data.Pages.ByWeight }}
+            		{{ if eq .Type  "post" }}
+            			{{ .Render "post"}}
+            		{{ end }}
+            	{{ end }}
+            	</ul>
+            </div>
+            */
+        }
+    }
+</script>
+
+<div id="content">
+<ul class="list ma0 bg-near-white black-70"><!-- bg-dark-gray white-90 antialias -->
+  {{ partial "support" . }}
+  <li class="post-holder">
+    {{ partial "visit" . }}
+  </li>
+  <li class="post-holder">
+    {{ partial "connect" . }}
+  </li>
+</ul>
+</div>
+{{ partial "footer" . }}

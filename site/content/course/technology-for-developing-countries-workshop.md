@@ -1,4 +1,5 @@
 ---
+authors: Alessandro Ronca
 title: Technology for Developing Countries
 date: 2019-10-09T16:43:26+02:00
 description: 'FAIRtech Workshop, 1: Learn how to do more with less!'

@@ -321,7 +321,7 @@
 			</li><!-- /li.html -->
 		{{ end }}
 
-
+		{{ partial "contact" . }}
 		<li class="post-holder">
 			{{ partial "visit" . }}
 		</li>
@@ -329,8 +329,6 @@
 		<li class="post-holder">
 			{{ partial "connect" . }}
 		</li>
-
-		{{ partial "contact" . }}
 	</ul>
 	<!-- <ul class="list bg-dark-gray white-90 antialias ma0">
 		{{ range first 1 (where .Data.Pages "Type" "principle") }}

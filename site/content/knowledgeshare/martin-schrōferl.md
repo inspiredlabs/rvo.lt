@@ -2,7 +2,7 @@
 draft: false
 title: Martin Schrōferl
 date: 2019-10-09T16:43:26+02:00
-description: Trike designer & Generalist
+description: Generalist &amp;&nbsp;Triker
 
 levels: ["global", "community"]
 areas: ["health", "transport"]

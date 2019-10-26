@@ -1,0 +1,143 @@
+<!-- Contact -->
+<li class="post-holder" id=email><!-- Begin: li.html -->
+	<data class="meta dn">
+		contact
+		{{/*
+		{{ .Title }}
+		{{ .Description }}
+		{{ .Params.assignment }}
+		{{ .Params.location }}		
+		{{ .PlainWords }}
+		*/}}
+	</data>
+
+<article class="pt5"><!-- id="" -->
+	<section class="cf w-100 pv3 f4 ph3 ph4-ns">
+		<div class="mw9 center ph3-ns">
+		  <div class="ph2-ns">
+		    <div class="fl w-100 w-70-ns pr4"><!-- w-two-thirds -->
+		      <div class="pv4 fr w-100 w-90-m w-80-l"><!-- outline bg-black-05 truncate no-wrap -->
+		      	
+		      	{{if .IsHome}}
+		      	<a href="/contact" class="no-underline dim db f6 ttu tracked fw1 inherit"><!-- /contact -->
+		      		<svg style="-webkit-transform: translate3d(0,0,0);" viewbox="0 0 482 482" class="no-select pr2 h07 inherit">
+		      			<use xlink:href="#url"></use>
+		      		</svg>     	
+		      		<span class="b">Support</span>
+		      		<!--time class="black b">{{ dateFormat "01-02-2006" .Date }}{{/* dateFormat "Monday January, 2, 2006" .Date */}}</time-->
+		      	</a>
+		      	{{ end }}
+		      	
+		      	{{if not .IsHome}}
+		      	<a href="{{ .Site.BaseURL }}" class="no-underline dim db f6 ttu tracked fw1 inherit"><!-- /contact -->
+		      		<svg style="-webkit-transform: translate3d(0,0,0);" viewbox="-356 235 128 128" class="no-select pr2 h07 inherit">
+		      			<use xlink:href="#home"></use>
+		      		</svg>     	
+		      		<span class="b">Home</span>
+		      		<!--time class="black b">{{ dateFormat "01-02-2006" .Date }}{{/* dateFormat "Monday January, 2, 2006" .Date */}}</time-->
+		      	</a>
+		      	{{ end }}
+
+
+	    			<hr class="ba bw1 mb0 o-10"/>
+	    			<header class="fl w-100 pr4-ns">
+	    				<h1 class="f2 lh-title fw9 mb3 pt0">
+	    					<span class="fw9">Support</span>
+	    				</h1>
+	    				<h2 class="f3 lh-title o-70">
+	    				  <span class="fw7">{{ .Description }}</span>
+	    				</h2>
+	    			</header>
+	    			<section>
+    			    <form accept-charset=utf-8 method=POST enctype="application/x-www-form-urlencoded" class="f5 f4-ns highlight" name="support" action="{{ .Site.BaseURL }}done.html" netlify-honeypot="gotcha" netlify> 
+
+  			        <input name=subject type=hidden value="Change Artisan">
+  			        <input name=gotcha class=dn />
+  			        
+  			        <div class=mb4>
+  			          <label for=email class="f6 f5-ns ttu tracked-mega pl3">Address</label>
+  			          <input type=email name=email id=email class="input-reset br0 bn pa3 w-100 bg-white-90" placeholder="your@email.com" pattern="[a-z0-9!#$%&amp;'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&amp;'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?" required>
+  			        </div>
+  			        
+  			        <div class=mb4>
+			            <label for=name class="f6 f5-ns ttu tracked-mega pl3">name</label>
+			            <input type=text name=name id=name class="input-reset br0 bn pa3 w-100 bg-white-90" placeholder="First name">
+  			        </div>
+  			        
+  			        <div class=mb4>
+  			          <label for=surname class="f6 f5-ns ttu tracked-mega pl3">surname</label>
+  			          <input type=text name=surname id=surname class="input-reset br0 bn pa3 w-100 bg-white-90" placeholder="Family name">
+  			        </div>
+  			        
+  			        <div class=mb4>
+  			          <label for=dob class="f6 f5-ns ttu tracked-mega pl3">DATE OF BIRTH</label>
+  			          <input type=text name=dob id=dob class="input-reset br0 bn pa3 w-100 bg-white-90" placeholder="dd/mm/year">
+  			        </div>
+  			        
+  			        <div class=mb4>
+  			          <label for=nationality class="f6 f5-ns ttu tracked-mega pl3">nationality</label>
+  			          <input type=text name=nationality id=nationality class="input-reset br0 bn pa3 w-100 bg-white-90" placeholder="Nationality">
+  			        </div>
+  			        
+  			        <div class=mb4>
+  			          <label for=telephone class="f6 f5-ns ttu tracked-mega pl3">telephone</label>
+  			          <input type=tel name=telephone id=telephone class="input-reset br0 bn pa3 w-100 bg-white-90" pattern='[\+]\d{2}[\(]\d{2}[\)]\d{4}[\-]\d{4}' placeholder="+44 12 3456 7890">
+  			        </div>
+  			        
+  			        <div class=mb4>
+  			          <label for=profession class="f6 f5-ns ttu tracked-mega pl3">profession</label>
+  			          <input type=text name=profession id=profession class="input-reset br0 bn pa3 w-100 bg-white-90" placeholder="Job Title">
+  			        </div>
+
+  			        <div class=mb4>
+  			          <label for=condition class="f6 f5-ns ttu tracked-mega pl3">health</label>
+  			          <input type=text name=condition id=condition class="input-reset br0 bn pa3 w-100 bg-white-90" placeholder="Health condition(s)"><!-- no conditions -->
+  			        </div>
+  			        
+  			        <div class=mb4>
+  			          <label for=diet class="f6 f5-ns ttu tracked-mega pl3">diet</label>
+  			          <input type=text name=diet id=diet class="input-reset br0 bn pa3 w-100 bg-white-90" placeholder="No intolerances, or allergies">
+  			        </div>
+  			        
+  			        <div class=mb4>
+  			          <label for=volunteering class="f6 f5-ns ttu tracked-mega pl3">volunteering</label>
+  			          <input type=text name=volunteering id=volunteering class="input-reset br0 bn pa3 w-100 bg-white-90" placeholder="Experience&hellip;">
+  			        </div>
+  			        
+  			        <div class=mb4>
+  			          <label for=skills class="f6 f5-ns ttu tracked-mega pl3">qualities &amp; skills</label>
+  			          <input type=text name=skills id=skills class="input-reset br0 bn pa3 w-100 bg-white-90" placeholder="Background in&hellip;">
+  			        </div>
+  			        
+  			        <div class=mb4>
+  			          <label for=expectations class="f6 f5-ns ttu tracked-mega pl3">expectations</label>
+  			          <input type=text name=expectations id=expectations class="input-reset br0 bn pa3 w-100 bg-white-90" placeholder="I would like to&hellip;">
+  			        </div>
+  			        
+  			        <div class=mb4>
+  			          <label for=availability class="f6 f5-ns ttu tracked-mega pl3">availability</label>
+  			          <input type=text name=availability id=availability class="input-reset br0 bn pa3 w-100 bg-white-90" placeholder="I am available&hellip;">
+  			        </div>
+  			        
+  			        <!--<div class=mb4>
+  			          <label for=misc class="f6 f5-ns ttu tracked-mega pl3">misc</label>
+  			          <input type=text name=misc id=misc class="input-reset br0 bn pa3 w-100 bg-white-90" placeholder="About your idea&hellip;">
+  			        </div>-->
+  			        
+  			        <div class=mb4><!-- collaboration -->
+			            <label for=message class="f6 f5-ns ttu tracked-mega pl3">outline</label>
+			            <textarea class="input-reset br0 bn pa3 mw-100 bg-white-90" id=message name=message rows=4 placeholder="My idea is&hellip;" style="min-width:100%;" required></textarea>
+  			        </div>
+  			        <div class="fr cb cf mb3 mb6-ns">
+			            <input class="input-reset pointer dib mv2 br0 f6 f5-ns b ph4 pv3 ba bw2-ns b--black white bg-dark-gray ttu tracked-mega hover-bg-near-black w-100 db" type=submit value=Send>
+  			        </div>
+    			    </form>
+	    			</section>
+
+	       </div><!-- /fr outline -->
+      </div><!-- /w-two-thirds -->
+    </div><!-- /ph2-ns -->
+  </div><!-- /mw9 center ph3-ns -->
+	</section><!-- /cf w-100 pv3 f4 ph3 ph4-ns --> 
+</article>
+</li><!-- /li.html -->

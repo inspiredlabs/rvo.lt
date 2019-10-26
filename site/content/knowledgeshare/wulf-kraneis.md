@@ -1,4 +1,5 @@
 ---
+authors: Scott Phillips
 draft: true
 title: Wulf Kraneis
 date: 2019-10-09T16:43:26+02:00

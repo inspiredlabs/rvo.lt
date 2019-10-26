@@ -1,6 +1,6 @@
 <!-- bg-black -->
 <button tabindex="" id="menu-toggle" aria-haspopup="true" class="no-clutter fixed z-max pointer mb5 bottom-0 right-0 fr ba bw2 b--black bg-dark-gray transition hover-bg-near-black white mr0 ml0 pa2 pt1 pb1 tc" aria-expanded="true"><!-- //Default: aria-expanded="false" -->
-  <svg viewBox="0 0 16 16" class="db h2 w2 mt1 mb1 mr-auto ml-auto no-select" alt="Menu">
+  <svg viewBox="0 0 32 32" class="db h2 w2 mt1 mb1 mr-auto ml-auto no-select" alt="Menu"><!-- viewBox="0 0 16 16" -->
     <use xlink:href="#icon-menu"></use>
     <!--<use viewBox="-356 235 128 128" xlink:href="#home"></use>-->
   </svg>
@@ -149,6 +149,19 @@
 					href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a>
 				</li>
 				{{ end }}
+				
+				<!-- Generalists wanted -->				
+				{{ $currentPage := . }}
+				{{ range .Site.Menus.support }}
+				<li class="bg-oxford"><!-- black bg-gold -->
+					<a class="no-underline bt bw2 bw1-m bw2-l b--transparent pa3 border-box f3 f5-ns f5-m f3-l tracked-tight white transition hover-white-80 flex items-center 
+						{{if or ($currentPage.IsMenuCurrent "support" .) ($currentPage.HasMenuCurrent "support" .) }}
+							b--black-20 fw7 bg-black-30
+						{{end}}"
+					href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a>
+				</li>
+				{{ end }}
+				<!-- /Generalists -->				
 
 				{{ $currentPage := . }}
 				{{ range .Site.Menus.post }}

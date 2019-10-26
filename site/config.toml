@@ -53,14 +53,23 @@ title = "RVO.LT" #FAIRtech Revolution | Rvo.lt
   weight = 5
   url = "/areas/shelter"
 
+  [[menu.main]]
+  identifier = "support"
+  name = "support"
+  #weight = 6
+  url = "/support"
+
 
 [taxonomies]
   tag = "tags"
   area = "areas"
   level = "levels"
+  author = "authors"
   category = "categories"
   #region = "regions"
   #price = "prices"
+
+
 
 [Params.widgets]
   #search = true # Enable "Search" widget

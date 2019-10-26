@@ -1,7 +1,8 @@
 ---
+authors: Scott Phillips
 title: Full Colour Diet
 date: 2019-10-09T16:43:26+02:00
-description: "Could be the healthiest diet"
+description: "&hellip;is the healthiest&nbsp;diet"
 levels: ["community"]
 areas: ["food", "health"]
 weight: 3
