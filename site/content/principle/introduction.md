@@ -28,28 +28,28 @@ Original inspiration for the book: [**The Return of Nature**, How Technology Lib
 
 ## Book contents
 
-- Described as the great decoupling: humanity no longer needs to extract excessive natural resources, nor expend as much energy. Essentially because CAD/CAM = Dematerialisation.
-- This process in motion across all geographies. It is described as: slim, swap, optimise & evaporate. 
-- This process is called Dematerialisation because we no longer need as much physical materials to live on a day-to-day basis. This is described as "Peak stuff", meaning, we are consuming less... but increasing our economy, regardless.
+- Described as the great decoupling: humanity no longer needs to extract excessive natural resources, nor expend as much energy. Essentially because CAD/CAM = **Dematerialisation**.
+- This process in motion across all geographies. It is described as: _slim, swap, optimise & evaporate_. 
+- This process is called Dematerialisation because we no longer need as much physical materials to live on a day-to-day basis. This is described as _"Peak stuff"_, meaning, we are consuming less... but increasing our economy, regardless.
 - This is an important part of the modern global economy because it improves access, whilst lowering the amount of material energy required to deliver on its promise(s).
-- Understand that "combinatorial innovation" is always speeding up (~exponent), because as new building blocks are added they always improve the general efficacy of existing means and ways.
-- importance of advocating: constraining capitalism appropriately... Especially from p386: Interventions: How to be good. 
+- Understand that _"combinatorial innovation"_ is always speeding up (~exponent), because as new building blocks are added they always improve the general efficacy of existing means and ways.
+- importance of advocating: constraining capitalism appropriately... Especially from p386: _Interventions: How to be good_. 
 
 > Decarbonisation isn't happening quickly enough – Andrew McAfee
 
-- Teach what you know: it has powerful implications, strengthens usable ideas and improves: Human Capital. 
+- Teach what you know: it has powerful implications, strengthens usable ideas and improves: _Human Capital_. 
 - Help the poor upgrade (this acts as an on-ramp to other capitalist developments).
 - The following can't be underestimated:
 	- Energy efficiency and clean sources of energy.
 	- Precision agriculture.
 	- Electric transport.
 - Advocating "The four horsemen of the optimist": 
-	prosperity makers:
-	- intense competition & contested markets.
-	- tech progress.
-	win hearts & minds (listening is profitable):
-	- responsive government (Regulation, decrease emissions & pollution: tax corporate-scale offenders & bolster social democratic policy).
-	- public awareness (correct info & effective activism).
+	- prosperity makers:
+		- intense competition & contested markets.
+		- tech progress.
+	- win hearts & minds (listening is profitable):
+		- responsive government (Regulation, decrease emissions & pollution: tax corporate-scale offenders & bolster social democratic policy).
+		- public awareness (correct info & effective activism).
 
 # Magnet: 
 
