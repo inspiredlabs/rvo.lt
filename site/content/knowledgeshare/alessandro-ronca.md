@@ -8,8 +8,6 @@ menu:
 
 ---
 
-
-
 {{<flickity src="/img/alessandro-ronca-05-x2.jpg" src-small="/img/alessandro-ronca-05-x1.jpg" title="Alessandro discusses PeR, Umbria" color="" selectCell="flkty.selectCell( value, isWrapped, isInstant )" >}}
 
 <!--{{<flickity src="/img/alessandro-ronca-05-x1b.jpg" title="" color="transparent" selectCell="flkty.selectCell( value, isWrapped, isInstant )" >}}

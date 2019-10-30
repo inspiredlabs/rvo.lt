@@ -15,11 +15,6 @@ When I read the article on the Polymath, I thought: "that's exactly how I feel".
 
 > When the body remains still and the mind is forced to do something repetitive, the human inside us&nbsp;rebels. - [Robert Twigger](https://aeon.co/essays/we-live-in-a-one-track-world-but-anyone-can-become-a-polymath)
 
-With this in mind, it has sparked conversations about an **Education Syllabus: Beyond Sustainability**. The content will cover:
-
-- The implications from experts about the Climate.
-- Our work at **PeR** concerning the 5 key areas: "HEFTS".
-- Design templates: Beyond Sustainability, low impediment, low energy solutions to life's necessities.
 
 <!--We hear the descriptive words psychopath and sociopath all the time, but here’s a new one: monopath. It means a person with a narrow mind, a one-track brain, a bore, a super-specialist, an expert with no other interests — in other words, the role-model of choice in the Western world. 
 
