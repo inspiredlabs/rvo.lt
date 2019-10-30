@@ -51,5 +51,4 @@ Our South-facing passively conditioned house is the center of our tours around *
 - Irrigation pumps.
 - Electric Fences (keep out the wild without harm).
 
-<hr/>
-[Learn more ➝](https://inspiredlabs.co.uk/per.umbria.it/en/#on-site-tech)
+The Zero House, is the center of **PeR**. [Learn more ➝](https://inspiredlabs.co.uk/per.umbria.it/en/#on-site-tech)

@@ -12,9 +12,13 @@ menu:
 
 ---
 
-{{<flickity src="https://farm8.staticflickr.com/7336/27776385591_443128f63c.jpg" title="" color="transparent" selectCell="flkty.selectCell( value, isWrapped, isInstant )" >}}
+{{<flickity src="/img/dematerialisation-everywhere-1x.jpg" title="_Dematerialisation_ at [TEDxCambridge, 2018](https://www.youtube.com/watch?v=uEQDLUdMb5M), by Andrew&nbsp;McAfee" color="" selectCell="flkty.selectCell( value, isWrapped, isInstant )" >}}
 
-# **Andrew McAfee**, More from Less
+
+<!-- Previous: https://farm8.staticflickr.com/7336/27776385591_443128f63c.jpg transparent
+-->
+
+# More from Less {#more-from-less}
 
 ## Listen
 

@@ -93,8 +93,7 @@ Rooms should be tailored to the&nbsp;environment.
 	- grow food and practice qualitative agriculture
 	- automatically process food
 	- adobe for heat storage
-	- sheild summer sun with solar panels
-	- <!-- live like a caveman in jeans: https://youtu.be/P3-IjnIX_DM?t=525 -->
+	- sheild summer sun with solar panels <!-- live like a caveman in jeans: https://youtu.be/P3-IjnIX_DM?t=525 -->
 - Living room, dining and study&nbsp;areas:
 	- natural light and ventilation
 	- simple, passive heating

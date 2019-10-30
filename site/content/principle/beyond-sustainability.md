@@ -11,7 +11,10 @@ menu:
 
 ---
 
+<!--Add a profile partial to replace each of the author refrences.-->
 
+<!--In the section Beyond sustainability  i think that after the image of  ECONOMY( X) NATURAL RESORCE – ECOLOGY I think we have to better explain the reason     of the “X” on economy. Something like” Conscious resource allocation and intervening of ecology system  improvement will probably reduce the need of money, strengthening the economy without necessarily making it grow”. 
+-->
 <!--
 
 The&nbsp;Three Actors
