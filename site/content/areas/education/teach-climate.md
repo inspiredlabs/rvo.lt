@@ -1,12 +1,12 @@
 ---
 authors: Scott Phillips
-title: Teach&nbsp;Climate
+title: Teach Climate
 date: 2019-10-09T16:43:26+02:00
 description: >-
   Teachers protest mental health implications
 levels: ["community"]
 areas: ["education"]
-menu: education
+
 order: 2
 weight: 2
 ---
