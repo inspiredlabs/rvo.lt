@@ -40,4 +40,4 @@ Alessandro Ronca is a _1-on-1 Instructor_ of the WHM [(Wim Hof Method)](https://
 ## Connect
 ### Parco dell' Energia&nbsp;Rinnovabile
 
-Alessandro Ronca is PeR's Sustainability Director: [Learn more &#x279D;](https://per.umbria.it/).
+Alessandro Ronca, PeR President &amp; Scientific&nbsp;Director: [Learn more &#x279D;](https://per.umbria.it/).
