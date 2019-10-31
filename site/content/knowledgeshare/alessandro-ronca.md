@@ -2,16 +2,13 @@
 authors: Alessandro Ronca
 title: Alessandro Ronca
 date: 2019-10-09T16:43:26+02:00
-description: 'PeR President &amp; Scientific Director'
+description: 'Scientific Director of PeR'
 menu:
   knowledgeshare
 
 ---
 
 {{<flickity src="/img/alessandro-ronca-05-x2.jpg" src-small="/img/alessandro-ronca-05-x1.jpg" title="Alessandro discusses PeR, Umbria" color="" selectCell="flkty.selectCell( value, isWrapped, isInstant )" >}}
-
-<!--{{<flickity src="/img/alessandro-ronca-05-x1b.jpg" title="" color="transparent" selectCell="flkty.selectCell( value, isWrapped, isInstant )" >}}
--->
 
 Alessandro Ronca is a sustainability artisan and polymath. 
 
@@ -38,7 +35,7 @@ Alessandro Ronca is a _1-on-1 Instructor_ of the WHM [(Wim Hof Method)](https://
 ## Connect
 ### Parco dell' Energia&nbsp;Rinnovabile
 
-Alessandro Ronca, PeR President &amp; Scientific&nbsp;Director: [Learn more &#x279D;](https://per.umbria.it/).
+Alessandro Ronca, Scientific&nbsp;Director of PeR: [Learn more &#x279D;](https://per.umbria.it/).
 
 <!--"frustra fit perplura quod fieri potest per paucior" 
  "è inutile farecon più ciò che si può fare con meno" 

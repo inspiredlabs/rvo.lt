@@ -15,8 +15,8 @@ Restricted to 15 participants, or less.
 
 #### Location: **Parco dell' Energia Rinnovabile**, Italy
 
-- € 2,400 for the 5 day course
-- € 2,000 for the 4 day course
+- <!--€ 2,400--> [Contact us](https://rvo.lt/contact/) for the 5 day course
+- <!--€ 2,000--> [Contact us](https://rvo.lt/contact/) for the 4 day course
 
 
 #### [Contact us](https://rvo.lt/contact/) about:
