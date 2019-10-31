@@ -17,6 +17,7 @@ title = "RVO.LT" #FAIRtech Revolution | Rvo.lt
   #author = "Alessandro Ronca" #https://duckduckgo.com/?q=%22config.toml%22+%22.author%22&t=osx
   description = "Change Artisans RVO.LT" #Artisans for Change, join the RVO.LT
   #description = "This isn't a paradigm shift: this is a RVO.LT" #Rvo.lt
+  #SiteDescription = "It works!" #<meta name="description" content="{{ .Description | default .Site.Params.SiteDescription }}">
 
   #[[Params.assignment]]
     #assignment = ""
