@@ -39,3 +39,8 @@ Alessandro Ronca is a _1-on-1 Instructor_ of the WHM [(Wim Hof Method)](https://
 ### Parco dell' Energia&nbsp;Rinnovabile
 
 Alessandro Ronca, PeR President &amp; Scientific&nbsp;Director: [Learn more &#x279D;](https://per.umbria.it/).
+
+<!--"frustra fit perplura quod fieri potest per paucior" 
+ "è inutile farecon più ciò che si può fare con meno" 
+Il Rasoio di Occam- XIV secolo 
+-->

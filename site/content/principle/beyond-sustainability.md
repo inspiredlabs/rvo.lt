@@ -11,6 +11,7 @@ menu:
 
 ---
 
+
 <!--Add a profile partial to replace each of the author refrences.-->
 
 <!--In the section Beyond sustainability  i think that after the image of  ECONOMY( X) NATURAL RESORCE – ECOLOGY I think we have to better explain the reason     of the “X” on economy. Something like” Conscious resource allocation and intervening of ecology system  improvement will probably reduce the need of money, strengthening the economy without necessarily making it grow”. 
@@ -111,6 +112,7 @@ What is the climate crisis trying to communicate?
 </div>
 </div>
 
+<!--These are the causes of our present situation, the climate is a consequence.-->
 
 Sustainability, unintentionally or otherwise is maligned by economic incentive.
 
@@ -119,7 +121,6 @@ Sometimes referred to as _Profit Over Purpose_.
 <!--At scale, there is always a way to "game the system".-->
 
 #### Conscious resource allocation
-
 
 <div class="fl w-100 f8 f6-m f5-l tc mt4 mb4" id=conscious-resource-allocation>
 <div class="w-third pr2 fl">
@@ -142,6 +143,8 @@ Sometimes referred to as _Profit Over Purpose_.
 </div>
 </div>
 
+<!--Conscious resource allocation and intervening of ecology system  improvement will probably reduce the need of money, strengthening the economy without necessarily making it grow
+-->
 
 Conscious resource allocation makes economies of scale deficient. Thoughtful application of scarce raw materials increases resiliency.
 
@@ -151,7 +154,21 @@ The de-emphasis of financialisation stunts exploitation. Grass-roots movements d
 
 <!--Differing from sustainability--> _Purpose Before Profit_ defelcts economic&nbsp;incentive and will become native through **Dematerialisation**.
 
+<!--The Main Event: Anthropological Mission
+
+The REAL question is: what's next?
+- Conscious resource allocation means: A...
+- Through ecological intervention we will: B...
+- Ecological improvement will include: 
+	- sequester = store (Latin, sequestrō: give up for safekeeping), seclude or withdraw: drawdown.
+- background:
+	- Anthropocene: The Human Epoch (Roughly translates as "recent-man" in Greek).
+	- 4m years ago, earliest bi-ped.
+	- First proposed as early as 1873, the Italian geologist Antonio Stoppani ().
+	- The Anthropocene started with the Trinity test of 1945 (the first detonation of a nuclear device on July 16th 1945). X
+	- there are two things to consider:
+		- putting more emissions into the atmosphere worstening the problem.
+		- reversing the problem by sequestering C02 and reversing the warming effect through coordinated action.
 
 
-
-
+-->

@@ -60,6 +60,10 @@ What is different is IT (Information&nbsp;Technology). Exchanging ideas over the
 <!-- Remember this easily with **"HEFTS"**-->
 > We call this<!-- acronym-->: **"HEFTS"**
 
+<!--# Why basic pillars?
+
+These are the basic pillar that need to be maintenance-free, with an energy reduction but without inconvenience or sacrificing comfort.
+-->
 # Why Health?
 
 ## <!--why health?--> Comfort is&nbsp;stressful
