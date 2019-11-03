@@ -110,6 +110,9 @@ Energetic tutelage, play and trial-and-error help inform mastery, improve coordi
 
 ## <!--why food?--> The end of&nbsp;scarcity
 
+<!--Vegetation:
+https://upload.wikimedia.org/wikipedia/commons/e/e4/Vegetation.png
+-->
 The economic influence over food does not serve nutrition. There are several deep flaws that defy common-sense on the&nbsp;topic<!--conventional&nbsp;logic-->:
 
 - At present, intensive&nbsp;agrigulture rewards commerce by&nbsp;_weight_.
@@ -166,3 +169,26 @@ We developed **The Light&nbsp;Bike** which seems like a _complete&nbsp;contradic
 ## <!--why shelter?--> The basis of&nbsp;security
 
 Buildings in general require too much maintainence as they are commonly&nbsp;built. Houses, when designed properly can generate more than&nbsp;invested. And, buildings generally can act to _conserve the&nbsp;environment_, rather than spoil&nbsp;it.
+
+<!-- 
+- James Lovelock on: costal migration of major cities.
+- and the importance of the Riparian: https://en.m.wikipedia.org/wiki/Riparian_zone
+- are water wheels the powerstation of the future?
+- Sun Valley Investment conf: https://www.youtube.com/watch?v=vKXFaVI5-9o
+- Paul Hawken (the language of reversing the climate crisis): https://www.youtube.com/watch?v=R_JSknem0Yc
+- simple construction: http://containerhomewithstorage.blogspot.com/2017/12/introduction.html
+- budget: http://www.tincancabin.com/2013/12/the-shipping-container-cabin-in-perspective/#more-1979
+- cheapest acceptable house?: https://www.youtube.com/watch?v=9ppB72v-8nY&frags=pl%2Cwn 
+- $5000 tiny house: https://www.youtube.com/results?search_query=%245000+tiny+house 
+- rocket/j-stove: https://www.youtube.com/watch?v=8ptwncPImuo&frags=pl%2Cwn 
+- earthship: https://www.youtube.com/watch?v=efI77fzBgvg 
+- what are the "economic" "benefits" of "self-sufficiency"?
+- welfare in the past has failed: From Self-Sufficiency to Personal and Family Sustainability: A New Paradigm for Social Policy:
+https://scholarworks.wmich.edu/cgi/viewcontent.cgi?article=3115&context=jssw 
+- Self-Sufficiency (failed attempt in US): https://www.innovations.harvard.edu/sites/default/files/hpd_0403_shlay.pdf 
+- better than nothing!: https://www.liveandinvestoverseasconferences.com/5-benefits-self-sufficient-life-start/
+- hope: https://www.sierraclub.org/sierra/10-reasons-feel-hopeful-about-climate-change-2019
+- How to Future-Proof Humanity | Paul Mason: https://www.youtube.com/watch?v=urAq2THJ-1Q&frags=pl%2Cwn 
+- protect, restore, fund: https://www.youtube.com/watch?v=P0B6AxeVNY8
+- Juliana Birnbaum: Sustainable Revolution: https://www.youtube.com/watch?v=B4hR5OO9FtQ 
+- ingenious shower: https://www.youtube.com/watch?v=7y4ctsaag8U&frags=pl%2Cwn -->

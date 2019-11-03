@@ -54,6 +54,7 @@ We plan to deliver broadly applicable guidelines for  design, orientation and th
 	- Sink and shower:
 		- hot and cold running water
 		- process/filter/reuse gray water
+	- <!-- DUAL (decarbonisation/dematerialisation universal automated luxury) mist shower: https://www.lowtechmagazine.com/2019/10/mist-showers-sustainable-decadence.html#more -->
 	- Toilet:
 		- secure sanitation
 		- reduces smells

@@ -51,3 +51,6 @@ Patents relating to electric cars go back to around 1884. A relatively sophistic
 <!--### Community scale&nbsp;transport-->
 
 Our answer to liberating the transport system begins with **The&nbsp;Light&nbsp;Bike**. A person weighs about 80Kg, and the vehicle weighs about half of&nbsp;that. With a distance-to-weight ratio that seems as if it's a _complete&nbsp;contradiction_, we improve on autonomy – yet reduce&nbsp;energy!
+
+<!-- what is the weight of an average car? -->
+<!-- what is the weight of an average person? -->
