@@ -1,10 +1,12 @@
 ---
+draft: true
+isOpen: false
 authors: Alessandro Ronca
 weight: -1
 title: What is FAIRtech?
 date: 2019-10-09T16:43:26+02:00
 description: For the first time in human history we can do more with less!
-draft: true
+
 menu:
   principle
 
@@ -13,13 +15,13 @@ menu:
 
 ## Due to technological progress, we're managing energy and resources, without unwanted side-effects.
 
-Today, Nations, Governments and Corporations are asking, how do we approach decarbonisation? 
+Today, Nations, Governments and Corporations are asking, how do we approach decarbonisation?
 
 At **PeR** we have made decarbonisation a reality for our community. For over 10 years, we have become conscious of loose measures to help track our progress.
 
 ### What is FAIRtech?
 
-#### FAIRtech is a fast way to asses projects. 
+#### FAIRtech is a fast way to asses projects.
 
 Do more with less. Measure your capacity to:
 
@@ -114,31 +116,3 @@ Do more with less. Measure your capacity to:
 At **PeR** we have humanist values that put people first. This way we can ensure everyone in the community has enough. Our goal is to formalise this model to help share abundance with everyone.
 
 -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

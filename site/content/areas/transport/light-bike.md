@@ -1,4 +1,6 @@
 ---
+draft: false
+isOpen: false
 authors: Alessandro Ronca
 title: "The Light Bike"
 date: 2019-10-09T16:43:26+02:00
@@ -14,7 +16,7 @@ areas: ["transport"]
   transport
 -->
 
-<!-- SIDE 
+<!-- SIDE
 ![An unmodified enduro SUR-RON, side.](/img/lightbike-with-panel-2x.png)
 -->
 {{<flickity src="/img/lightbike-with-panel-2x.png" title="" color="transparent" selectCell="flkty.selectCell( value, isWrapped, isInstant )" >}}
@@ -119,7 +121,7 @@ Learn how to do more with less & [www.rvo.lt](https://www.rvo.lt)
 
 
 
-<!-- FRONT 
+<!-- FRONT
 ![An unmodified enduro SUR-RON, front.](/img/lightbike-front-2x.png)
 -->
 {{<flickity src="/img/lightbike-front-2x.png" title="" color="transparent" selectCell="flkty.selectCell( value, isWrapped, isInstant )" >}}

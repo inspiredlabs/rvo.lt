@@ -1,4 +1,6 @@
 ---
+draft: true
+isOpen: false
 authors: Scott Phillips
 draft: true
 title: Wulf Kraneis
@@ -10,7 +12,7 @@ menu:
 ---
 Wulf Kraneis is a longtime velomobile enthusiast and works with ()Martin[{x}/knowledgeshare/martin-schrōferl/].
 
-He is building a 4 wheeled EV for 4 people. 
+He is building a 4 wheeled EV for 4 people.
 
 IMG
 The picture shows the vehicle's framework.

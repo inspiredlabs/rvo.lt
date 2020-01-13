@@ -1,4 +1,6 @@
 ---
+draft: false
+isOpen: false
 authors: Alessandro Ronca
 title: The next step
 date: 2019-10-09T16:43:26+02:00
@@ -8,14 +10,14 @@ image: /img/DSCN0436-2x.JPG
 
 menu:
   venue
-draft: true
+
 ---
 
 {{<flickity src="/img/relaxing-oasis-photo-x2.jpg" title="PeR has a beautiful forest glade with a pool." color="" selectCell="flkty.selectCell( value, isWrapped, isInstant )" >}}
 
 <!--• Was also suggesting to place a side of the PeR ruins in the “The Next step” section, the PeR refurbished to give immediatly the idea of the huge job done in PeR
-• somewhere insert a link to PeR english site to connect better the two entities. She was also suggesting to insert the logo of fair tech on the section of “ Fair tech revolution”
-• saing that this are the basic pillar that need to be overhaul, we and logical improvement of efficiencies, with a reduction but with no incovenience.Otherwise we mention this area on the Univesity section without explaination of why we are concentrated on this 5 areas, do you not agree? When you’ll be able to make this little adjustment, if is possible, I can send you the translation of the site in italian and if possible copypaste in a Italian version, with a classic button on the english site. Even if the site will remain opening in English.-->
+• somewhere insert a link to PeR english site to connect better the two entities.She was also suggesting to insert the logo of fair tech on the section of “ Fair tech revolution”
+• saing that this are the basic pillar that need to be overhaul, we and logical improvement of efficiencies, with a reduction but with no incovenience.Otherwise we mention this area on the Univesity section without explaination of why we are concentrated on this 5 areas, do you not agree?When you’ll be able to make this little adjustment, if is possible, I can send you the translation of the site in italian and if possible copypaste in a Italian version, with a classic button on the english site. Even if the site will remain opening in English.-->
 # <!--**PeR**: a-->A relaxing&nbsp;oasis
 
 ## Realising our&nbsp;vision
@@ -35,7 +37,7 @@ Our facility hosts exciting labs, an opportunity for knowledge-share and a pract
 And it's here that we came up with the concept of making Fairtech:
 - low cost. democratically available to all
 - low impediment,
-- low maintainence, 
+- low maintainence,
 - low energy
 - high impact
 - for high demand markets, such as the emerging Global South.
@@ -72,9 +74,9 @@ Today we take the next step. We're not proposing a paradigm shift: We are beginn
 
 > It is unreasonable to think comfort is not sustainable.
 
-15 years after the initial design and a 10 year inauguration: **PeR** is evolving.  
+15 years after the initial design and a 10 year inauguration: **PeR** is evolving.
 
-> We are going to challenge the usual notion of progress. Our experiments and, indeed our failures have shown us we don't need to risk extinction to be happy. 
+> We are going to challenge the usual notion of progress. Our experiments and, indeed our failures have shown us we don't need to risk extinction to be happy.
 
 <!--IMAGE-->
 

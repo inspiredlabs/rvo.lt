@@ -1,4 +1,6 @@
 ---
+draft: false
+isOpen: false
 authors: Alessandro Ronca
 title: Shelter
 date: 2019-10-09T16:43:26+02:00
@@ -18,11 +20,11 @@ areas: ["shelter"]
 
 <!--changes&nbsp;everything-->
 
-### A Proof-of-concept 
+### A Proof-of-concept
 
-Our South-facing passively conditioned house is the center of our tours around **PeR**. 
+Our South-facing passively conditioned house is the center of our tours around **PeR**.
 
-#### **PeR** combines the following technologies 
+#### **PeR** combines the following technologies
 
 - Rain water collection and reuse
 	- A network of pipes and filters helps us reuse grey water for flushing toilets. We keep rain water for showering and use in the sink.

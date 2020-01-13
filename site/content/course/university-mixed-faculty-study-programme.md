@@ -1,4 +1,6 @@
 ---
+draft: false
+isOpen: false
 authors: Alessandro Ronca
 title: University Student Practical Course
 date: 2019-10-09T16:43:26+02:00
@@ -10,7 +12,7 @@ menu:
 ---
 <!--**PeR** Sustainability Research Center-->
 
-### Mixed faculty Students 
+### Mixed faculty Students
 #### University Student Practical Course
 
 We can accommodate group participants across discipline and department. We accept, but are not limited to: architechture, design, environmental sciences, and agricultural departments.
@@ -27,7 +29,7 @@ We can accommodate group participants across discipline and department. We accep
 - Other European countries
 - Any non-European countries
 
-Aimed at students with a University level of education, we deliver the program in Italian or English, on-site. 
+Aimed at students with a University level of education, we deliver the program in Italian or English, on-site.
 
 ### Interdepartmental Programme, 1: Beyond&nbsp;Sustainability
 
@@ -37,7 +39,7 @@ Course composition to cover the following:
 
 **Maintain the Future**, from itinerary:
 
-- ecomodding, vehicles to regulate consumption and reduce emissions. 
+- ecomodding, vehicles to regulate consumption and reduce emissions.
 - efficiency tracking data analytics help us reframe pollution.
 - transport design to improve the viability and demand of electric vehicles: we crack this chicken-and-egg problem.
 - learn the societal impact of personal transport and explore the benefits of no-tech solutions.
@@ -74,7 +76,7 @@ More information coming soon.
 
 ## Health
 
-**Explore internal technology**, from itinerary: 
+**Explore internal technology**, from itinerary:
 
 More information coming soon.
 
@@ -112,20 +114,20 @@ If you are looking for opportunities for students to focus on decarbonisation, w
 
 ### Now you know how to use your brain, **PeR** can teach you how to use your hands!
 
-Students, had enough of theory? Put your studies into practice! **PeR** provides hands-on projects with sustainable methods to transfer our knowledge to your community. 
+Students, had enough of theory? Put your studies into practice! **PeR** provides hands-on projects with sustainable methods to transfer our knowledge to your community.
 
 This course isn't restricted to students in one faculty. In fact, we work with architechture, design, environmental sciences, and agricultural departments all the&nbsp;time.
 
 #### Background
-In 2002 we built a zero-impact home with the aim of understanding decarbonisation. Living this way forms the basis of our Sustainability Research Center, called: **Parco dell' Energia Rinnovabile**, which is based in Umbria, Italy. 
+In 2002 we built a zero-impact home with the aim of understanding decarbonisation. Living this way forms the basis of our Sustainability Research Center, called: **Parco dell' Energia Rinnovabile**, which is based in Umbria, Italy.
 
 #### Course In-Residence
-Help develop **PeR**'s community-scale decarbonisation efforts. We show you how to wisely approach resource management, natural resources, materials, shelter building, transport and rethinking waste. 
+Help develop **PeR**'s community-scale decarbonisation efforts. We show you how to wisely approach resource management, natural resources, materials, shelter building, transport and rethinking waste.
 
 #### Beyond sustainable development
 As technology has become more available people are shifting their focus from sustainable development to dematerialisation. **PeR** makes the case for old and new technologies in harmony – dramatically deminishing our resource needs and improving quality of life. This combination also delivers economic benefits.
 
 #### Research at **PeR**
-Here we engage in intersectional research and aim to be the centre of revolutionising well-being. By intentionally designing an _Active&nbsp;Shelter_ we move from buildings that are something we simply maintain – to homes that serve our needs, manage resources and process waste for us.  
+Here we engage in intersectional research and aim to be the centre of revolutionising well-being. By intentionally designing an _Active&nbsp;Shelter_ we move from buildings that are something we simply maintain – to homes that serve our needs, manage resources and process waste for us.
 
 Our research aims to be holistic sharing how we thrive with other communities.

@@ -1,8 +1,10 @@
 ---
+draft: false
+isOpen: false
 authors: Scott Phillips
 title: Scott Phillips
 date: 2019-10-09T16:43:26+02:00
-description: Design Generalist 
+description: Design Generalist
 menu:
   knowledgeshare
 
@@ -25,7 +27,7 @@ In the mid 1980's he felt the urgency of climate science. As he <!--precosiously
 
 ### Now
 
-Inspired to pursue a lifestyle akin to that of science-fiction, he reads mostly non-fiction. Acording to _Philip Zimbardo's_ _Time Perspectives_ he is oriented highly future&nbsp;positive. 
+He reads mostly non-fiction as he's inspired to pursue a lifestyle akin to that of science-fiction. Acording to _Philip Zimbardo's_ _Time Perspectives_ he is oriented highly future&nbsp;positive.
 
 ### Future
 
@@ -36,4 +38,3 @@ He wants to change the world – but you'll probably find him on a building&nbsp
 ### Inspired&nbsp;Labs
 
 Scott Phillips works remotely or&nbsp;in-house: [Learn more &#x279D;](https://inspiredlabs.co.uk/).
-

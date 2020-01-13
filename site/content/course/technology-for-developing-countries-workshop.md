@@ -1,4 +1,6 @@
 ---
+draft: false
+isOpen: false
 authors: Alessandro Ronca
 title: Technology for Developing Countries
 date: 2019-10-09T16:43:26+02:00
@@ -55,7 +57,7 @@ Workshop composition to cover the following:
 - construct a self-watering pallet or vegetable garden.
 - learn how urban farming techniques are useful in any environment.
 
- 
+
 **Rocket Stove**, 1 day:
 
 - construct two different kinds of very effective Rocket Stove.
@@ -82,4 +84,3 @@ Additional activities available on request.
 ## Package deals
 
 Prototype materials available on request. For an inclusive programme to meet the needs of your group, please [contact us](https://rvo.lt/contact/).
-

@@ -1,10 +1,10 @@
 ---
+draft: true
+isOpen: false
 authors: Alessandro Ronca
 title: Beyond Sustainability
 date: 2019-10-09T16:43:26+02:00
 description: Three Principles of Sufficiency
-
-draft: true
 
 ---
 
@@ -77,4 +77,3 @@ This differs from sustainability where any economic incentive seeks exploitation
 Sustainability, unintentionally or otherwise is maligned by economic incentive.
 
 At scale, there is always a way to "game the system".
-

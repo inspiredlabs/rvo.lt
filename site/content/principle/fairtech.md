@@ -1,10 +1,9 @@
 ---
+draft: false
+isOpen: false
 authors: Alessandro Ronca, Scott Phillips
 title: Fairtech
 date: 2019-10-09T16:43:26+02:00
-draft: false
-
-<!--weight: 1-->
 
 description: Community Resilience Platform
 menu:
@@ -33,14 +32,14 @@ During PeR’s 20 years of evolution, we have aimed to live in harmony with the 
 
 ### Nothing new, but a revolution
 
-This knowledge is very old. You can find links to each of the five areas in every civilisation – even ancient&nbsp;ones! 
+This knowledge is very old. You can find links to each of the five areas in every civilisation – even ancient&nbsp;ones!
 
 Doctors, teachers, farmers, builders and drivers (of vehicles, animals, <!--like horses and --> and even&nbsp;rivers!)  are evidence of the longevity and importance of these&nbsp;areas.
 
 <!--
-Doctor. 👩‍⚕️ 
-Teacher.👩‍🏫 
-Farmer. 👨‍🌾 
+Doctor. 👩‍⚕️
+Teacher.👩‍🏫
+Farmer. 👨‍🌾
 Pedaler. 🚴‍♀️ mechanic.👨‍🔧 driver. 🐎 even driving the river!
 Builder. 👷‍♂️
 -->
@@ -90,7 +89,7 @@ Living out of&nbsp;balance
 
 Theodore&nbsp;Roosevelt was an American statesman, author, explorer, soldier, naturalist, and the youngest U.S. presidency, at 42.
 
-Born in New York City on October 27, 1858, Theodore "Teddy" Roosevelt was governor of New York before becoming U.S. vice president. At age 42, Teddy Roosevelt became the youngest man to assume the U.S. presidency after President William McKinley was assassinated in 1901. He won a second term in 1904. Known for his anti-monopoly policies and ecological conservationism, Roosevelt won the Nobel Peace Prize for his part in ending the Russo-Japanese War. He died in New York on January 6, 1919.--> 
+Born in New York City on October 27, 1858, Theodore "Teddy" Roosevelt was governor of New York before becoming U.S. vice president. At age 42, Teddy Roosevelt became the youngest man to assume the U.S. presidency after President William McKinley was assassinated in 1901. He won a second term in 1904. Known for his anti-monopoly policies and ecological conservationism, Roosevelt won the Nobel Peace Prize for his part in ending the Russo-Japanese War. He died in New York on January 6, 1919.-->
 
 # Why Education?
 
@@ -100,9 +99,9 @@ When we study the world from behind screens such as smartphones and other device
 
 ## <!--what next?--> Practical, hands-on&nbsp;experience
 
-There is an urgent need to understand the physical&nbsp;world. 
+There is an urgent need to understand the physical&nbsp;world.
 
-Our ancestors learned everything hands-on, in&nbsp;nature. 
+Our ancestors learned everything hands-on, in&nbsp;nature.
 
 Energetic tutelage, play and trial-and-error help inform mastery, improve coordination and develop focus. These are vital for discipline, applying abstract&nbsp;ideas and growth.
 
@@ -136,7 +135,7 @@ The scale of luxury produce such as meat is harming people's health and the plan
 
 Self-production is just one-step towards abundance. Even partial-production, in the garden, greenhouse or under-used space including urban rooftops, window farms and growing-kits can mushroom our food&nbsp;access.
 
-<!--## Forage in the&nbsp;wild 
+<!--## Forage in the&nbsp;wild
 
 Learning about the local environment <!--can be tasty and&nbsp;nourishing-- > is&nbsp;delicious . To help distingush between poisionous <!--or illegal-- > or medicinal requires high quality references. When you know what's healthy and where to find it you can eat without spending a&nbsp;penny!-->
 
@@ -156,9 +155,9 @@ Our answers begin at community&nbsp;level with **The Light&nbsp;Bike**.
 
 Electric transport is not a futuristic idea. Although there is often a trade-off between low energy and long&nbsp;distance.<!-- personal&nbsp;vehicles. -->
 
-We developed **The Light&nbsp;Bike** which seems like a _complete&nbsp;contradiction_ in autonomy and energy&nbsp;use. 
+We developed **The Light&nbsp;Bike** which seems like a _complete&nbsp;contradiction_ in autonomy and energy&nbsp;use.
 
-<!-- Patents relating to electric cars go back to 1884, with an relatively sophisticated alkaline battery to debut in&nbsp;1913. [Thomas Edison and an electric car in 1913](https://www.thevintagenews.com/2016/10/18/in-1912-henry-ford-edison-came-together-to-conceive-a-low-priced-electric-car/) 
+<!-- Patents relating to electric cars go back to 1884, with an relatively sophisticated alkaline battery to debut in&nbsp;1913. [Thomas Edison and an electric car in 1913](https://www.thevintagenews.com/2016/10/18/in-1912-henry-ford-edison-came-together-to-conceive-a-low-priced-electric-car/)
 - henry ford and the electric car
 - https://www.thehenryford.org/collections-and-research/digital-collections/expert-sets/11023/
 - https://www.jpmorgan.com/global/research/electric-vehicles
@@ -170,7 +169,7 @@ We developed **The Light&nbsp;Bike** which seems like a _complete&nbsp;contradic
 
 Buildings in general require too much maintainence as they are commonly&nbsp;built. Houses, when designed properly can generate more than&nbsp;invested. And, buildings generally can act to _conserve the&nbsp;environment_, rather than spoil&nbsp;it.
 
-<!-- 
+<!--
 - James Lovelock on: costal migration of major cities.
 - and the importance of the Riparian: https://en.m.wikipedia.org/wiki/Riparian_zone
 - are water wheels the powerstation of the future?
@@ -178,17 +177,17 @@ Buildings in general require too much maintainence as they are commonly&nbsp;bui
 - Paul Hawken (the language of reversing the climate crisis): https://www.youtube.com/watch?v=R_JSknem0Yc
 - simple construction: http://containerhomewithstorage.blogspot.com/2017/12/introduction.html
 - budget: http://www.tincancabin.com/2013/12/the-shipping-container-cabin-in-perspective/#more-1979
-- cheapest acceptable house?: https://www.youtube.com/watch?v=9ppB72v-8nY&frags=pl%2Cwn 
-- $5000 tiny house: https://www.youtube.com/results?search_query=%245000+tiny+house 
-- rocket/j-stove: https://www.youtube.com/watch?v=8ptwncPImuo&frags=pl%2Cwn 
-- earthship: https://www.youtube.com/watch?v=efI77fzBgvg 
+- cheapest acceptable house?: https://www.youtube.com/watch?v=9ppB72v-8nY&frags=pl%2Cwn
+- $5000 tiny house: https://www.youtube.com/results?search_query=%245000+tiny+house
+- rocket/j-stove: https://www.youtube.com/watch?v=8ptwncPImuo&frags=pl%2Cwn
+- earthship: https://www.youtube.com/watch?v=efI77fzBgvg
 - what are the "economic" "benefits" of "self-sufficiency"?
 - welfare in the past has failed: From Self-Sufficiency to Personal and Family Sustainability: A New Paradigm for Social Policy:
-https://scholarworks.wmich.edu/cgi/viewcontent.cgi?article=3115&context=jssw 
-- Self-Sufficiency (failed attempt in US): https://www.innovations.harvard.edu/sites/default/files/hpd_0403_shlay.pdf 
+https://scholarworks.wmich.edu/cgi/viewcontent.cgi?article=3115&context=jssw
+- Self-Sufficiency (failed attempt in US): https://www.innovations.harvard.edu/sites/default/files/hpd_0403_shlay.pdf
 - better than nothing!: https://www.liveandinvestoverseasconferences.com/5-benefits-self-sufficient-life-start/
 - hope: https://www.sierraclub.org/sierra/10-reasons-feel-hopeful-about-climate-change-2019
-- How to Future-Proof Humanity | Paul Mason: https://www.youtube.com/watch?v=urAq2THJ-1Q&frags=pl%2Cwn 
+- How to Future-Proof Humanity | Paul Mason: https://www.youtube.com/watch?v=urAq2THJ-1Q&frags=pl%2Cwn
 - protect, restore, fund: https://www.youtube.com/watch?v=P0B6AxeVNY8
-- Juliana Birnbaum: Sustainable Revolution: https://www.youtube.com/watch?v=B4hR5OO9FtQ 
+- Juliana Birnbaum: Sustainable Revolution: https://www.youtube.com/watch?v=B4hR5OO9FtQ
 - ingenious shower: https://www.youtube.com/watch?v=7y4ctsaag8U&frags=pl%2Cwn -->

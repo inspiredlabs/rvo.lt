@@ -1,4 +1,6 @@
 ---
+draft: false
+isOpen: false
 authors: Alessandro Ronca
 title: The Polymath
 date: 2019-10-09T16:43:26+02:00
@@ -6,8 +8,6 @@ description: "&hellip;and the importance of interdisciplinary work"
 areas: ["education"]
 order: 3
 weight: 3
-draft: false
-
 ---
 <!--"generalist" "senior" "specialist" "inferior"-->
 
@@ -16,9 +16,9 @@ When I read the article on the Polymath, I thought: "that's exactly how I feel".
 > When the body remains still and the mind is forced to do something repetitive, the human inside us&nbsp;rebels. - [Robert Twigger](https://aeon.co/essays/we-live-in-a-one-track-world-but-anyone-can-become-a-polymath)
 
 
-<!--We hear the descriptive words psychopath and sociopath all the time, but here’s a new one: monopath. It means a person with a narrow mind, a one-track brain, a bore, a super-specialist, an expert with no other interests — in other words, the role-model of choice in the Western world. 
+<!--We hear the descriptive words psychopath and sociopath all the time, but here’s a new one: monopath. It means a person with a narrow mind, a one-track brain, a bore, a super-specialist, an expert with no other interests — in other words, the role-model of choice in the Western world.
 
-You think I jest? In June, I was invited on the Today programme on BBC Radio 4 to say a few words on the river Nile, because I had a new book about it. The producer called me ‘Dr Twigger’ several times. I was flattered, but I also felt a sense of panic. I have never sought or held a PhD. After the third ‘Dr’, I gently put the producer right. And of course, it was fine — he didn’t especially want me to be a doctor. The culture did. My Nile book was necessarily the work of a generalist. But the radio needs credible guests. 
+You think I jest? In June, I was invited on the Today programme on BBC Radio 4 to say a few words on the river Nile, because I had a new book about it. The producer called me ‘Dr Twigger’ several times. I was flattered, but I also felt a sense of panic. I have never sought or held a PhD. After the third ‘Dr’, I gently put the producer right. And of course, it was fine — he didn’t especially want me to be a doctor. The culture did. My Nile book was necessarily the work of a generalist. But the radio needs credible guests.
 
 It needs an expert — otherwise why would anyone listen?
 

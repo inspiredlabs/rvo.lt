@@ -1,5 +1,7 @@
 ---
-authors: Alessandro Ronca & Scott Phillips 
+draft: false
+isOpen: false
+authors: Alessandro Ronca & Scott Phillips
 title: Transport
 
 description: >-
@@ -33,7 +35,7 @@ A modern transport network will have the following characteristics:
 
 ## Electrify
 
-The name that springs to mind when we think about modern transport is _Elon&nbsp;Musk_ <!-- You might have heard of him-->. Electric cars are not a futuristic idea. They have a rich, long history&hellip; although they are only part of the&nbsp;answer. 
+The name that springs to mind when we think about modern transport is _Elon&nbsp;Musk_ <!-- You might have heard of him-->. Electric cars are not a futuristic idea. They have a rich, long history&hellip; although they are only part of the&nbsp;answer.
 
 ### History <!--Electric Wonderland-->
 

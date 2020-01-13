@@ -1,4 +1,6 @@
 ---
+draft: false
+isOpen: false
 authors: Alessandro Ronca
 title: "PRESS: The Light Bike"
 date: 2019-10-09T16:43:26+02:00

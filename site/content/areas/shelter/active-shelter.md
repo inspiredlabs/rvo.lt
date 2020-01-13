@@ -1,4 +1,6 @@
 ---
+draft: false
+isOpen: false
 authors: Scott Phillips
 title: Active Shelter
 date: 2019-10-09T16:43:26+02:00
@@ -23,7 +25,7 @@ areas: ["health", "education", "food", "transport", "shelter"]-->
 
 ## Overview
 
-Equipped with a self-contained bathroom, kitchen and&nbsp;utility. 
+Equipped with a self-contained bathroom, kitchen and&nbsp;utility.
 
 Initially mobile, the **Technical Block** can be deployed in emergency, onto under-used urban space or <!--temporarily,--> anywhere&nbsp;permissable!
 
@@ -31,13 +33,13 @@ Discrete from a greenhouse, living quarters and storage the **Technical Block** 
 
 ## Discrete, iterative design
 
-The goal is to make the complex, simply&nbsp;livable. 
+The goal is to make the complex, simply&nbsp;livable.
 
 With all the components in one place, this reduces cost and delivery considerations. The living space can then be tailored to the environment and in harmony with locally sourced means and&nbsp;materials.
 
 ## Delivery
 
-We plan to deliver broadly applicable guidelines for  design, orientation and thermo-efficiency to suit people's needs. Although, efficacy will largely depend on&nbsp;implementation. 
+We plan to deliver broadly applicable guidelines for  design, orientation and thermo-efficiency to suit people's needs. Although, efficacy will largely depend on&nbsp;implementation.
 
 > We set out to design and deploy a scalable&nbsp;homestead
 
@@ -46,7 +48,7 @@ We plan to deliver broadly applicable guidelines for  design, orientation and th
 	- sheild summer sun with solar panels
 	- batteries stored away from heat and water
 	- operational energy ~4+ people
-	- low maintainence 
+	- low maintainence
 - Bathroom:
 	- Heated radiator
 	- Natural light and ventilation
@@ -67,7 +69,7 @@ We plan to deliver broadly applicable guidelines for  design, orientation and th
 		- zero running cost <!--based on: Zeer Pots, from: http://www.provident-living-today.com/Alternative-Refrigeration.html-->
 <!--		- integrated inside external water collector-->
 	- Sink<!-- and dishwasher-->:
-		- hot and cold running water 
+		- hot and cold running water
 		- process/filter/reuse gray water
 	- Cook:
 		- insulated hob
@@ -99,7 +101,7 @@ Rooms should be tailored to the&nbsp;environment.
 	- natural light and ventilation
 	- simple, passive heating
 	- insulated with adobe
-- Bedrooms 
+- Bedrooms
 	- orientated for healthy sleep
 	- facing the sunset
 	- cosy
@@ -128,7 +130,7 @@ Types of solar: https://greentumble.com/types-of-solar-photovoltaic-systems/
 
 - Refrigeration slows down the growth of bacteria and molds
 
-### Why refridgerate?  
+### Why refridgerate?
 
 - x
 
@@ -140,9 +142,9 @@ Types of solar: https://greentumble.com/types-of-solar-photovoltaic-systems/
 
 - from: http://www.provident-living-today.com/Alternative-Refrigeration.html
 
-### What not to refridgerate?  
+### What not to refridgerate?
 
-- tomatoes: contain a self-destroying aromatic compound 
+- tomatoes: contain a self-destroying aromatic compound
 - pears: catalysts help ripen, like ethylene (from bananas)
 - onions: rot around moisture (don't store with potatoes)
 
@@ -153,7 +155,7 @@ Active technologies, choosing to rethinking the foundations. Flexible, remote an
 
 Active Shelter characteristics
 
-- A shelter that gives more than the energy that went into creating it. 
+- A shelter that gives more than the energy that went into creating it.
 - this is different from a Smart House (called: Domotics, Adj.). <!--Smart House: wooden house at the back bricks at the front?-->
 - waste: managed by an active digester (a septic tank is passive, and needs a lot of mass). Waterloop System - ASA Boot Electro.
 	- compost toilet (primer: https://www.pickatoilet.com/best-composting-toilet-reviews/).
@@ -163,4 +165,4 @@ Active Shelter characteristics
 	- like hydroponics. Tilapia fertilise food. https://duckduckgo.com/?q=goldfish+that+ferilise+the+indor+hydroponics&t=osx&iax=images&ia=images
 
 
-*/</script>	
+*/</script>

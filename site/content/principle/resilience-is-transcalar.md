@@ -1,12 +1,11 @@
 ---
+draft: false
+isOpen: false
 authors: Scott Phillips
 title: Transcalar Resilience
 date: 2019-10-09T16:43:26+02:00
-draft: false
 
-<!--weight: 2-->
-
-description: Five special categories 
+description: Five special categories
 menu:
   principle
 
@@ -22,13 +21,13 @@ menu:
 
 We realised these five categories are special. They are **Transcalar**: meaning, they scale in all directions. They are just as important for communities, nomadic people, and developed civilisations – all over the&nbsp;globe!
 
-**Non-rivalry** suggests there can be a way to benefit without competition. For example improving your own health doesn't reduce someone else’s&nbsp;well-being. 
+**Non-rivalry** suggests there can be a way to benefit without competition. For example improving your own health doesn't reduce someone else’s&nbsp;well-being.
 
 <!-- Can we start to reinforce people's well-being in a free low-energy way? -->
 
 ## Practical safety net
 
-Talk to people about **"HEFTS"** and you realise how transcalar this idea is. Individuals, professionals, business leaders, politicians and global policy makers all have a role to play in making communities resilient. 
+Talk to people about **"HEFTS"** and you realise how transcalar this idea is. Individuals, professionals, business leaders, politicians and global policy makers all have a role to play in making communities resilient.
 
 Together we can overcome challenges. Becoming more resilient requires a co-ordinated movement large enough to affect change – and **PeR** encourages engineers to stretch the practicality of making "HEFTS" free.
 
@@ -55,11 +54,11 @@ Those able to share their time, can advocate by [email](mailto:fairtech@pm.me) t
 
 ## Adapt, Upgrade &amp;&nbsp;Share
 
-By optimsing away red-tape our designs should be Open-Source and shared freely. 
+By optimsing away red-tape our designs should be Open-Source and shared freely.
 
-Adaptations for local materials and methods will serve as a feedback loop to reduce the pitfalls of&nbsp;experimentation. 
+Adaptations for local materials and methods will serve as a feedback loop to reduce the pitfalls of&nbsp;experimentation.
 
-**Localised&nbsp;participation** means that after designs have been tested, they can be adapted for use&nbsp;elsewhere. 
+**Localised&nbsp;participation** means that after designs have been tested, they can be adapted for use&nbsp;elsewhere.
 
 <!--Together we can overcome challenges. -->
 
@@ -78,9 +77,9 @@ Together we can overcome challenges. Becoming more resilient requires a co-ordin
 
 ## For&nbsp;critics
 
-Your input may improve our&nbsp;reach and&nbsp;reliability. 
+Your input may improve our&nbsp;reach and&nbsp;reliability.
 
-We aim to provide an engineering solution where there might be future _market&nbsp;failure_. Doing so, we're unearthing benefits such as upskilling and cost&nbsp;savings! 
+We aim to provide an engineering solution where there might be future _market&nbsp;failure_. Doing so, we're unearthing benefits such as upskilling and cost&nbsp;savings!
 
 > It's just shoddy Socialism&nbsp;–&nbsp;Amirite?!
 
@@ -115,7 +114,7 @@ Design for simple&nbsp;living.
 
 ## For&nbsp;Economists
 
-Applied like this **Transcalar** means leveraging zero-marginal cost applied _acceptably_ to life's necessities<!-- (as early as possible)-->. 
+Applied like this **Transcalar** means leveraging zero-marginal cost applied _acceptably_ to life's necessities<!-- (as early as possible)-->.
 
 By acceptably, we mean:
 
@@ -127,7 +126,7 @@ The five categories: "HEFTS", require extra intervention to normalise a reductio
 
 <!--## For&nbsp;Degrowthers-->
 
-At grass-roots level, people may adopt this as an _alternative lifestyle_. Conciencous people involved in the **Degrowth Movement** will appreciate our approach to&nbsp;resources. 
+At grass-roots level, people may adopt this as an _alternative lifestyle_. Conciencous people involved in the **Degrowth Movement** will appreciate our approach to&nbsp;resources.
 
 Although we can learn a lot from Earthships, Degrowthers and FOSS – the adaptive capacity of capitalism is not to be&nbsp;underestimated. <!--Hopefully it will enhance the market for everyone's&nbsp;betterment.-->
 

@@ -1,9 +1,11 @@
 ---
+draft: false
+isOpen: false
 authors: Alessandro Ronca, Scott Phillips
 title: Food
 
 description: >-
-  The heart of self-sufficiency 
+  The heart of self-sufficiency
 
 date: 2019-10-09T16:43:26+02:00
 areas: ["food"]

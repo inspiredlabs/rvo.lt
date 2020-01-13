@@ -1,4 +1,6 @@
 ---
+draft: false
+isOpen: false
 authors: Alessandro Ronca
 title: Education
 date: 2019-10-09T16:43:26+02:00
@@ -12,9 +14,9 @@ weight: 2
 
 ## Practical, hands-on&nbsp;learning
 
-There is an urgent need to understand the physical&nbsp;world. 
+There is an urgent need to understand the physical&nbsp;world.
 
-Our ancestors learned everything hands-on, in&nbsp;nature. 
+Our ancestors learned everything hands-on, in&nbsp;nature.
 
 Energetic tutelage, play and trial-and-error help inform mastery, improve coordination and develop focus. These are vital for discipline, applying abstract&nbsp;ideas and growth.
 

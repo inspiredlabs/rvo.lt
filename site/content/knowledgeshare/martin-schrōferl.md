@@ -1,8 +1,9 @@
 ---
-draft: false
+draft: true
+isOpen: false
 title: Martin Schrōferl
 date: 2019-10-09T16:43:26+02:00
-description: Programmer &amp; Design&nbsp;Engineer 
+description: Programmer &amp; Design&nbsp;Engineer
 authors: Scott Phillips
 levels: ["global", "community"]
 areas: ["health", "transport"]
@@ -26,7 +27,7 @@ Martin developed an advanced carbon fibre recumbant. This [design](https://www.y
 
 <!--# Democratic Design
 
-At **PeR**, we believe in the power of design. 
+At **PeR**, we believe in the power of design.
 -->
 ## Power assist
 

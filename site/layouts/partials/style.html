@@ -7,8 +7,11 @@
 	/* 01.05.19	.ts 							shadow									addition 	*/
 	/* 30.05.19	.f8 							0.6rem									addition 	*/
 	/* 14.08.19	.debug *					display colours					media query addition 		*/
-	/* 13.10.19	.b--transparent		border top highlight		moved cascade override	*/
-	
+  /* 13.10.19	.b--transparent		border top highlight		moved cascade override	*/
+  
+  /* 08.11.19 .smooth-scroll		scroll-behavior:smooth  addition								*/
+  
+
 	/* .box-sizing,etc...{border-box;margin-top:0;margin-bottom:0;}. */
 	/* .dim and .grow: https://github.com/tachyons-css/tachyons/issues/337 */
 	
@@ -7847,7 +7850,7 @@
 	}
 	
 </style>
-<!--TODO: TEMPLATE CSS -->
+<!--TODO: TEMPLATE CSS: `template.URL(mystring)` from: https://stackoverflow.com/questions/14765395/why-am-i-seeing-zgotmplz-in-my-go-html-template-output -->
 <style>.watermark{background-color:white;background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjU3NiAtNTc2IDE0NDAgMTQ0MCIgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyA1NzYgLTU3NiAxNDQwIDE0NDAiPjxwYXRoIGZpbGw9InNpbHZlciIgZD0iTTEzNDUuOSA2Mi4xYy0yNS45LjMtNDcuNy0yMS40LTQ3LjktNDcuNy0uMi0yNy40IDIwLjYtNDguNyA0OC4zLTQ5LjMgMjYuNi0uNiA0OC4yIDIxLjEgNDguNCA0OC42LjMgMjcuMy0yMC42IDQ4LjEtNDguOCA0OC40ek0xNDQ5LjEgMjJjLTYtMi0xMi00LTE4LjEtNS43LTguNC0yLjQtMTIuOSAwLTE1LjcgOC4zLTUuMyAxNi0xMC42IDMyLTE1LjYgNDguMS0xIDMtMS4zIDYuNi0uOCA5LjcuNSAzLjQtLjYgNS0zLjYgNi4xLTQuOCAxLjgtOS43IDMuNS0xNC4yIDUuOS02LjUgMy41LTExLjcgMi42LTE3LjgtMS41LTE5LjQtMTMuMy0zOS4zLTI2LTU5LTM4LjgtMTUtOS44LTMxLjYtNi40LTQxLjMgOC41LTIwLjEgMzEtNDAuMSA2Mi4xLTYwLjIgOTMuMi03LjggMTItNy44IDI0LS4xIDM2LjEgNi43IDEwLjUgNTEuNSA4NCA3MS43IDExMi43IDMuNiA1LjEgNi40IDguOCA4LjEgMTAuNSA1LjkgNS45IDExLjIgOC42IDIyLjkgOC42IDE1IDAgMzMuNS0xNS44IDMzLjUtMzMuMiAwLTguMy00LjMtMTUuNy05LTIyLjdsLTQ1LjQtNjkuM2MtMy00LjUtMy4xLTguNC0uMS0xMi45IDEwLjctMTYuMSAyMS4yLTMyLjMgMzEuOC00OC41IDQuNi03IDQuNy03IDExLjYtMi41IDguOCA1LjggMTcuNyAxMS41IDI2LjYgMTcuMyA2LjkgNC41IDE0LjYgNS42IDIyLjEgMi43IDE4LjMtNyAzNi41LTE0LjEgNTQuNC0yMiAxMi43LTUuNiAxOC41LTE4LjMgMTMuNi0zMS4yLTMuNC04LjgtMi41LTE2LjMuNy0yNC4zLjktMi4xIDEuNC00LjMgMi4xLTYuNSAzLjQtMTAuOCA3LTIxLjUgMTAuMi0zMi4zIDIuNy05LjMuNi0xMy4zLTguNC0xNi4zem0tMS4xIDIxLjJjLTQuNSAxMy45LTkuMiAyNy43LTEzLjQgNDEuNi0xLjMgNC4yLTMuNSA1LjItNy40IDMuOS01LjYtMS44LTExLjEtMy43LTE2LjgtNS4zLTQtMS4xLTUtMy43LTMuOS03LjIgNS4zLTE2LjYgMTAuNy0zMy4yIDE2LjItNDkuNy41LTEuNCAyLjItMi44IDMuNy0zLjMuOC0uMyAyLjcgMS4xIDMuNCAyLjEgMy40IDQuOCA5LjQgNi45IDE1LjQgNSAzLjYtMS4xIDUuNCAwIDUuNCA0LjMtLjYgMi4zLTEuNiA1LjUtMi42IDguNnpNMTE5Ny41IDE5OS43bC00NC41IDY4Yy00LjYgNy05IDE0LjQtOSAyMi43IDAgMTcuMyAxOC41IDMzLjIgMzMuNSAzMy4yIDExLjcgMCAxNy0yLjcgMjIuOS04LjYgMS43LTEuNyA0LjUtNS40IDguMS0xMC41IDcuMi0xMC4zIDE3LjUtMjYuMiAyOC4xLTQyLjlsLTM5LjEtNjEuOXoiLz48L3N2Zz4=");background-position:center center;background-repeat:no-repeat;background-size:cover;}</style>
 
 
@@ -8337,6 +8340,7 @@
 	details * figure, details * a { transition: all .125s ease-in-out; }
   details * a { color: black; cursor: pointer; }
   details * a:hover { color: white; /*background-color: rgba(0,0,0,.8);*/ cursor: pointer; }
+
 	
 	code {
 		-webkit-overflow-scrolling:touch;
@@ -8358,6 +8362,18 @@
 	  -moz-hyphens: auto;
 	  -webkit-hyphens: auto;
 	  hyphens: auto;*/
+	}
+
+	.word-break {
+			/* These are technically the same, but use both */
+		overflow-wrap: break-word;
+		word-wrap: break-word;
+
+		-ms-word-break: break-all;
+		/* This is the dangerous one in WebKit, as it breaks things wherever */
+		word-break: break-all;
+		/* Instead use this non-standard one: */
+		word-break: break-word;
 	}
 	
 	/* details hr { border-color: rgba(0,0,0,.05); border-width: .125rem; border-bottom-style: solid; }*/
@@ -8450,7 +8466,7 @@
 	  height:auto;
 	  overflow: inherit;
 	  position: relative;
-	  white-space: nowrap;
+	  /*! white-space: nowrap; */
 	  width: auto;
 	}
 
@@ -8500,11 +8516,9 @@
 		-webkit-font-smoothing: antialiased;
 		font-smoothing: antialiased; /* White text on black */
 	}
-	
-	.touch-scrolling {
-		overflow-y:scroll;
-		overflow-scrolling: scroll;
-		-webkit-overflow-scrolling: touch; /* stackoverflow.com/questions/26176288/webkit-overflow-scrolling-touch-breaks-in-apples-ios8 */
+
+	.smooth-scroll {
+		scroll-behavior:smooth;
 	}
 	
 	.touch-scrolling {

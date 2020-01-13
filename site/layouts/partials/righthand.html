@@ -56,7 +56,7 @@
 				<!-- HEFTS -->
 				{{ $currentNode := . }}
 				{{ range .Site.Menus.health }}
-				<li class="bg-health">
+				<li class="bg-{{ .Name | lower }}">
 					<a class="no-underline bt bw2 bw1-m bw2-l b--transparent pa3 border-box f3 f5-ns f5-m f3-l tracked-tight dim-gray transition hover-black flex items-center
 						{{if or ($currentNode.IsMenuCurrent "health" .) ($currentNode.HasMenuCurrent "health" .) }}
 							b--black-20 fw7 bg-white-70
@@ -66,7 +66,7 @@
 				
 				{{ $currentNode := . }}
 				{{ range .Site.Menus.education }}
-				<li class="bg-education">
+				<li class="bg-{{ .Name | lower }}">
 					<a class="no-underline bt bw2 bw1-m bw2-l b--transparent pa3 border-box f3 f5-ns f5-m f3-l tracked-tight dim-gray transition hover-black flex items-center
 						{{if or ($currentNode.IsMenuCurrent "education" .) ($currentNode.HasMenuCurrent "education" .) }}
 							b--black-20 fw7 bg-white-70
@@ -76,7 +76,7 @@
 				
 				{{ $currentNode := . }}
 				{{ range .Site.Menus.food }}
-				<li class="bg-food">
+				<li class="bg-{{ .Name | lower }}">
 					<a class="no-underline bt bw2 bw1-m bw2-l b--transparent pa3 border-box f3 f5-ns f5-m f3-l tracked-tight dim-gray transition hover-black flex items-center
 						{{if or ($currentNode.IsMenuCurrent "food" .) ($currentNode.HasMenuCurrent "food" .) }}
 							b--black-20 fw7 bg-white-70
@@ -86,7 +86,7 @@
 				
 				{{ $currentNode := . }}
 				{{ range .Site.Menus.transport }}
-				<li class="bg-transport">
+				<li class="bg-{{ .Name | lower }}">
 					<a class="no-underline bt bw2 bw1-m bw2-l b--transparent pa3 border-box f3 f5-ns f5-m f3-l tracked-tight dim-gray transition hover-black flex items-center
 						{{if or ($currentNode.IsMenuCurrent "transport" .) ($currentNode.HasMenuCurrent "transport" .) }}
 							b--black-20 fw7 bg-white-70
@@ -96,7 +96,7 @@
 				
 				{{ $currentNode := . }}
 				{{ range .Site.Menus.shelter }}
-				<li class="bg-shelter">
+				<li class="bg-{{ .Name | lower }}">
 					<a class="no-underline bt bw2 bw1-m bw2-l b--transparent pa3 border-box f3 f5-ns f5-m f3-l tracked-tight dim-gray transition hover-black flex items-center
 						{{if or ($currentNode.IsMenuCurrent "shelter" .) ($currentNode.HasMenuCurrent "shelter" .) }}
 							b--black-20 fw7 bg-white-70

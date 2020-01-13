@@ -1,6 +1,7 @@
 ---
-authors: Alessandro Ronca
 draft: true
+isOpen: false
+authors: Alessandro Ronca
 
 title: Beyond Sustainability
 date: 2017-01-04T15:04:10.000Z
@@ -80,4 +81,3 @@ This differs from sustainability where any economic incentive seeks exploitation
 Sustainability, unintentionally or otherwise is maligned by economic incentive.
 
 At scale, there is always a way to "game the system".
-

@@ -1,9 +1,10 @@
 ---
+draft: true
+isOpen: false
 authors: Scott Phillips
 title: The Problem in Detail
 
 date: 2019-10-09T16:43:26+02:00
-draft: true
 
 description: >-
   A detailed account of a confluence of issues

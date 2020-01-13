@@ -1,9 +1,10 @@
 ---
+draft: true
+isOpen: false
 authors: Scott Phillips
 title: Dematerialisation
 
 date: 2019-10-09T16:43:26+02:00
-draft: true
 
 description: >-
   And end of money
@@ -29,7 +30,7 @@ First described by _Kevin Kelly (Kevin Kelly, Co-founder, Wired Magazine)_, Dema
 
 The work place has already moved into the home. People use  laptops to telecommute<!-- (pejoratively
  called the _gig economy_)-->, their car as a Taxi in c
- 
+
 <!--
 "workplace" "Dematerialisation"
 GEOGRAPHICALLY:
@@ -71,7 +72,7 @@ Microsoft Office: moved people onto digital documents, away from paper, and towa
 
 This creates what economists call **Consumer Surplus**. The unmeasured value created for the consumer, but not represented elswhere in the economy.-->
 
-### Winner takes all 
+### Winner takes all
 
 The trend now, is the companies use network effects to reconfigure the economy replacing products with services, atoms with bits. All: [free, perfect and instant](https://youtu.be/E8pbUalSdHk?t=400):
 
@@ -83,23 +84,23 @@ The trend now, is the companies use network effects to reconfigure the economy r
 - amazon: low energy search engine. Cheaper than eBay?
 -->
 
-### <!-- Dematerialisation and --> Health 
+### <!-- Dematerialisation and --> Health
 
 The affects of Dematerialisation on Health are...
 
 ### <!-- Dematerialisation and --> Education
 
-The affects of Dematerialisation on Education are... 
+The affects of Dematerialisation on Education are...
 
 <!--Start here: https://ourworldindata.org/measuring-education-what-data-is-available-->
 
 ### <!-- Dematerialisation and --> Food
 
-The affects of Dematerialisation on Food are... 
+The affects of Dematerialisation on Food are...
 
 ### <!-- Dematerialisation and --> Transport
 
-The affects of Dematerialisation on Transport are... 
+The affects of Dematerialisation on Transport are...
 
 Uber = convenience (mutual rating system), although the dark-side of this business model is that drivers often make _a loss_. Paying more in petrol, road tax, insurance and maintainence fees than they earn in thier first year (96% churn rate).
 	- from: https://www.youtube.com/watch?v=jzFTwBkIC5o
@@ -108,7 +109,7 @@ Uber = convenience (mutual rating system), although the dark-side of this busine
 
 The affects of Dematerialisation on Shelter are...
 
-Millennials and other young people already have difficulty earning enough money to afford high quality <!-- starter-homes --> housing for themselves. As the trend in rising cost and shrinking availability increases<!-- then we need to do more with less-->: X. 
+Millennials and other young people already have difficulty earning enough money to afford high quality <!-- starter-homes --> housing for themselves. As the trend in rising cost and shrinking availability increases<!-- then we need to do more with less-->: X.
 
 - holidaying, AirBnB = under utilised space AND experiences:
 	- From "airbnb business model canvas": https://www.youtube.com/watch?v=WzGhFmiB9G0
@@ -120,7 +121,7 @@ Millennials and other young people already have difficulty earning enough money 
 
 Dematerialisation carries risk if people are not prepared for schools, hospitals and retirement homes to close.
 
-The 
+The
 reliable childcare,
 
 <!--

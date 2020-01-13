@@ -1,4 +1,4 @@
-<li class="post-holder"><!-- Begin: li.html -->
+<li class="post-holder" id="{{ .Title | lower | urlize }}"><!-- Begin: li.html -->
 
 <article class="pt5"><!-- id="" -->
 	<section class="cf w-100 pv3 f4 ph3 ph4-ns">
@@ -44,7 +44,7 @@
 </span><!-- | safeHTML-->
 	      						{{ end }}
 	      					</p>
-		      			</header>	
+		      			</header>
       				</span><!-- /summary -->
       				<div class="highlight">
 					    {{ .Content| replaceRE "PeR" "<span class='ttn fs-initial'>P<sup class='large v-sup'>e̲</sup>R</span>" | safeHTML }}

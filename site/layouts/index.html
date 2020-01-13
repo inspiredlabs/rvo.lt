@@ -1,339 +1,108 @@
 {{ partial "head" . }}
-{{ partial "jumbotron" (dict "imageUrl" .Params.image "title" .Title "subtitle" .Params.subtitle) }}
-<script>{{/*
-<!-- {{ define "main" }} -->
-
-{{ partial "short-text" .Params.blurb }}
-{{ partial "price" . }}
-<!--{{ partial "subscribe" . }}-->
-{{ partial "about" . }}
-<!-- It works! -->
-<!--
-{{ partial "2-up" .Params }}
-{{ partial "text-and-image" (dict "heading" .Params.values.heading "text" .Params.values.text "buttonText" "Read more" "buttonLink" "/values") }}
--->
-<!--
-{{ partial "news" . }}
--->
-<!-- It works! -->
-<!-- simplify the nesting -->
-<!-- {{ partial "email" . }} -->
-<!-- {{ end }} -->
-*/}}</script>
-
-
-<script>{{/*
-<div id="newList">
-	<ul class="list">
-	{{ range .Data.Pages.ByWeight }}
-		{{ if eq .Type  "post" }}
-			{{ .Render "post"}}
-		{{ end }}
-	{{ end }}
-	</ul>
+<body class="w-100 js-focus-visible helvetica-neue lh-copy bg-black" id="top"><!-- sans-serif -->
+<div class="w-100 fixed z-999 mt0 pa1 top-0" >
+  <ol class="list w-10 moon-gray o-0 hover-o-100 transition">
+    <li id="debugInfo">0</li>
+    <!-- https://discourse.gohugo.io/t/solved-how-to-create-a-json-index-when-theres-code-in-content/4901 -->
+    <!-- <li>TITLE: {{.Title}}</li>
+    <li>CONTENT: {{.Content}}</li>
+    <li>SUMMARY: {{.Summary}}</li>
+    <li>TRUNCATED: {{.Truncated}}</li>
+    <li>DESCRIPTION: {{.Description}}</li>
+    <li>KEYWORDS: {{.Keywords}}</li>
+    <li>DATE: {{.Date}}</li>
+    <li>PUBLISHDATE: {{.PublishDate}}</li>
+    <li>TYPE: {{.Type}}</li>
+    <li>SECTION: {{.Section}}</li>
+    <li>PERMALINK: {{.Permalink}}</li>
+    <li>RELPERMALINK: {{.RelPermalink}}</li>
+    <li>LINKTITLE: {{.LinkTitle}}</li>
+    <li>TAXONOMIES: {{/*.Taxonomies*/}}</li>
+    <li>RSSLINK: {{.RSSLink}}</li>
+    <li>TABLEOFCONTENTS: {{.TableOfContents}}</li>
+    <li>PREV: {{.Prev}}</li>
+    <li>NEXT: {{.Next}}</li>
+    <li>PREVINSECTION: {{.PrevInSection}}</li>
+    <li>NEXTINSECTION: {{.NextInSection}}</li>
+    <li>FUZZYWORDCOUNT: {{.FuzzyWordCount}}</li>
+    <li>WORDCOUNT: {{.WordCount}}</li>
+    <li>READINGTIME: {{.ReadingTime}}</li>
+    <li>WEIGHT: {{.Weight}}</li>
+    <li>ISNODE: {{.IsNode}}</li>
+    <li>ISPAGE: {{.IsPage}}</li> -->
+  </ol>
 </div>
-*/}}</script>
 
-<ul class="list bg-dark-gray white-90 antialias ma0">
+{{ partial "svg.html" . }}
+{{/* partial "righthand.html" . */}}
+{{ partial "tabbed.html" . }}
 
-{{/* last 1 */}}
-{{ range (where .Data.Pages "Type" "principle") }}
-	{{ .Render "li" }}
-{{ end }}
-</ul>
+{{ partial "jumbotron" (dict "imageUrl" .Params.image "title" .Title "subtitle" .Params.subtitle) }}
 
 <div id="content">
-	<ul class="ma0 list bg-near-white black-70 antialias">
+	<ul class="pa0 ma0 list bg-near-white black-70">
 
-		{{ range (where .Data.Pages.ByWeight "Type" "venue") }}
-
-			<li class="post-holder"><!-- Begin: li.html -->
-				<data class="meta dn">
-					{{ .Title }}
-					{{ .Description }}
-					{{ .Params.assignment }}
-					{{ .Params.location }}
-					{{ .PlainWords }}
-				</data>
-
-			<article class="pt5"><!-- id="" -->
-				<section class="cf w-100 pv3 f4 ph3 ph4-ns">
-					<div class="mw9 center ph3-ns">
-					  <div class="ph2-ns">
-					    <div class="fl w-100 w-70-ns pr4"><!-- w-two-thirds -->
-					      <div class="pv4 fr w-100 w-90-m w-80-l"><!-- outline bg-black-05 truncate no-wrap -->
-					      	<a href="{{ .Permalink }}" class="no-underline dim db f6 ttu tracked fw1 inherit">
-					      		<svg viewbox="0 0 482 482" class="no-select pr2 h07 ">
-					      			<use xlink:href="#url"></use>
-					      		</svg>
-					      		<!--span class="pr3">{{ .Permalink }}</span-->
-						      	<time class="b">{{ dateFormat "01-02-2006" .Date }}{{/* dateFormat "Monday January, 2, 2006" .Date */}}</time>
-					      	</a>
-				    			<hr class="ba bw1 mb0 bg-inherit o-10"/>
-					      	<details class="details highlight">
-					      		<summary class="no-clutter list">
-					      			<header class="fl w-100 pr4-ns">
-					      				<!--a id="blog-logo" href="{{ .Site.BaseURL}}">
-					      				    {{ if .Site.Params.logo }}
-					      				        <a id="blog-logo" href="{{ .Site.BaseURL}}"><img src="{{ .Site.Params.logo }}" alt="Blog Logo" /></a>
-					      				    {{else}}
-					      				        {{ .Site.Title }}
-					      				    {{ end }}
-					      				</a-->
-					      				<h1 class="f2 lh-title fw9 mb3 pt0">
-					      					<span class="fw7 o-100">{{ .Title| replaceRE "PeR" "<span class='ttn fs-initial'>P<sup class='large v-sup'>e̲</sup>R</span>" | safeHTML }}</span>
-					      				</h1>
-					      				<h2 class="f3 lh-title o-70">
-					      				  <span class="fw7">{{ .Description| replaceRE "PeR" "<span class='ttn fs-initial'>P<sup class='large v-sup'>e̲</sup>R</span>" | safeHTML }}</span>
-					      				</h2>
-						      			<p class="f4-ns mt0-ns o-70">
-						      				<span class="fw9">{{ .Params.assignment }}</span>
-						      				{{ if .Params.location }}
-						      				<span class="fw7">&hairsp;—&nbsp;{{ .Params.location| replaceRE "PeR" "<span class='ttn fs-initial'>P<sup class='large v-sup'>e̲</sup>R</span>" | safeHTML }}</span><!-- | safeHTML-->
-						      				{{ end }}
-						      			</p>
-					      		</header>
-			      				</summary>
-								    {{ .Content| replaceRE "PeR" "<span class='ttn fs-initial'>P<sup class='large v-sup'>e̲</sup>R</span>" | safeHTML }}
+    {{ range (where .Site.RegularPages.ByWeight "Type" "principle") }}
+    <div class="bg-dark-gray white-90 antialias">
+      {{ .Render "li" }}
+    </div>
+    {{ end }}
+    
+    {{/* range (where .Site.RegularPages.ByTitle "Section" "settlements") */}}
+    {{ range (where .Site.RegularPages.ByWeight "Section" "areas") }}
+      <div class="bg-{{ .Params.name | lower | urlize }}"><!--  .Params.areas  -->
+      {{ .Render "li" }}
+      </div>
+    {{ end }}
 
 
-				      		</details>
-				       </div><!-- /fr outline -->
-			      </div><!-- /w-two-thirds -->
-			    </div><!-- /ph2-ns -->
-			  </div><!-- /mw9 center ph3-ns -->
-				</section><!-- /cf w-100 pv3 f4 ph3 ph4-ns -->
-			</article>
-			</li><!-- /li.html -->
+
+		{{ range (where .Site.RegularPages.ByWeight "Type" "venue") }}
+			<!-- <div class="bg-violet"> -->
+			{{ .Render "li" }}
+			<!-- </div> -->
 		{{ end }}
 
-
-
-
-
-
-
-	{{ range (where .Data.Pages.ByWeight "Type" "development") }}
-
-			<li class="post-holder"><!-- Begin: li.html -->
-				<data class="meta dn">
-					{{ .Title }}
-					{{ .Description }}
-					{{ .Params.assignment }}
-					{{ .Params.location }}
-					{{ .PlainWords }}
-				</data>
-
-			<article class="pt5"><!-- id="" -->
-				<section class="cf w-100 pv3 f4 ph3 ph4-ns">
-					<div class="mw9 center ph3-ns">
-					  <div class="ph2-ns">
-					    <div class="fl w-100 w-70-ns pr4"><!-- w-two-thirds -->
-					      <div class="pv4 fr w-100 w-90-m w-80-l"><!-- outline bg-black-05 truncate no-wrap -->
-					      	<a href="{{ .Permalink }}" class="no-underline dim db f6 ttu tracked fw1 inherit">
-					      		<svg viewbox="0 0 482 482" class="no-select pr2 h07 ">
-					      			<use xlink:href="#url"></use>
-					      		</svg>
-					      		<!--span class="pr3">{{ .Permalink }}</span-->
-						      	<time class="b">{{ dateFormat "01-02-2006" .Date }}{{/* dateFormat "Monday January, 2, 2006" .Date */}}</time>
-					      	</a>
-				    			<hr class="ba bw1 mb0 bg-inherit o-10"/>
-					      	<details class="details highlight">
-					      		<summary class="no-clutter list">
-					      			<header class="fl w-100 pr4-ns">
-					      				<!--a id="blog-logo" href="{{ .Site.BaseURL}}">
-					      				    {{ if .Site.Params.logo }}
-					      				        <a id="blog-logo" href="{{ .Site.BaseURL}}"><img src="{{ .Site.Params.logo }}" alt="Blog Logo" /></a>
-					      				    {{else}}
-					      				        {{ .Site.Title }}
-					      				    {{ end }}
-					      				</a-->
-					      				<h1 class="f2 lh-title fw9 mb3 pt0">
-					      					<span class="fw7 o-100">{{ .Title| replaceRE "PeR" "<span class='ttn fs-initial'>P<sup class='large v-sup'>e̲</sup>R</span>" | safeHTML }}</span>
-					      				</h1>
-					      				<h2 class="f3 lh-title o-70">
-					      				  <span class="fw7">{{ .Description| replaceRE "PeR" "<span class='ttn fs-initial'>P<sup class='large v-sup'>e̲</sup>R</span>" | safeHTML }}</span>
-					      				</h2>
-						      			<p class="f4-ns mt0-ns o-70">
-						      				<span class="fw9">{{ .Params.assignment }}</span>
-						      				{{ if .Params.location }}
-						      				<span class="fw7">&hairsp;—&nbsp;{{ .Params.location| replaceRE "PeR" "<span class='ttn fs-initial'>P<sup class='large v-sup'>e̲</sup>R</span>" | safeHTML }}</span><!-- | safeHTML-->
-						      				{{ end }}
-						      			</p>
-					      		</header>
-			      				</summary>
-								    {{ .Content| replaceRE "PeR" "<span class='ttn fs-initial'>P<sup class='large v-sup'>e̲</sup>R</span>" | safeHTML }}
-
-
-				      		</details>
-				       </div><!-- /fr outline -->
-			      </div><!-- /w-two-thirds -->
-			    </div><!-- /ph2-ns -->
-			  </div><!-- /mw9 center ph3-ns -->
-				</section><!-- /cf w-100 pv3 f4 ph3 ph4-ns -->
-			</article>
-			</li><!-- /li.html -->
+		{{ range (where .Site.RegularPages.ByWeight "Type" "development") }}
+			<!-- <div class="bg-mustard"> -->
+			{{ .Render "li" }}
+			<!-- </div> -->
 		{{ end }}
 
-
-
-
-
-
-
-
-
-
-
-
-		{{ range (where .Data.Pages.ByWeight "Type" "course") }}
-
-			<li class="post-holder"><!-- Begin: li.html -->
-				<data class="meta dn">
-					{{ .Title }}
-					{{ .Description }}
-					{{ .Params.assignment }}
-					{{ .Params.location }}
-					{{ .PlainWords }}
-				</data>
-
-			<article class="pt5"><!-- id="" -->
-				<section class="cf w-100 pv3 f4 ph3 ph4-ns">
-					<div class="mw9 center ph3-ns">
-					  <div class="ph2-ns">
-					    <div class="fl w-100 w-70-ns pr4"><!-- w-two-thirds -->
-					      <div class="pv4 fr w-100 w-90-m w-80-l"><!-- outline bg-black-05 truncate no-wrap -->
-					      	<a href="{{ .Permalink }}" class="no-underline dim db f6 ttu tracked fw1 inherit">
-					      		<svg viewbox="0 0 482 482" class="no-select pr2 h07 ">
-					      			<use xlink:href="#url"></use>
-					      		</svg>
-					      		<!--span class="pr3">{{ .Permalink }}</span-->
-						      	<time class="b">{{ dateFormat "01-02-2006" .Date }}{{/* dateFormat "Monday January, 2, 2006" .Date */}}</time>
-					      	</a>
-				    			<hr class="ba bw1 mb0 bg-inherit o-10"/>
-					      	<details class="details highlight">
-					      		<summary class="no-clutter list">
-					      			<header class="fl w-100 pr4-ns">
-					      				<!--a id="blog-logo" href="{{ .Site.BaseURL}}">
-					      				    {{ if .Site.Params.logo }}
-					      				        <a id="blog-logo" href="{{ .Site.BaseURL}}"><img src="{{ .Site.Params.logo }}" alt="Blog Logo" /></a>
-					      				    {{else}}
-					      				        {{ .Site.Title }}
-					      				    {{ end }}
-					      				</a-->
-					      				<h1 class="f2 lh-title fw9 mb3 pt0">
-					      					<span class="fw7 o-100">{{ .Title| replaceRE "PeR" "<span class='ttn fs-initial'>P<sup class='large v-sup'>e̲</sup>R</span>" | safeHTML }}</span>
-					      				</h1>
-					      				<h2 class="f3 lh-title o-70">
-					      				  <span class="fw7">{{ .Description| replaceRE "PeR" "<span class='ttn fs-initial'>P<sup class='large v-sup'>e̲</sup>R</span>" | safeHTML }}</span>
-					      				</h2>
-						      			<p class="f4-ns mt0-ns o-70">
-						      				<span class="fw9">{{ .Params.assignment }}</span>
-						      				{{ if .Params.location }}
-						      				<span class="fw7">&hairsp;—&nbsp;{{ .Params.location| replaceRE "PeR" "<span class='ttn fs-initial'>P<sup class='large v-sup'>e̲</sup>R</span>" | safeHTML }}</span><!-- | safeHTML-->
-						      				{{ end }}
-						      			</p>
-					      		</header>
-			      				</summary>
-								    {{ .Content| replaceRE "PeR" "<span class='ttn fs-initial'>P<sup class='large v-sup'>e̲</sup>R</span>" | safeHTML }}
-
-
-				      		</details>
-				       </div><!-- /fr outline -->
-			      </div><!-- /w-two-thirds -->
-			    </div><!-- /ph2-ns -->
-			  </div><!-- /mw9 center ph3-ns -->
-				</section><!-- /cf w-100 pv3 f4 ph3 ph4-ns -->
-			</article>
-			</li><!-- /li.html -->
+		{{ range (where .Site.RegularPages.ByWeight "Type" "course") }}
+			<!-- <div class="bg-spa"> -->
+			{{ .Render "li" }}
+			<!-- </div> -->
 		{{ end }}
 
-
-
-
-
-
-
-
-
-
-
-
-		{{ range (where .Data.Pages.ByWeight "Type" "knowledgeshare") }}
-
-			<li class="post-holder"><!-- Begin: li.html -->
-				<data class="meta dn">
-					{{ .Title }}
-					{{ .Description }}
-					{{ .Params.assignment }}
-					{{ .Params.location }}
-					{{ .PlainWords }}
-				</data>
-
-			<article class="pt5"><!-- id="" -->
-				<section class="cf w-100 pv3 f4 ph3 ph4-ns">
-					<div class="mw9 center ph3-ns">
-					  <div class="ph2-ns">
-					    <div class="fl w-100 w-70-ns pr4"><!-- w-two-thirds -->
-					      <div class="pv4 fr w-100 w-90-m w-80-l"><!-- outline bg-black-05 truncate no-wrap -->
-					      	<a href="{{ .Permalink }}" class="no-underline dim db f6 ttu tracked fw1 inherit">
-					      		<svg viewbox="0 0 482 482" class="no-select pr2 h07 ">
-					      			<use xlink:href="#url"></use>
-					      		</svg>
-					      		<!--span class="pr3">{{ .Permalink }}</span-->
-						      	<time class="b">{{ dateFormat "01-02-2006" .Date }}{{/* dateFormat "Monday January, 2, 2006" .Date */}}</time>
-					      	</a>
-				    			<hr class="ba bw1 mb0 bg-inherit o-10"/>
-					      	<details class="details highlight">
-					      		<summary class="no-clutter list">
-					      			<header class="fl w-100 pr4-ns">
-					      				<!--a id="blog-logo" href="{{ .Site.BaseURL}}">
-					      				    {{ if .Site.Params.logo }}
-					      				        <a id="blog-logo" href="{{ .Site.BaseURL}}"><img src="{{ .Site.Params.logo }}" alt="Blog Logo" /></a>
-					      				    {{else}}
-					      				        {{ .Site.Title }}
-					      				    {{ end }}
-					      				</a-->
-					      				<h1 class="f2 lh-title fw9 mb3 pt0">
-					      					<span class="fw7 o-100">{{ .Title| replaceRE "PeR" "<span class='ttn fs-initial'>P<sup class='large v-sup'>e̲</sup>R</span>" | safeHTML }}</span>
-					      				</h1>
-					      				<h2 class="f3 lh-title o-70">
-					      				  <span class="fw7">{{ .Description| replaceRE "PeR" "<span class='ttn fs-initial'>P<sup class='large v-sup'>e̲</sup>R</span>" | safeHTML }}</span>
-					      				</h2>
-						      			<p class="f4-ns mt0-ns o-70">
-						      				<span class="fw9">{{ .Params.assignment }}</span>
-						      				{{ if .Params.location }}
-						      				<span class="fw7">&hairsp;—&nbsp;{{ .Params.location| replaceRE "PeR" "<span class='ttn fs-initial'>P<sup class='large v-sup'>e̲</sup>R</span>" | safeHTML }}</span><!-- | safeHTML-->
-						      				{{ end }}
-						      			</p>
-					      		</header>
-			      				</summary>
-								    {{ .Content| replaceRE "PeR" "<span class='ttn fs-initial'>P<sup class='large v-sup'>e̲</sup>R</span>" | safeHTML }}
-
-
-				      		</details>
-				       </div><!-- /fr outline -->
-			      </div><!-- /w-two-thirds -->
-			    </div><!-- /ph2-ns -->
-			  </div><!-- /mw9 center ph3-ns -->
-				</section><!-- /cf w-100 pv3 f4 ph3 ph4-ns -->
-			</article>
-			</li><!-- /li.html -->
+		{{ range (where .Site.RegularPages.ByWeight "Type" "knowledgeshare") }}
+			<!-- <div class="bg-oxford"> -->
+			{{ .Render "li" }}
+			<!-- </div> -->
 		{{ end }}
-
-		{{ partial "contact" . }}
-		<li class="post-holder">
-			{{ partial "visit" . }}
-		</li>
-
-		<li class="post-holder">
-			{{ partial "connect" . }}
-		</li>
-	</ul>
+		
+		{{ range (where .Site.RegularPages.ByWeight "Type" "press") }}
+			<!-- <div class="bg-mustard"> -->
+			{{ .Render "li" }}
+			<!-- </div> -->
+		{{ end }}
+		
+  </ul>
+  <ul class="pa0 ma0 list bg-near-white black-70">
+    {{ partial "support" . }}
+    <li class="post-holder">
+      {{ partial "visit" . }}
+    </li>
+    
+    <li class="post-holder">
+      {{ partial "connect" . }}
+    </li>
+  </ul>
 	<!-- <ul class="list bg-dark-gray white-90 antialias ma0">
 		{{ range first 1 (where .Data.Pages "Type" "principle") }}
 			{{ .Render "li" }}
 		{{ end }}
 	</ul> -->
 </div>
+
 {{ partial "footer" . }}

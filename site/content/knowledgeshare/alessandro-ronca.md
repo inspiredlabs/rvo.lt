@@ -1,8 +1,10 @@
 ---
+draft: false
+isOpen: false
 authors: Alessandro Ronca
 title: Alessandro Ronca
 date: 2019-10-09T16:43:26+02:00
-description: 'Scientific Director of PeR'
+description: 'Scientific Director, PeR & Training Facilitator'
 menu:
   knowledgeshare
 
@@ -10,7 +12,7 @@ menu:
 
 {{<flickity src="/img/alessandro-ronca-05-x2.jpg" src-small="/img/alessandro-ronca-05-x1.jpg" title="Alessandro discusses PeR, Umbria" color="" selectCell="flkty.selectCell( value, isWrapped, isInstant )" >}}
 
-Alessandro Ronca is a sustainability artisan and polymath. 
+Alessandro Ronca is a sustainability artisan and polymath.
 
 Attracted to many different things, his Mum would say _too many_ – although always supportive during each and every&nbsp;chapter!
 
@@ -35,9 +37,9 @@ Alessandro Ronca is a _1-on-1 Instructor_ of the WHM [(Wim Hof Method)](https://
 ## Connect
 ### Parco dell' Energia&nbsp;Rinnovabile
 
-Alessandro Ronca, Scientific&nbsp;Director of PeR: [Learn more &#x279D;](https://per.umbria.it/).
+Alessandro Ronca, Scientific Director, PeR & Training Facilitator: [Learn more &#x279D;](https://per.umbria.it/).
 
-<!--"frustra fit perplura quod fieri potest per paucior" 
- "è inutile farecon più ciò che si può fare con meno" 
-Il Rasoio di Occam- XIV secolo 
+<!--"frustra fit perplura quod fieri potest per paucior"
+ "è inutile farecon più ciò che si può fare con meno"
+Il Rasoio di Occam- XIV secolo
 -->

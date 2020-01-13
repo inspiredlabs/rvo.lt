@@ -1,5 +1,5 @@
-# baseurl = "./" # local only
-baseurl = "https://rvo.lt/" #{{ .Site.BaseURL }} "/" && netlify
+baseurl = "./" # local only
+# baseurl = "https://rvo.lt/" #{{ .Site.BaseURL }} "/" && netlify
 # relativeURLs = "true" #https://github.com/gohugoio/hugo/issues/985
 languageCode = "en-us"
 #languageCode = "en-gb" #Initial configuration reset
@@ -65,7 +65,6 @@ title = "RVO.LT" #FAIRtech Revolution | Rvo.lt
   #weight = 6
   url = "/support"
 
-
 [taxonomies]
   tag = "tags"
   area = "areas"
@@ -74,6 +73,12 @@ title = "RVO.LT" #FAIRtech Revolution | Rvo.lt
   category = "categories"
   #region = "regions"
   #price = "prices"
+  
+  health = "health"
+  education = "education"
+  food = "food"
+  transport = "transport"
+  shelter = "shelter"
 
 
 

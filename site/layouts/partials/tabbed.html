@@ -1,6 +1,5 @@
-<!-- bg-black -->
 <button tabindex="" id="menu-toggle" aria-haspopup="true" class="no-clutter fixed z-max pointer mb5 bottom-0 right-0 fr ba bw2 b--black bg-dark-gray transition hover-bg-near-black white mr0 ml0 pa2 pt1 pb1 tc" aria-expanded="true"><!-- //Default: aria-expanded="false" -->
-  <svg viewBox="0 0 16 16" class="db h2 w2 mt1 mb1 mr-auto ml-auto no-select" alt="Menu">
+  <svg viewBox="0 0 32 32" class="db h2 w2 mt1 mb1 mr-auto ml-auto no-select" alt="Menu">
     <use xlink:href="#icon-menu"></use>
     <!--<use viewBox="-356 235 128 128" xlink:href="#home"></use>-->
   </svg>
@@ -49,11 +48,10 @@
 		           	<use xlink:href="#home"></use>
 		           </svg>	
 		           <span class="db db-ns dn-m db-l f5 f6-ns f7-m f5-l overflow-x-hidden">Visit</span>-->
-		           	           	           </a>
+		           	           
+	           </a>
 	        </li>
 	      </ul>
-	      
-	      
 	      
 	      <section id="section1" class="pa0 ma0" role="tabpanel" tabindex="-1" aria-labelledby="tab1">
 	  			
@@ -69,7 +67,7 @@
 	  			<!--<li><a class="hover-o-100 white o-70 bb bw1 f5 f6-ns f7-m f5-l" href="#top" tabindex="">Top</a></li>
 	  			</ul><!-- data-scroll -->
 	  			
-	  			<form method="post" action="" class="mt0 pa2 pa1-ns pa3-m pa3-l pt2 pt1-ns pt3-m ml0 pb0"><!-- mb4 mb2 mb3-l -->
+	  			<form method="post" action="" class="cf mt0 pa2 pa1-ns pa3-m pa3-l pt2 pt1-ns pt3-m ml0 pb0"><!-- mb4 mb2 mb3-l -->
 	        	<!--<h2 class="overflow-hidden mt0">Cerca</h2>-->
 	      		<!--label for="search-domain" class="measure ttn dt pb2">Cosa ti piacerebbe cercare?</label>
 	        	<select class="input-reset select-reset br0 bn w-100 mr0 h3 h2-m h3-l f4 f6-ns f5-m f3-l bg-white-90 pa1 mb3" id="search-domain" name="search-domain" placeholder="Viaggi" required="">
@@ -80,20 +78,84 @@
         			<option value="icnc_magazine">Articoli</option>
         			<option value="touroperator">Tour operator</option>
 	    			</select-->
-	        
-		        <input id="search" type="text" name="search" title="Search" placeholder="Search" class="input-reset bn w-70 w-70-ns w-100-m w-70-l h3 h2-m h3-l f4 f6-ns f5-m f3-l br0 pl1"><!-- bg-deep-petrol white thick-underline -->
-		        <button class="h3 h2-m h3-l w-30 w-100-m pointer ba bw2 b--white bg-oxford white mr0 ml0 pr0 pl0 fr ttu mb2-m transition hover-bg-black" type="submit" for="search" onclick="event.preventDefault();"><!-- w-auto preventDefault maintains :focus -->
-		        	<span class="ph2 b f7 f7-ns f6-m f6-l">Go</span>
+
+						<label for="search" class="measure ttn dt pb2 f5 f7-ns f7-m f5-l o-80 word-break">
+							<span id="matchingItemsOutput">Articles containing:</span>
+						</label>
+		        <input id="search" type="text" name="search" title="Search" placeholder="Everything" class="input-reset bn w-70 w-70-ns w-100-m w-70-l h3 h2-m h3-l f4 f6-ns f5-m f3-l br0 pl1" aria-describedby="search" oninput="inputUpdate(value);"/><!-- bg-deep-petrol white thick-underline -->
+		        <button class="h3 h2-m h3-l w-30 w-100-m pointer ba bw2 b--white bg-oxford white mr0 ml0 pr0 pl0 fr ttu mb2-m transition hover-bg-black" type="submit" for="search" onclick="resetArticleSearch();searchZero();"><!--- w-auto preventDefault maintains :focus --->
+		        	<span class="ph2 b f3 f3-ns f2-m f2-l" style="line-height: 0.5">×</span>
 		        </button><!-- Search -->
-	        </form>
-	  			
-	  			
+					</form>
+					
+					<ul class="list ma0 pa0 preserve-3d" id="scrollspy">
+						
+						{{ range (where .Site.RegularPages.ByWeight "Type" "principle") }}
+						<li class=overflow-hidden><!-- fl 100 --> 
+							<a href="#{{ .Title | lower | urlize }}"
+							class="no-underline bt bw2 bw1-m bw2-l b--transparent flex items-center pa3 border-box f3 f5-ns f5-m f3-l tracked-tight white word-break">
+							{{ .Title }}
+							</a>
+						</li>
+						{{ end }}
+
+						{{ range (where .Site.RegularPages.ByWeight "Type" "venue") }}
+						<li class=overflow-hidden><!-- fl 100 --> 
+							<a href="#{{ .Title | lower | urlize }}"
+							class="no-underline bt bw2 bw1-m bw2-l b--transparent flex items-center pa3 border-box f3 f5-ns f5-m f3-l tracked-tight white word-break bg-violet">
+							{{ .Title }}
+							</a>
+						</li>
+						{{ end }}
+
+						{{ range (where .Site.RegularPages.ByWeight "Type" "development") }}
+						<li class=overflow-hidden><!-- fl 100 --> 
+							<a href="#{{ .Title | lower | urlize }}"
+							class="no-underline bt bw2 bw1-m bw2-l b--transparent flex items-center pa3 border-box f3 f5-ns f5-m f3-l tracked-tight white word-break bg-mustard">
+							{{ .Title }}
+							</a>
+						</li>
+						{{ end }}
+
+						{{ range (where .Site.RegularPages.ByWeight "Type" "course") }}
+						<li class=overflow-hidden><!-- fl 100 --> 
+							<a href="#{{ .Title | lower | urlize }}"
+							class="no-underline bt bw2 bw1-m bw2-l b--transparent flex items-center pa3 border-box f3 f5-ns f5-m f3-l tracked-tight white word-break bg-spa">
+							{{ .Title }}
+							</a>
+						</li>
+						{{ end }}
+
+						{{ range (where .Site.RegularPages.ByWeight "Type" "knowledgeshare") }}
+						<li class=overflow-hidden><!-- fl 100 --> 
+							<a href="#{{ .Title | lower | urlize }}"
+							class="no-underline bt bw2 bw1-m bw2-l b--transparent flex items-center pa3 border-box f3 f5-ns f5-m f3-l tracked-tight white word-break bg-oxford">
+							{{ .Title }}
+							</a>
+						</li>
+						{{ end }}
+
+						{{ range (where .Site.RegularPages.ByWeight "Type" "press") }}
+						<li class=overflow-hidden><!-- fl 100 --> 
+							<a href="#{{ .Title | lower | urlize }}"
+							class="no-underline bt bw2 bw1-m bw2-l b--transparent flex items-center pa3 border-box f3 f5-ns f5-m f3-l tracked-tight white word-break bg-mustard">
+							{{ .Title }}
+							</a>
+						</li>
+						{{ end }}
+						
+						<li class=overflow-hidden><!-- fl 100 --> 
+							<a href="#contact"
+							class="no-underline bt bw2 bw1-m bw2-l b--transparent flex items-center pa3 border-box f3 f5-ns f5-m f3-l tracked-tight white word-break bg-dark-green">
+							Contact
+							</a>
+						</li>
+					</ul>
 	  			
 	      </section><!-- /section1 -->
 	      
-	      <section id="section2" class="ma0 pa0 f5 f6-ns f7-m f5-l" role="tabpanel" tabindex="-1" aria-labelledby="tab2" hidden=""><!-- pa2 pa1-ns pa3-m pa3-l pt2 pt1-ns pt3-m ml0 -->
-	      <ul class="list ma0 pa0 ">
-	      {{ $currentPage := . }}
+	      <section id="section2" class="ma0 pa0 f5 f6-ns f7-m f5-l" role="tabpanel" tabindex="-1" aria-labelledby="tab2" hidden=""><!-- pa2 pa1-ns pa3-m pa3-l pt2 pt1-ns pt3-m ml0 -->
+				{{ $currentPage := . }}
 	      {{ range .Site.Menus.knowledgeshare }}
 	      <li class="bg-oxford"><!-- black bg-gold -->
 	      	<a class="no-underline bt bw2 bw1-m bw2-l b--transparent pa3 border-box f3 f5-ns f5-m f3-l tracked-tight white transition hover-white-80 flex items-center 
@@ -322,10 +384,8 @@
 	    	  </div>
 	    	</aside><!-- /Call-to-action -->
 	    	*/</script>
-
 	    
 	    </div><!-- /tabbed -->
-
     
     </nav>
   </div><!-- /#menu -->
@@ -388,5 +448,3 @@
 {{ end }}
 </nav>
 */</script>
-
-

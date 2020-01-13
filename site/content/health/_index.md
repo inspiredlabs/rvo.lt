@@ -1,4 +1,6 @@
 ---
+draft: false
+isOpen: false
 authors: Scott Phillips
 title: Health
 areas: ["health"]
@@ -14,7 +16,7 @@ description: The ultimate investment
 
 ## Don't get sick
 
-As welfare diminishes, governments around the world are shifting responsibility back onto people to look after themselves. This is a big change in Post-War health care. 
+As welfare diminishes, governments around the world are shifting responsibility back onto people to look after themselves. This is a big change in Post-War health care.
 
 We beleive strongly that health care should be free – but until we mandate improvements to health outcomes, the onus is on&nbsp;us.
 
@@ -22,7 +24,7 @@ We beleive strongly that health care should be free – but until we mandate imp
 
 ## The human component
 
-**PeR** is a reference point for fair technologies – these include a _human&nbsp;component_. By understanding our connection with nature, we can better live&nbsp;fully. 
+**PeR** is a reference point for fair technologies – these include a _human&nbsp;component_. By understanding our connection with nature, we can better live&nbsp;fully.
 
 ## Ancient ways
 

@@ -1,6 +1,7 @@
-
-<div class="watermark"><!-- debug -->
-  <div class="pa0 ma0 vh-100 w-100 cover z-0 bg-top pa0 b-lazy" data-src="{{ .Site.BaseURL }}img/alessandro-ronca-05-x1.jpg|{{ .Site.BaseURL }}img/alessandro-ronca-05-x2.jpg"><!-- style="background-image: url({{/*** .imageUrl ***/}})" background-image: url(/img/alessandro-ronca-05-x1b.jpg) -->
+<div class="watermark debug">
+  <div class="pa0 ma0 vh-100 w-100 cover z-0 bg-top pa0 b-lazy"
+    data-src="{{ .Site.BaseURL }}img/alessandro-ronca-05-x1.jpg|{{ .Site.BaseURL }}img/alessandro-ronca-05-x2.jpg">
+    <!-- style="background-image: url({{/*** .imageUrl ***/}})" background-image: url(/img/alessandro-ronca-05-x1b.jpg) -->
     <section class="cf w-100 pv3 f4 ph3 ph4-ns">
       <div class="mw9 center ph3-ns">
         <div class="ph2-ns">
@@ -15,7 +16,7 @@
               <!-- HEADER -->
               <header class="no-clutter flex vh-100 fl w-100 pr4-ns white ts1-dark-gray">
                 <div class="flex flex-column flex-grow-1">
-              
+
                   <h2 class="flex-auto f6 f6-m f4-l fw9 fs-8vmin fs-5vmax lh-8vh">
                     {{ if .Params.authors }}
                     <span>{{.Params.authors}}</span>
@@ -24,13 +25,14 @@
                     <!--Mitigation Engineering-->
                     <!--<span>Addressing Crisis</span>-->
                   </h2><!-- /author -->
-              
-                  <h1 class="flex-auto ma0 o-100 f2 f-subheadline-m f-headline-l fs-14vmin fs-12vmax ts2-dark-gray lh-title">
+
+                  <h1
+                    class="flex-auto ma0 o-100 f2 f-subheadline-m f-headline-l fs-14vmin fs-12vmax ts2-dark-gray lh-title">
                     {{ if .title }}
                     {{.title}}
                     {{ end }}
                   </h1><!-- /title -->
-              
+
                   <h3 class="flex-auto f5 f2-l fw3 o-80 fs-8vmin fs-5vmax lh-8vh">
                     {{ if .subtitle }}
                     {{.subtitle}}
@@ -39,7 +41,7 @@
                     <!-- The scarcity crisis -->
                     <!-- Scarcely Sustainable -->
                   </h3><!-- /subtitle -->
-              
+
                 </div><!-- /flex flex-column flex-grow-1 -->
               </header><!-- /flex vh-100 fl w-100 pr4-ns red ts1-dark-gray -->
 

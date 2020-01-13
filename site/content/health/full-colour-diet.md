@@ -1,4 +1,6 @@
 ---
+draft: false
+isOpen: false
 authors: Scott Phillips
 title: Full Colour Diet
 date: 2019-10-09T16:43:26+02:00
@@ -16,7 +18,7 @@ order: 3
 {{<flickity src="/img/david-milan-food-photo-x1.jpg" title="Photo by David Milan" color="" selectCell="flkty.selectCell( value, isWrapped, isInstant )" >}}<!--title="" color="transparent" -->
 
 <!--
-• Colour wheel image source: 
+• Colour wheel image source:
 https://www.gettyimages.co.uk/detail/photo/fruit-and-vegetable-colour-wheel-on-a-black-high-res-stock-photography/857856388
 • Food wheel:https://www.creativelive.com/blog/edible-color-wheel-photos/
 
@@ -30,7 +32,7 @@ Consensus info:
 
 Progress it seems, is short of a consensus on exactly what we should&nbsp;eat. Sam&nbsp;Harris, talking with Dr. Nina&nbsp;Shapiro, summed&#8209;up this humiliation&nbsp;perfectly&hellip;
 
-> One&nbsp;of the greatest embarrassments to modern science <!--that there's any diversity of opinion at all about what human beings should eat, so as to be healthy.How--> is that we don't have a rock-solid consensus of a healthy&nbsp;diet  <!--[in this day in age]--> – [Sam Harris (skip: 55:35)](https://samharris.org/podcasts/129-insiders-view-medicine/) 
+> One&nbsp;of the greatest embarrassments to modern science <!--that there's any diversity of opinion at all about what human beings should eat, so as to be healthy.How--> is that we don't have a rock-solid consensus of a healthy&nbsp;diet  <!--[in this day in age]--> – [Sam Harris (skip: 55:35)](https://samharris.org/podcasts/129-insiders-view-medicine/)
 
 ## Why does what we eat&nbsp;mystify?
 
@@ -47,7 +49,7 @@ Knowing this, we can simplify healthy&nbsp;eating.<!-- without&nbsp;sacrifice.--
 
 Fresh&nbsp;foods are most nutrient-dense and grow in&nbsp;nature. <!-- with all the colours of the&nbsp;rainbow. Choosing vegatables high in vitamins and minerals is important.-->
 
-Eating all the colours of the&nbsp;rainbow, is a great starting&nbsp;point. Any diet should hydrate, be high in nutrients and low in processed&nbsp;foods – which come in man-made packaging, making them easy to&nbsp;spot! 
+Eating all the colours of the&nbsp;rainbow, is a great starting&nbsp;point. Any diet should hydrate, be high in nutrients and low in processed&nbsp;foods – which come in man-made packaging, making them easy to&nbsp;spot!
 
 ## Eat in harmony
 
@@ -64,14 +66,14 @@ Ideally, food should be locally sourced.
 Eat nutrients: proteins, carbohydrates, fats, vitamins, minerals, and water.
 
 
-Colour wheel image source: 
+Colour wheel image source:
 https://www.gettyimages.co.uk/detail/photo/fruit-and-vegetable-colour-wheel-on-a-black-high-res-stock-photography/857856388
 
 colour diet: https://www.wikihow.com/Increase-Acetylcholine
 
 
 
- 
+
 
 Be Low in Processed Foods
 eat real food. Food is anything that comes naturally from the earth. It is not altered, modified, or processed.

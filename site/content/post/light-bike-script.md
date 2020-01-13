@@ -1,5 +1,6 @@
 ---
 draft: true
+isOpen: false
 authors: Scott Phillips
 title: The Light Bike (Script)
 date: 2019-10-09T16:43:26+02:00
@@ -22,7 +23,7 @@ How You Do Anything Is How You Do Everything
 
 > To Address Crisis, we have to do things differently.
 
-Establishing shot: 
+Establishing shot:
 BACKGROUND: LAKE DEEP IN&nbsp;NATURE
 
 - <!--Italy--> In a world of shocks, economic stagnation and job uncertainty...
@@ -33,7 +34,7 @@ BACKGROUND: LAKE DEEP IN&nbsp;NATURE
 
 - HUMANITY needs – low energy ways of going about daily&nbsp;life.
 - But most people seen this as <!-- a challange: --> an impediment: even though the right technology already&nbsp;exists.
-- _Solar panels_ aren't just for your home... 
+- _Solar panels_ aren't just for your home...
 - So, we developed a simple system to recharge an unmodified street-legal <!--electric--> bike ...completely&nbsp;off&#8209;grid.
 <!--- The Light Bike is a street legal device from Surron. What we have done is develop a PV array connected to a charge controller to top up the battery on the move.
 -->
@@ -68,10 +69,10 @@ FOCUS ON THE VIEWER
 
 <!--
 
-- Here, we are deliberately dedicating ourselves to  averting crisis for ourselves. 
+- Here, we are deliberately dedicating ourselves to  averting crisis for ourselves.
 - If you want to explore OUR approach for yourself: visit **PeR**.
 
-: crop shortages, economic stagnation and job uncertainty, 
+: crop shortages, economic stagnation and job uncertainty,
 
 _Climate Crisis_
 low impediment, accessible
@@ -79,6 +80,6 @@ In the face of Climate Crisis...
 
 - charge controller
 - We've rigourously questioned how we've designed and built our designs in the past
-- at the same time the charge controller is  it carries 
--  it's possible to make a 
+- at the same time the charge controller is  it carries
+-  it's possible to make a
 -->

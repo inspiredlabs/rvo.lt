@@ -1,8 +1,9 @@
 ---
+draft: true
+isOpen: false
 authors: Scott Phillips
 title: In-depth
 date: 2019-10-09T16:43:26+02:00
-draft: true
 description: Community Resilience Deepdive
 menu:
   principle
@@ -16,17 +17,17 @@ menu:
 Our goal, is to encourage a movement to build a resilient society. One which is prepared for the combined impacts of the climate emergency, disruptive job replacement due to automation and AI. And XYZ.
 
 Principles:
-- drive the cost of HEFTS down to zero. 
-- all reviewers on board w. same goal. 
-- people to run the model by: GT, BLM, RVOLT, XR, 
+- drive the cost of HEFTS down to zero.
+- all reviewers on board w. same goal.
+- people to run the model by: GT, BLM, RVOLT, XR,
 - abstraction layers:
     - end user (personal development)
     - Generalists
-    - municipal 
-    - state/ regional level. 
-    - federal/ country/ 
-    - Supranational (UK territories) 
-    - global. 
+    - municipal
+    - state/ regional level.
+    - federal/ country/
+    - Supranational (UK territories)
+    - global.
 - x
 
 ## Five areas for a stable living:
